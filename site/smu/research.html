@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research · LV Lab @ SMU</title>
+
+<link rel="stylesheet" href="../../css/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="../../style.css">
+<link href="../../css/font-awesome.min.css" rel="stylesheet">
+<link href="../../css/magnific-popup.css" rel="stylesheet">
+<link href="../../css/owl.carousel.min.css" rel="stylesheet">
+<link href="../../css/simple-line-icons.css" rel="stylesheet">
+<link href="../../css/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link href="../../css/bootstrap/bootstrap-reboot.css" rel="stylesheet">
+<link href="../../style.css" rel="stylesheet">
+
+<!-- Vendor Stylesheets -->
+<!-- <link href="http://f.21yb.app/65858584/97037023/css?family=Oswald:300,400,500,700%7CRoboto:300,400,700" rel="stylesheet"> -->
+<link href="../../assets/vendor/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
+
+<!-- Theme Stylesheets -->
+<link href="../../assets/css/theme.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+<!-- ❷ 本页专属极简 CSS（可抽出到 output.css） -->
+<style>
+  :root{
+    --lv-blue:#003d7c;
+    --lv-orange:#ee7023;
+    --card-bg:#f8fafc;
+  }
+
+  /* --- 动效 --- */
+  @keyframes slideFade{
+    from{transform:translateY(40px);opacity:0}
+    to{transform:none;opacity:1}
+  }
+  [data-animate]{opacity:0;animation:slideFade .8s .1s both;}
+
+  /* --- 版心 & 标题 --- */
+  .research-wrap{max-width:1200px;margin:auto;padding:3rem 1rem;}
+  .hero-title{
+    font-family: "Oswald",sans-serif;
+    color:var(--lv-blue);
+    font-size:clamp(2rem,5vw,3rem);
+    font-weight:600;
+    text-align:center;
+    margin-bottom:2.5rem;
+    letter-spacing:.5px;
+  }
+  .hero-tagline{
+    text-align:center;
+    font-size:1.1rem;
+    margin-bottom:3rem;
+    line-height:1.5;
+    color:#334155;
+  }
+
+  /* --- 三大板块卡片 --- */
+  .pillar{
+    background:var(--card-bg);
+    border-left:4px solid var(--lv-orange);
+    border-radius:8px;
+    padding:1.4rem 1.6rem;
+    box-shadow:0 1px 4px rgba(0,0,0,.04);
+    transition:transform .25s,box-shadow .25s;
+  }
+  .pillar:hover{transform:translateY(-4px);box-shadow:0 6px 14px rgba(0,0,0,.08);}
+  .pillar h3{color:var(--lv-orange);margin:0 0 .6rem;font-size:1.15rem;font-weight:600;}
+  .pillar p{margin:0;color:#475569;font-size:.95rem;line-height:1.55;}
+
+  /* --- 间距修复 --- */
+  .space-y-6 > * + * {
+    margin-top: 1.5rem;
+  }
+
+  /* --- 飞机图 --- */
+  .plane-box img{max-width:320px;width:100%;height: auto;}
+  @media(min-width:992px){
+    .plane-grid {
+        display: grid;
+        grid-template-columns: 1fr 360px;
+        gap: 3rem;
+        align-items: center;
+      }
+    }
+
+  .space-y-6 > * + * {
+    margin-top: 1.5rem; /* 约等于 Tailwind 的 space-y-6 */
+    }
+</style>
+</head>
+
+<body>
+
+<!-- Header Starts -->
+<header>
+    <!-- Starts: .main-menu -->
+    <div class="main-menu" style="margin-bottom: 0; padding-bottom: 0; margin-top: 0; padding-top: 0;">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg"  style="padding-top: 30px; padding-bottom: 30px;">
+                <!-- <a class="navbar-brand" href="../../index.html">
+                    <img src="../../images/logo/LVLab_NUS.png" alt="" style="width: 150px; height: auto;">
+                </a> -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon icon-menu"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../index.html">LVLAB</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./index.html">Home</a>
+                        </li>
+                        <!-- <li class="nav-item ">
+                            <a class="nav-link" href="/site/news">News</a>
+                        </li> -->
+                        <li class="nav-item active">
+                            <!-- <a class="nav-link" href="/site/about">About</a> -->
+                            <a class="nav-link" href="./research.html">Research</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./people.html">People</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./publications.html">Publications</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./ongoing-recruitment.html">Recruitment</a>
+                        </li>
+                        <!-- <li class="nav-item  dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Recruitment</a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="/site/ongoing-recruitment">Ongoing Recruitment</a>
+                                <a class="dropdown-item" href="/site/history-recruitment">History Recruitment</a>
+                            </div>
+                        </li> -->
+                        <li class="nav-item ">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+                        <!-- <li class="nav-item ">
+                            <a class="nav-link" href="/site/download">Download</a>
+                        </li> -->
+                        <!-- Ends .nav-right -->
+                    </ul>
+                </div>
+            </nav>
+            <!-- Fullscreen search -->
+            <div class="search-wrap">
+                <div class="search-inner">
+                    <div class="search-cell">
+                        <form method="get">
+                            <div class="search-field-holder">
+                                <input type="search" class="form-control main-search-input" placeholder="Type & hit enter...">
+                                <i class="icon-close" id="search-close"></i>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- end fullscreen search -->
+        </div>
+    </div>
+    <!-- Ends: .main-menu -->
+</header>
+<!-- Ends: header --><!--================================-->
+<!--End menu-->
+
+<!-- Start: .pages-header -->
+<div class="pages-header" style="
+background-image: url(../../images/banner_9.webp);
+">
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Research</h1>
+            <ul class="breadcrumbs">
+                <li>
+                    <a href="./index.html">
+                        <span class="icon-home"></span> Home
+                    </a>
+                </li>
+                <li class="active">Research</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Ends: .pages-header -->
+
+<!-- ▒▒ Research 内容 ▒▒ -->
+<main class="research-wrap">
+
+    <!-- 1️⃣ Hero -->
+    <!-- <h1 class="hero-title" data-animate>Research</h1> -->
+    <p class="hero-tagline" data-animate>
+      <!-- We pursue <strong style="color:var(--lv-orange)">Efficient and Effective AI</strong> –<br>
+      advancing the reasoning and creativity ability of AI models while keeping computationally lean. -->
+      We strive for <strong style="color:var(--lv-orange)">Efficient and Effective AI</strong> –<br> advancing the efficiency, reasoning, and creativity of AI models. 
+      <!-- , with efficiency as a central focus. -->
+    </p>
+  
+    <!-- 2️⃣ 关键图 + 三大方向 -->
+    <div class="plane-grid">
+      <!-- 左侧三卡 -->
+      <div class="space-y-6">
+        <article class="pillar" data-animate>
+        <span style="font-weight:600;color:var(--lv-blue);letter-spacing:0.5px;font-size:1.5rem;">
+            Efficient AI
+            </span>
+          <h3>Optimizing Training & Inference for AI Models</h3>
+          <p>
+            We focus on enhancing the efficiency of training (including fine-tuning) and inference for AI models such as LLMs and MLLMs. Our work spans novel training algorithms (e.g., optimizers like <a href="https://jmlr.org/papers/v25/23-1073.html">Win</a> and <a href="https://arxiv.org/abs/2208.06677">Adan</a>), efficient inference techniques (e.g., <a href=" https://arxiv.org/abs/2502.11018">GRIFFIN </a>), streamlined neural network architectures (e.g., <a href="https://arxiv.org/abs/2111.11418">PoolFormer</a>), and advanced learning frameworks (e.g., <a href="https://arxiv.org/abs/2306.06991 ">FDM</a>)—all designed to maximize speed and memory efficiency without compromising accuracy.
+          </p>
+        </article>
+  
+        <article class="pillar" data-animate>
+          <span style="font-weight:600;color:var(--lv-blue);letter-spacing:0.5px;font-size:1.5rem;">
+            Agentic AI
+              </span>
+          <h3>Advancing Reasoning & Collaboration in AI</h3>
+          <p>
+            We aim to enhance AI models' reasoning and collaboration capabilities through agentic reasoning and collaboration (e.g., <a href="https://arxiv.org/abs/2411.04679">CaPo</a> and e.g., <a href="https://panzhous.github.io/assets/pdf/2025-CVPR-CoTS.pdf">CoTS</a>). Our approach empowers AI agents to plan dynamically, leverage world knowledge, reason across modalities using a lightweight global workspace, and coordinate with one another to integrate perception, memory, and planning for robust decision-making.
+          </p>
+        </article>
+  
+        <article class="pillar" data-animate>
+            <span style="font-weight:600;color:var(--lv-blue);letter-spacing:0.5px;font-size:1.5rem;">
+                Controllable Gen AI
+              </span>
+          <h3>Controllable Generation and Editing</h3>
+          <p>
+            We develop AI models with controllable generation and editing capabilities to enhance their imagination and creativity. Our work, e.g., <a href="https://arxiv.org/abs/2303.14389">MDT</a>, <a href="https://github.com/sail-sg/EditAnything">EditAnything</a>, and <a href="https://arxiv.org/abs/2401.09050">Consistent3D</a>, focuses on generating and editing high-quality image, 3D, and video content according to user’s commands like text, drag points and sketch. By enabling fine-grained control over the output, we empower AI to support tasks such as visual content creation, interactive design, and storytelling—bringing human-like creativity into generative models.
+          </p>
+        </article>
+      </div>
+  
+      <!-- 右侧飞机图 -->
+      <div class="plane-box text-center" data-animate>
+        <img src="../../images/plane-smu.png" alt="Executive Function Airplane">
+        <p class="mt-3 text-sm" style="color:#8b7c64">
+          An ``aircraft'' AI model <br>
+          empowered by Efficiency, Reasoning and Creativity
+        </p>
+      </div>
+    </div>
+  
+  </main>
+
+<!-- Starts: Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="widget-area">
+                   
+                    <div class="widget-contents">
+                        <p>© Language and Vision Lab, <a href="./index.html">SCIS, SMU</a><br>
+                            <br><i class="zmdi zmdi-email zmdi-hc-fw mr-1"></i>panzhou at smu.edu.sg
+                            <br>SCIS1 #04-4029, SMU
+                            <br>80 Stamford Rd, Singapore 178902
+                        </p>
+                        <p>
+                            <span class="text-white"><i class="zmdi zmdi-twitter zmdi-hc-fw mr-1"></i><a href="https://x.com/LVLab_X" target="_blank" class="text-white">@LVLab</a></span></p>
+                        </p>
+                        <!-- Ends: .footer-address -->
+                    </div>
+                </div>
+            </div>
+            <!-- Ends: .col-md-3 -->
+
+
+            <div class="col-lg-4 col-md-6">
+                <div class="widget-area links">
+                    <div class="widget-head">
+                        <h2>
+                            <span class="icon-logout"></span> Useful Links</h2>
+                    </div>
+                    <div class="widget-contents">
+                        <ul class="list-unstyled two-col">
+                            <li>
+                                <!-- <a href="news.html">
+                                    <span class="fa fa-angle-right" style="padding-top: 19px;"></span> News
+                                </a> -->
+                                <a href="research.html">
+                                    <span class="fa fa-angle-right" style="padding-top: 19px;"></span> Research
+                                </a>
+                            </li>
+                            <li>
+                                <a href="people.html">
+                                    <span class="fa fa-angle-right"></span> People
+                                </a>
+                            </li>
+                            <li>
+                                <a href="publications.html">
+                                    <span class="fa fa-angle-right"></span> Publications
+                                </a>
+                            </li>
+                            <li>
+                                <a href="ongoing-recruitment.html">
+                                    <span class="fa fa-angle-right"></span> Ongoing Recruitment
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Ends: .col-md-3 -->
+
+            <div class="col-lg-4 col-md-6">
+                <div class="widget-area sibscribe-widget">
+                    <div class="widget-head">
+                        <h2>
+                            <span class="icon-logout"></span> Open Source</h2>
+                    </div>
+                    <div class="widget-contents">
+                        <p>Please refer to 
+                            <i class="zmdi zmdi-github zmdi-hc-fw mr-1"></i><a href="https://github.com/LVLab-SMU">LVLab-SMU</a> 
+                            for details.
+                        </p>
+                    </div>
+                    <!-- Ends: .widget-contents -->
+                </div>
+            </div>
+            <!-- Ends: .col-md-3 -->
+
+        </div>
+    </div>
+</footer>
+<!-- Ends: Footer --><!--================================-->
+<!--End footer-->
+</body>
+
+<!-- Mirrored from 43.132.181.115/site/publications by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 25 Mar 2025 08:58:57 GMT -->
+</html>
