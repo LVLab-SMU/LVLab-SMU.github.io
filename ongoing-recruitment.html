@@ -33,32 +33,57 @@
 <link href="assets/css/theme.css" rel="stylesheet">
 
 <style>
-    /* 基本的样式，您可以根据需要调整  */
+    /* 标题和箭头样式保持不变 */
     .blog-title-container {
-        display: flex; /* 使标题和箭头在同一行  */
-        align-items: center; /* 垂直居中对齐  */
-        cursor: pointer; /* 鼠标悬停时显示为可点击状态  */
+        display: flex;
+        align-items: center;
+        cursor: pointer;
     }
-    
+
     .toggle-arrow {
-        margin-left: 10px; /* 箭头和标题之间的间距  */
-        font-size: 1.2em; /* 箭头大小  */
-        transition: transform 0.3s ease; /* 箭头旋转动画  */
+        margin-left: 10px;
+        font-size: 1.2em;
+        transition: transform 0.3s ease;
     }
-    
+
     .toggle-arrow.expanded {
-        transform: rotate(180deg); /* 展开时箭头向上  */
+        transform: rotate(180deg);
     }
-    
-    /* 您可以移除内联的 style="display: none;"，并使用下面的CSS来控制初始状态（推荐）  */
-    /*
+
+    /* 核心：详情内容的样式 */
     .details-content {
-        display: none;
+        position: relative; /* 为了 ::after 伪元素的定位 */
+        max-height: 60px; /* 初始高度，大约显示2-3行，请根据您的行高调整 */
+        overflow: hidden;
+        transition: max-height 0.5s ease-in-out; /* 高度变化的过渡效果 */
+        /* 确保内容区域有一个背景色，否则渐变可能不正确 */
+        background-color: #fff; /* 或者您的父容器背景色 */
     }
-    .details-content.visible {
-        display: block;
+
+    /* 渐变遮罩 */
+    .details-content::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 30px; /* 渐变的高度，应小于或等于 max-height 的一部分 */
+        background: linear-gradient(to bottom, transparent, #fff 80%); /* 从透明到背景色 */
+        /* 如果您的 .details-content 背景色不是白色，请修改这里的 #fff */
+        pointer-events: none; /* 确保遮罩不影响文字选择或链接点击 */
+        transition: opacity 0.3s ease-in-out;
+        opacity: 1; /* 默认显示遮罩 */
     }
-    */
+
+    /* 当详情内容展开时的样式 */
+    .details-content.expanded {
+        max-height: 1000px; /* 一个足够大的值以显示所有内容，或者使用 fit-content (但过渡可能不理想) */
+        /* 或者您可以用JS计算实际高度并设置，但通常大数值够用 */
+    }
+
+    .details-content.expanded::after {
+        opacity: 0; /* 展开时隐藏遮罩 */
+    }
 </style>
 
 </head>
@@ -196,7 +221,7 @@
                         </ul>
 
                         <!-- {/* 默认隐藏  */} -->
-                        <div class="details-content" style="display: none;"> 
+                        <div class="details-content"> 
                             <p>To apply for research fellow (postdoctoral fellow) position, please check the following general requirements:</p>
                             <ul>
                                 <li>You should have a Ph.D. degree in computer science or mathematics or a related field.</li>
@@ -224,7 +249,7 @@
                             <li>01/01/2025</li>
                         </ul>  
 
-                        <div class="details-content" style="display: none;"> 
+                        <div class="details-content"> 
                             <p>For full- and part-time Ph.D. applicants, please satisfy the following general requirements:</p>
                             <ul>
                                 <li>You should have a bachelor's or master's degree in computer science or mathematics or a related field, with outstanding academic performance.</li>
@@ -264,7 +289,7 @@
                             <li>01/01/2025</li>
                         </ul>  
 
-                        <div class="details-content" style="display: none;"> 
+                        <div class="details-content"> 
                             <p>For students, I am happy to be your co-supervisor for long-term collaboration if your supervisor agrees. But please seriously consider the co-supervisor choice. For all applicants, <u>long-term collaboration is prefered</u>, and please check the following general requirements:</p>
 
                             <ul>
@@ -321,7 +346,7 @@
                             <li>01/01/2025</li>
                         </ul>  
 
-                        <div class="details-content" style="display: none;"> 
+                        <div class="details-content"> 
                             <p>To apply for research associate position, please check the following general requirements:</p>
 
                             <ul>
@@ -349,28 +374,23 @@
         document.addEventListener('DOMContentLoaded', function() {
             // 1. 选取所有 class 为 "blog-single" 的招聘信息模块
             const allJobPostings = document.querySelectorAll('.blog-single');
-        
+
             // 2. 遍历每个模块
             allJobPostings.forEach(function(jobPosting) {
                 // 3. 在当前 jobPosting 模块内部查找对应的元素
                 const titleContainer = jobPosting.querySelector('.blog-title-container');
-                const toggleArrow = jobPosting.querySelector('.toggle-arrow'); // 或者 titleContainer.querySelector('.toggle-arrow')
+                const toggleArrow = jobPosting.querySelector('.toggle-arrow');
                 const detailsContent = jobPosting.querySelector('.details-content');
-        
+
                 // 确保这些元素都存在于当前模块中
                 if (titleContainer && toggleArrow && detailsContent) {
                     // 4. 为当前模块的标题容器添加独立的事件监听器
                     titleContainer.addEventListener('click', function() {
-                        // 切换当前模块的详细内容的显示状态
-                        if (detailsContent.style.display === 'none' || detailsContent.style.display === '') {
-                            detailsContent.style.display = 'block';
-                            // toggleArrow.classList.add('expanded'); // 如果使用CSS类控制箭头
-                            toggleArrow.textContent = '▼'; // 直接改变箭头文本
-                        } else {
-                            detailsContent.style.display = 'none';
-                            // toggleArrow.classList.remove('expanded'); // 如果使用CSS类控制箭头
-                            toggleArrow.textContent = '▶'; // 直接改变箭头文本
-                        }
+                        // 切换 detailsContent 的 expanded 类
+                        detailsContent.classList.toggle('expanded');
+
+                        // 切换箭头的 expanded 类 (用于改变箭头方向)
+                        toggleArrow.classList.toggle('expanded');
                     });
                 }
             });
