@@ -58,6 +58,11 @@
         transition: max-height 0.5s ease-in-out; /* 高度变化的过渡效果 */
         /* 确保内容区域有一个背景色，否则渐变可能不正确 */
         background-color: #fff; /* 或者您的父容器背景色 */
+        cursor: pointer; /* 新增：在收起状态时，鼠标变为手型 */
+    }
+
+    .details-content.preview-large {
+        max-height: 70px; /* 特殊预览高度 */
     }
 
     /* 渐变遮罩 */
@@ -79,6 +84,7 @@
     .details-content.expanded {
         max-height: 1000px; /* 一个足够大的值以显示所有内容，或者使用 fit-content (但过渡可能不理想) */
         /* 或者您可以用JS计算实际高度并设置，但通常大数值够用 */
+        cursor: default; /* 新增：展开后恢复默认鼠标样式 */
     }
 
     .details-content.expanded::after {
@@ -212,8 +218,8 @@
 
                         <div class="blog-title-container">
                             <!-- {/* 或其他箭头字符，例如 ▶, ›, ⌄  */} -->
-                            <span class="toggle-arrow">▶</span> 
-                            <h2 class="blog-title">&nbsp;&nbsp;Available Poistions for Research Fellow (Postdoctoral Fellow)</h2>
+                            <!-- <span class="toggle-arrow">▶</span>  -->
+                            <h2 class="blog-title">Available Poistions for Research Fellow (Postdoctoral Fellow)</h2>
                         </div>
 
                         <ul class="blog-excerpt list-unstyled">
@@ -221,7 +227,7 @@
                         </ul>
 
                         <!-- {/* 默认隐藏  */} -->
-                        <div class="details-content"> 
+                        <div class="details-content preview-large"> 
                             <p>To apply for research fellow (postdoctoral fellow) position, please check the following general requirements:</p>
                             <ul>
                                 <li>You should have a Ph.D. degree in computer science or mathematics or a related field.</li>
@@ -241,15 +247,15 @@
 
                         <div class="blog-title-container">
                             <!-- {/* 或其他箭头字符，例如 ▶, ›, ⌄  */} -->
-                            <span class="toggle-arrow">▶</span> 
-                            <h2 class="blog-title">&nbsp;&nbsp;Available Positions for PhD</h2>
+                            <!-- <span class="toggle-arrow">▶</span>  -->
+                            <h2 class="blog-title">Available Positions for PhD</h2>
                         </div>
 
                         <ul class="blog-excerpt list-unstyled">
                             <li>01/01/2025</li>
                         </ul>  
 
-                        <div class="details-content"> 
+                        <div class="details-content preview-large"> 
                             <p>For full- and part-time Ph.D. applicants, please satisfy the following general requirements:</p>
                             <ul>
                                 <li>You should have a bachelor's or master's degree in computer science or mathematics or a related field, with outstanding academic performance.</li>
@@ -281,8 +287,8 @@
 
                         <div class="blog-title-container">
                             <!-- {/* 或其他箭头字符，例如 ▶, ›, ⌄  */} -->
-                            <span class="toggle-arrow">▶</span> 
-                            <h2 class="blog-title">&nbsp;&nbsp;Available Positions for Visiting and Remote-interning Students/Scholars</h2>
+                            <!-- <span class="toggle-arrow">▶</span>  -->
+                            <h2 class="blog-title">Available Positions for Visiting and Remote-interning Students/Scholars</h2>
                         </div>
 
                         <ul class="blog-excerpt list-unstyled">
@@ -338,15 +344,15 @@
 
                         <div class="blog-title-container">
                             <!-- {/* 或其他箭头字符，例如 ▶, ›, ⌄  */} -->
-                            <span class="toggle-arrow">▶</span> 
-                            <h2 class="blog-title">&nbsp;&nbsp;Available Positions for Research Associate</h2>
+                            <!-- <span class="toggle-arrow">▶</span>  -->
+                            <h2 class="blog-title">Available Positions for Research Associate</h2>
                         </div>
 
                         <ul class="blog-excerpt list-unstyled">
                             <li>01/01/2025</li>
                         </ul>  
 
-                        <div class="details-content"> 
+                        <div class="details-content preview-large"> 
                             <p>To apply for research associate position, please check the following general requirements:</p>
 
                             <ul>
@@ -372,6 +378,14 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
+            // 封装切换展开/收起状态的函数
+            function toggleExpansion(detailsElement, arrowElement) {
+                detailsElement.classList.toggle('expanded');
+                if (arrowElement) { // 箭头元素是可选的，因为detailsContent自身点击时也需要切换
+                    arrowElement.classList.toggle('expanded');
+                }
+            }
+
             // 1. 选取所有 class 为 "blog-single" 的招聘信息模块
             const allJobPostings = document.querySelectorAll('.blog-single');
 
@@ -382,16 +396,39 @@
                 const toggleArrow = jobPosting.querySelector('.toggle-arrow');
                 const detailsContent = jobPosting.querySelector('.details-content');
 
-                // 确保这些元素都存在于当前模块中
-                if (titleContainer && toggleArrow && detailsContent) {
-                    // 4. 为当前模块的标题容器添加独立的事件监听器
-                    titleContainer.addEventListener('click', function() {
-                        // 切换 detailsContent 的 expanded 类
-                        detailsContent.classList.toggle('expanded');
+                if (detailsContent) { // 必须有 detailsContent
+                    // 为标题容器添加点击事件 (如果存在)
+                    if (titleContainer) {
+                        titleContainer.addEventListener('click', function() {
+                            toggleExpansion(detailsContent, toggleArrow);
+                        });
+                    }
 
-                        // 切换箭头的 expanded 类 (用于改变箭头方向)
-                        toggleArrow.classList.toggle('expanded');
+                    // 为 details-content 自身添加点击事件
+                    // 由于 ::after 的 pointer-events: none，点击渐变区域会触发此事件
+                    detailsContent.addEventListener('click', function(event) {
+                        // 如果点击的是 titleContainer 内部的元素，titleContainer 的事件会处理
+                        // 我们需要确保这里的点击不是来自 titleContainer (避免重复触发，尽管效果上可能看不出)
+                        // 一个简单的方式是：如果 titleContainer 存在且事件目标是 titleContainer 或其子元素，则不执行这里的逻辑
+                        // 但更简单的方式是，只要点击了 detailsContent 区域就触发。
+                        // 因为 toggleExpansion 是幂等的（重复调用效果是切换回来）。
+
+                        // 检查点击事件的目标是否是 detailsContent 内部的可交互元素，例如链接 <a> 或按钮 <button>
+                        // 如果是，并且内容已展开，我们可能不希望点击这些元素时导致折叠。
+                        // 但对于“点击渐变区域展开”的需求，这个逻辑是OK的。
+                        // 当收起时，点击可见的几行文本或渐变区域都会触发。
+                        // 当展开时，点击内容区域也会触发收起。
+                        if (event.target.closest('a, button')) {
+                            // 如果点击的是 detailsContent 内部的链接或按钮，则不执行切换操作
+                            // 允许链接和按钮的默认行为
+                            return;
+                        }
+
+                        toggleExpansion(detailsContent, toggleArrow);
                     });
+
+                } else {
+                    console.warn('A .blog-single element is missing a .details-content child.');
                 }
             });
         });
