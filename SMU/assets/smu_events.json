@@ -1,0 +1,14 @@
+[
+  {
+    "date": "2025-05",
+    "title": "Two papers are accepted by ICML 2025",
+    "summary": "One proposes Hard Preference Sampling (HPS), a novel framework for fully exploring varying informativeness of different dispreferred responses via preference sampling to reject harmful content generation and improve efficiency.  Another one designs a novel Neural-Processes-integrated probabilistic framework for interactive 3D segmentation and uncertainty estimation with only a few user clicks. ",
+    "link": "https://arxiv.org/abs/2502.14400"
+  },
+  {
+    "date": "2025-01",
+    "title": "Two papers are accepted by ICLR 2025",
+    "summary": "We propose Cooperative Plan Optimization (CaPo) to improve cooperation among LLM-based embodied agents. Inspired by human teamwork, CaPo enables agents to collaboratively create and dynamically refine a meta-plan, decomposing tasks into subtasks for efficient execution. Progress-based adjustments eliminate redundancies, enhancing coordination. In separate work, we theoretically prove that FixMatch-alike semi-supervised learning outperforms supervised learning in test accuracy.",
+    "link": "https://arxiv.org/abs/2411.04679"
+  }
+]
