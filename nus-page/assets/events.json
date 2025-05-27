@@ -1,0 +1,242 @@
+[
+  {
+    "date": "2025-05",
+    "title": "General-Level and General-Bench Released for Evaluating Multimodal Generalists",
+    "summary": "We release General-Level, a 5-scale evaluation framework for assessing multimodal generalists, and General-Bench, a comprehensive benchmark with over 700 tasks and 325K instances. Evaluation on 100+ state-of-the-art MLLMs reveals current capability rankings and highlights key challenges toward general AI.",
+    "link": "https://generalist.top/"
+  },
+  {
+    "date": "2025-04",
+    "title": "Welcome Dr. Liao Yue to LV-Lab as a Research Fellow",
+    "summary": "Dr. Liao Yue joins LV-Lab as a Research Fellow. He previously served as a Postdoctoral Researcher at CUHK’s MMLab and received his Ph.D. from Beihang University. His research focuses on multimodal understanding and embodied AI.",
+    "link": "https://liaoyue.net/"
+  },
+  {
+    "date": "2025-01",
+    "title": "Prof. Shuicheng Yan Returns to Lead the LV-Lab, Evolving from Learning and Vision to Language and Vision",
+    "summary": "We are honored to welcome Prof. Shuicheng Yan back to lead the lab. Reflecting a shift in research focus, LV-Lab has evolved from 'Learning and Vision' to 'Language and Vision'—preserving the acronym while marking a new chapter in its intellectual trajectory.",
+    "link": ""
+  },
+  {
+    "date": "2022-01",
+    "title": "Fellow, Association for the Advancement of Artificial Intelligence (AAAI)",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2014–2024",
+    "title": "Clarivate Highly Cited Researchers (2014–2024)",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2021-10",
+    "title": "Best Paper Award, ACM MM 2021",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2021-01",
+    "title": "Fellow, Association for Computing Machinery (ACM)",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2020",
+    "title": "Winner, Grand Challenge, ACM MM 2020",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2020",
+    "title": "Fellow, Academy of Engineering, Singapore",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2019-11",
+    "title": "LV Team Atop ICCV 2019 Large Vocabulary Instance Segmentation Challenge",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2019-07",
+    "title": "Recruitment: Post-doctoral Positions Available",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2018-10",
+    "title": "Best Student Paper Award at ACM MM 2018",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2018",
+    "title": "Chinese AI Elites (CIWEEK)",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2018",
+    "title": "Innovation Pioneer Award & Top 10 AI Heroes of China, NetEase",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2018",
+    "title": "Best Student Paper Award, ACM MM 2018, South Korea",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2017",
+    "title": "Technological Innovation Award & Top 10 AI Heroes of China, NetEase",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2017",
+    "title": "Champion, ImageNet Large Scale Visual Recognition Challenge (ILSVRC)",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2017",
+    "title": "State Specially Recruited Expert, Thousand Talent Program",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2017",
+    "title": "Fellow, Institute of Electrical and Electronics Engineers (IEEE)",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2017",
+    "title": "Distinguished Scientist, Association for Computing Machinery (ACM)",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2016-01",
+    "title": "Best Student Paper Award, International Conference on Multimedia Modelling (MMM), Miami",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2015-12",
+    "title": "1st Prize, Facial Landmark Tracking Challenge at ICCV 2015, Chile",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2015",
+    "title": "Best Paper Honourable Mention, IEEE Transactions on Multimedia (TMM)",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2014",
+    "title": "Fellow, International Association for Pattern Recognition (IAPR)",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2014-09",
+    "title": "Champion, ImageNet Large Scale Visual Recognition Challenge (ILSVRC), 2014 Detection Task, September 2014, Switzerland",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2014-07",
+    "title": "Champion, MSR-BING Image Retrieval Challenge, ACM Multimedia (ACM MM) 2014, July 2014, USA",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2014-02",
+    "title": "Best Student Paper Award, Pattern Recognition and Machine Intelligence Association (PREMIA), February 2014, Singapore.",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2013-12",
+    "title": "Runner-up Prize, ImageNet Large Scale Visual Recognition Challenge (ILSVRC), 2013 Classification Task, December 2013, Australia.",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2013-10",
+    "title": "Best Paper Award, ACM International Conference on Multimedia (ACM MM), October 2013, Spain.",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2013-10",
+    "title": "Best Student Paper Award, ACM International Conference on Multimedia (ACM MM), October 2013, Spain.",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2013-10",
+    "title": "Best Technical Demonstration Award, ACM International Conference on Multimedia (ACM MM), October 2013, Japan.",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2012",
+    "title": "Champion, TRECVID 2012 Surveillance Event Detection Evaluation (Retrospective Task), USA.",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2012-10",
+    "title": "Champion, PASCAL VOC2012 Challenge Object Segmentation Task, October 2012, Italy.",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2012-10",
+    "title": "Champion, PASCAL VOC2012 Challenge Object Classification Task, October 2012, Italy.",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2012-05",
+    "title": "Young Researcher Award, National University of Singapore, May 2012, Singapore.",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2011-11",
+    "title": "Young Scientist Award, National Academy of Science, November 2011, Singapore.",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2011-11",
+    "title": "Champion, PASCAL VOC2011 Challenge Object Classification Task, November 2011, Spain.",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2011-08",
+    "title": "Young Faculty Research Award, Faculty of Engineering, August 2011, Singapore.",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2011-05",
+    "title": "Best Associate Editor (BAE) Award, IEEE TCSVT, May 2011, Brazil.",
+    "summary": "",
+    "link": ""
+  },
+  {
+    "date": "2011",
+    "title": "Best Paper Award, Pacific Rim Conference on Multimedia (PCM), 2011, Australia.",
+    "summary": "",
+    "link": ""
+  }
+]
