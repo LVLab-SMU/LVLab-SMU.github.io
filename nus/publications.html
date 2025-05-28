@@ -121,6 +121,25 @@
         text-indent: 2rem;
     }
 
+    .gh-code {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+    }
+
+        .gh-code .gh-star-wrap {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 0.85rem;
+        color: #f59e0b; /* amber-500 */
+    }
+
+        .gh-code:hover .gh-star-wrap {
+        text-decoration: underline;
+        color: var(--lv-orange);
+    }
+
     </style>
   
 </head>
@@ -216,7 +235,7 @@
 
     <!-- Start: .pages-header -->
     <div class="pages-header" style="
-        background-image: url(images/banner_9.webp);
+        background-image: url(./images/banner_9.webp);
     ">
         <div class="container">
             <div class="row">
@@ -272,14 +291,26 @@
               h.className='text-xl font-bold mt-2 first:mt-0 text-[color:var(--lv-orange)]';
               list.appendChild(h);
             }
-            const linksHTML=Object.entries(p.links||{}).map(([k,v])=>{
-              if(!v) return '';
-              const iconCls = k === 'code' ? 'fa-brands fa-github'
-                               : 'fa-solid fa-file-lines'; 
-              return `<a class="link-icon" href="${v}" target="_blank">
-                <i class="${iconCls}"></i>${k}
+            const linksHTML = Object.entries(p.links || {}).map(([k, v]) => {
+                if (!v) return '';
+
+                const iconCls = k === 'code' ? 'fa-brands fa-github' : 'fa-solid fa-file-lines';
+
+                if (k === 'code' && v.includes('github.com')) {
+                    const repoId = btoa(v); // base64 生成唯一 id
+                    return `
+                    <a class="link-icon gh-code" href="${v}" target="_blank" data-url="${v}" data-id="${repoId}">
+                        <i class="${iconCls}"></i> ${k}
+                        <span class="gh-star-wrap">
+                        <i class="fa-solid fa-star"></i> <span id="star-count-${repoId}">...</span>
+                        </span>
+                    </a>`;
+                }
+
+                return `<a class="link-icon" href="${v}" target="_blank">
+                    <i class="${iconCls}"></i> ${k}
                 </a>`;
-            }).join('');
+                }).join('');
             list.insertAdjacentHTML('beforeend',`
               <article class="pub-card">
                 <h3>${p.title}</h3>
@@ -288,6 +319,7 @@
                 ${linksHTML}
               </article>
             `);
+            fetchGitHubStars();
           });
         }
 
@@ -347,6 +379,31 @@
 <script src="../js/vendor/jquery.sticky.js"></script>
 <script src="../js/vendor/owl.carousel.min.js"></script>
 <script src="../js/main.js"></script>
+
+<script>
+    async function fetchGitHubStars() {
+        const items = document.querySelectorAll('.gh-code');
+        for (const el of items) {
+            const url = el.dataset.url;
+            try {
+            const parts = new URL(url).pathname.split('/').filter(Boolean);
+            if (parts.length >= 2) {
+                const [owner, repo] = parts;
+                const apiUrl = `https://api.github.com/repos/${owner}/${repo}`;
+                const res = await fetch(apiUrl);
+                if (!res.ok) throw new Error('Failed to fetch');
+                const data = await res.json();
+                const id = el.dataset.id;
+                const starSpan = document.getElementById(`star-count-${id}`);
+                if (starSpan) starSpan.textContent = data.stargazers_count;
+            }
+            } catch (err) {
+            console.error('GitHub Star fetch error for', url, err);
+            }
+        }
+    }
+</script>
+
 <!--footer-->
 <!--================================-->
 
