@@ -2,6 +2,14 @@
   {
     "year": 2025,
     "date": "2025",
+    "title": "Gamba: Marry Gaussian Splatting With Mamba for Single-View 3D Reconstruction",
+    "authors": "Qiuhong Shen , Zike Wu , Xuanyu Yi , Pan Zhou , Hanwang Zhang , Shuicheng Yan , Xinchao Wang",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2025",
+    "links": {}
+  },
+  {
+    "year": 2025,
+    "date": "2025",
     "title": "Masks Can be Learned As An Alternative of Experts",
     "authors": "Peiyu Liu, Tianwen Wei, Bo Zhu, Xin Zhao, Shuicheng Yan",
     "venue": "Annual Meeting of the Association for Computational Linguistics (ACL), 2025",
@@ -19,7 +27,7 @@
     "year": 2025,
     "date": "2025",
     "title": "On Path to Multimodal Generalist: Levels and Benchmarks",
-    "authors": "Hao Fei, Yuan Zhou, Juncheng Li, Xiangtai Li, Qingshan Xu, Bobo Li, Shengqiong Wu, Yaoting Wang, Junbao Zhou, Jiahao Meng, Qingyu Shi, Zhiyuan Zhou, Liangtao Shi, Minghe Gao, Daoan Zhang, Zhiqi Ge, Siliang Tang, Kaihang Pan, Yaobo Ye, Haobo Yuan, Tao Zhang, Weiming Wu, Tianjie Ju, Zixiang Meng, Shilin Xu, Liyu Jia, Wentao Hu, Meng Luo, Jiebo Luo, Tat-Seng Chua, Hanwang Zhang, Shuicheng Yan",
+    "authors": "Hao Fei, Yuan Zhou, Juncheng Li, Xiangtai Li, Qingshan Xu, Bobo Li, Shengqiong Wu, Yaoting Wang, Junbao Zhou, Jiahao Meng, Qingyu Shi, Zhiyuan Zhou, Liangtao Shi, Minghe Gao, Daoan Zhang, Zhiqi Ge, Siliang Tang, Kaihang Pan, Yaobo Ye, Haobo Yuan, Tao Zhang, Weiming Wu, Tianjie Ju, Zixiang Meng, Shilin Xu, Liyu Jia, Wentao Hu, Meng Luo, Jiebo Luo, Tat-Seng Chua, Shuicheng Yan, Hanwang Zhang",
     "venue": "International Conference on Machine Learning (ICML), 2025",
     "links": {
       "paper": "https://arxiv.org/abs/2505.04620",
