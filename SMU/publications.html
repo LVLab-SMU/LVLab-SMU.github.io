@@ -314,7 +314,11 @@
             h.className='text-xl font-bold mt-2 first:mt-0 text-[color:var(--lv-orange)]';
             list.appendChild(h);
         }
-
+        let badgeHtml = '';
+        if (p.presentation === 'oral' || p.presentation === 'spotlight'){
+            const label = p.presentation === 'oral' ? 'Oral' : 'Spotlight';
+            badgeHtml = `<span class="pres-badge ${p.presentation}">${label}</span>`;
+        }
         const linksHTML = Object.entries(p.links || {}).map(([k, v]) => {
             if (!v) return '';
 
@@ -344,7 +348,7 @@
         // --- 修改结束 ---
         list.insertAdjacentHTML('beforeend',`
             <article class="pub-card">
-            <h3>${p.title}</h3>
+            <h3>${p.title} ${badgeHtml}</h3>
             <div class="authors">${authorsHTML}</div>
             <div class="venue">${p.venue}</div>
             ${linksHTML}

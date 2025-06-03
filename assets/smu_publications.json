@@ -70,7 +70,8 @@
     "venue": "International Conference on Learning Representations (ICLR), 2025",
     "links": {
       "paper": "https://arxiv.org/abs/2410.11206"
-    }
+    },
+    "presentation": "oral"
   },
   {
     "year": 2025,
@@ -91,7 +92,8 @@
     "links": {
       "paper": "https://arxiv.org/abs/2402.05189",
       "code": "https://github.com/sail-sg/win"
-    }
+    },
+    "presentation": "oral"
   },
   {
     "year": 2024,
@@ -275,7 +277,8 @@
     "links": {
       "paper": "https://arxiv.org/abs/2210.13452",
       "code": "https://github.com/sail-sg/metaformer"
-    }
+    },
+    "presentation": "oral"
   },
   {
     "year": 2023,
@@ -404,7 +407,8 @@
     "links": {
       "paper": "https://arxiv.org/abs/2205.12956",
       "code": "https://github.com/sail-sg/iFormer"
-    }
+    },
+    "presentation": "oral"
   },
   {
     "year": 2022,
@@ -490,7 +494,8 @@
     "links": {
       "paper": "https://arxiv.org/abs/2106.14749",
       "code": "https://openreview.net/forum?id=P84bifNCpFQ&referrer=%5BAuthor%20Console%5D"
-    }
+    },
+    "presentation": "spotlight"
   },
   {
     "year": 2021,
@@ -575,7 +580,8 @@
     "links": {
       "paper": "https://arxiv.org/pdf/2006.16537.pdf",
       "code": "https://github.com/salesforce/PR-DARTS"
-    }
+    },
+    "presentation": "oral"
   },
   {
     "year": 2020,
@@ -639,7 +645,8 @@
     "links": {
       "paper": "../assets/pdf/2019-NIPS-metaleanring.pdf",
       "code": "../assets/code/MetaMinibatchProx.zip"
-    }
+    },
+    "presentation": "spotlight"
   },
   {
     "year": 2019,
