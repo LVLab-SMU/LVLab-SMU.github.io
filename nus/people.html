@@ -28,7 +28,7 @@
 <!-- Vendor Stylesheets -->
 <link href="http://f.21yb.app/65858584/97037023/css?family=Oswald:300,400,500,700%7CRoboto:300,400,700" rel="stylesheet">
 <link href="assets/vendor/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <!-- Theme Stylesheets -->
 <link href="assets/css/theme.css" rel="stylesheet">
 
@@ -137,6 +137,22 @@
 
     .right-wrapper{
         min-width:0;         
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 12px;
+        margin-top: 8px;
+    }
+
+    .social-icons a {
+        color: #777;
+        font-size: 18px;
+        transition: color 0.2s ease;
+    }
+
+    .social-icons a:hover {
+        color: #ee7023;  /* 橙色 hover 效果，可改为品牌色 */
     }
 </style>
 </head>
@@ -271,6 +287,20 @@
                 <div style="font-size: 1.7rem; font-weight: 500; color: #ee7023; text-primary: fw-bold;">Director</div>
                 <div style="font-weight: 600; font-size: 1.7rem;"><a href="https://www.comp.nus.edu.sg/cs/people/yansc/" style="color: #333; ">Dr. Shuicheng Yan</a></div>
                 <div style="color: #777; font-size: 1rem;">Distinguished Professor(Practice),<br> School of Computing,<br> National University of Singapore</div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/shuicheng-yan-123a866/" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.facebook.com/shuicheng.yan" target="_blank" title="Facebook" aria-label="Facebook">
+                      <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=DNuiPHwAAAAJ" target="_blank" title="Google Scholar" aria-label="Google Scholar">
+                      <i class="fas fa-graduation-cap"></i>
+                    </a>
+                    <a href="mailto:yansc@nus.edu.sg" title="Email" aria-label="Email">
+                      <i class="fas fa-envelope"></i>
+                    </a>
+                  </div>
             </div>
             
             <div style="width: 1px; background-color: #ddd; height: auto; margin-right: 10px; align-self: flex-end;"></div>
