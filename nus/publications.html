@@ -60,6 +60,10 @@
         margin-bottom: 0.5rem;
     }
     .pub-card h3 {
+        display:inline-flex;
+        align-items:center;
+        gap:8px;
+        margin: 0;
         font-size: 1rem;
         font-weight: 600;
         color: #ee7023;
@@ -140,6 +144,24 @@
         color: var(--lv-orange);
     }
 
+    .pres-badge{
+        display:inline-block;
+        font-size:.70rem;
+        padding:2px 8px 3px;
+        border-radius:6px;
+        margin-left:6px;
+        vertical-align:middle;
+        font-weight:600;
+        line-height:1;
+    }
+    .pres-badge.oral{
+        background:#39C5BB;   
+        color:#fff;
+    }
+    .pres-badge.spotlight{
+        background:#66ccff;  
+        color:#fff;
+    }
     </style>
   
 </head>
@@ -291,6 +313,11 @@
               h.className='text-xl font-bold mt-2 first:mt-0 text-[color:var(--lv-orange)]';
               list.appendChild(h);
             }
+            let badgeHtml = '';
+            if (p.presentation === 'oral' || p.presentation === 'spotlight'){
+                const label = p.presentation === 'oral' ? 'Oral' : 'Spotlight';
+                badgeHtml = `<span class="pres-badge ${p.presentation}">${label}</span>`;
+            }
             const linksHTML = Object.entries(p.links || {}).map(([k, v]) => {
                 if (!v) return '';
 
@@ -311,13 +338,13 @@
                     <i class="${iconCls}"></i> ${k}
                 </a>`;
                 }).join('');
-            list.insertAdjacentHTML('beforeend',`
-              <article class="pub-card">
-                <h3>${p.title}</h3>
-                <div class="authors">${p.authors}</div>
-                <div class="venue">${p.venue}</div>
-                ${linksHTML}
-              </article>
+                list.insertAdjacentHTML('beforeend', `
+                <article class="pub-card">
+                    <h3>${p.title} ${badgeHtml}</h3>
+                    <div class="authors">${p.authors}</div>
+                    <div class="venue">${p.venue}</div>
+                    ${linksHTML}
+                </article>
             `);
             fetchGitHubStars();
           });

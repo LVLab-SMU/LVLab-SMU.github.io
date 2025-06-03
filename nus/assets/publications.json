@@ -32,7 +32,8 @@
     "links": {
       "paper": "https://arxiv.org/abs/2505.04620",
       "code": "https://github.com/path2generalist/General-Level"
-    }
+    },
+    "presentation": "spotlight"
   },
   {
     "year": 2025,
@@ -75,7 +76,8 @@
     "links": {
       "paper": "https://arxiv.org/abs/2403.03186",
       "code": "https://github.com/BAAI-Agents/Cradle"
-    }
+    },
+    "presentation": "spotlight"
   },
   {
     "year": 2025,
@@ -119,7 +121,8 @@
     "links": {
       "paper": "https://arxiv.org/abs/2410.08190",
       "code": "https://github.com/jiahaolu97/poison-splat"
-    }
+    },
+    "presentation": "spotlight"
   },
   {
     "year": 2025,
@@ -152,7 +155,8 @@
     "links": {
       "paper": "https://arxiv.org/abs/2410.07348",
       "code": "https://github.com/SkyworkAI/MoE-plus-plus"
-    }
+    },
+    "presentation": "oral"
   },
   {
     "year": 2025,
@@ -207,6 +211,7 @@
     "links": {
       "paper": "https://arxiv.org/abs/2412.11124",
       "code": "https://github.com/showlab/Awesome-MLLM-Hallucination"
-    }
+    },
+    "presentation": "oral"
   }
 ]
