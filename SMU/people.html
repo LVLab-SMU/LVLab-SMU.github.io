@@ -26,11 +26,135 @@
 <link href="../style.css" rel="stylesheet">
 
 <!-- Vendor Stylesheets -->
-<!-- <link href="http://f.21yb.app/65858584/97037023/css?family=Oswald:300,400,500,700%7CRoboto:300,400,700" rel="stylesheet"> -->
+<link href="http://f.21yb.app/65858584/97037023/css?family=Oswald:300,400,500,700%7CRoboto:300,400,700" rel="stylesheet">
 <link href="../assets/vendor/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 <!-- Theme Stylesheets -->
 <link href="../assets/css/theme.css" rel="stylesheet">
+
+<style>
+    .row > .col {
+      margin-bottom: 1rem; /* 或 24px / 2rem 自行调 */
+    }
+
+    .card-body {
+      padding:0.75rem 1rem;
+      margin-bottom: 0rem;
+      padding-bottom: 0rem;
+    }
+
+    .card-img {
+      height:180px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin-bottom: 0.25rem;
+    }
+
+    .card-body p {
+        font-size: 0.8rem;
+    }
+
+    .card-footer {
+        background: none;
+        border-top: none;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        font-size: 1.4rem;  /* 默认大约是 1rem，调大即可 */
+        margin-right: 0.5rem;
+        padding-top: 0.2rem;
+        color: #333;
+        transition: transform 0.2s;
+    }
+
+    .card-footer i:hover {
+        transform: scale(1.2);
+        color: var(--lv-orange); 
+    }
+
+    .custom-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 0rem;
+    }
+
+    /* 左侧头像区域 padding 调整 */
+    .custom-card .author-avater {
+        margin-right: 20px;
+    }
+
+    /* 整体卡片上下 padding 调整 */
+    .custom-card {
+        padding: 24px 28px;
+        flex-wrap: wrap;
+        align-items: center; 
+    }
+
+    .custom-card .right span {
+        font-size: 0.85rem;
+        color: #888;
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    .custom-card .right h5 {
+        font-size: 1.15rem;
+        font-weight: 600;
+        color: #d80000; 
+        margin-bottom: 6px;
+    }
+
+    .custom-card .right p {
+        font-size: 0.9rem;
+        color: #666;
+        margin-bottom: 0;
+        line-height: 1.5;
+    }
+
+    .custom-card .intro-text {
+        font-size: 0.95rem;
+        color: #444;
+        line-height: 1.7;
+        padding-left: 16px;
+        border-left: 1px solid #eee;
+    }
+
+    .justify-text {
+        text-align: justify;
+        line-height: 1.8;
+        font-size: 0.95rem;
+        color: #444;
+        padding-left: 1rem;
+        border-left: 1px solid #eee;
+        hyphens: auto;
+        word-break: break-word;
+        text-indent: 2em;
+    }
+
+    .right-wrapper{
+        min-width:0;         
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 12px;
+        margin-top: 8px;
+    }
+
+    .social-icons a {
+        color: #777;
+        font-size: 18px;
+        transition: color 0.2s ease;
+    }
+
+    .social-icons a:hover {
+        color: #ee7023;  /* 橙色 hover 效果，可改为品牌色 */
+    }
+</style>
 
 </head>
 <!--================================-->
@@ -146,178 +270,195 @@ background-image: url(../images/banner_8.webp);
 </div>
 <!-- Ends: .pages-header -->
 
-        <!-- Start Latest Project -->
-    
-        <section class="latest-project section-padding">
-            <div class="container">
-                <div class="text-left section-title">
-                    <h2>LVLab<span> @ SMU</span>
-                        <!-- <span>Head</span> -->
-                    </h2>
-                </div>
-            <!-- Ends: .section-title -->
-            <div class="col-md-13">
-            <div class="row">                <div class="col-md-6">
-            <div class="latest-single">
-                <div class="left" style="padding: 10px;">
-                    <div class="author-avater">
-                        <img src="../images/Pan Zhou.jpeg" alt="Dr. Pan Zhou" style="
-                            width: 160px;
-                            height: 200px;
-                        ">
-                    </div>
-                </div>
-                <div class="right">
-                    <span>Director</span>
-                    <h3>
-                        <a href="https://scholar.google.com/citations?user=0b7ZqlcAAAAJ&hl=en">Dr. Pan Zhou</a>
-                    </h3>
-                    <p><span>Assistant Professor, SCIS, SMU</p>
-                </div>
+
+<!-- Start Latest Project -->
+<section class="latest-project section-padding" style="padding-bottom: 5px; padding-top: 4rem;">
+    <div class="container">
+  
+      <!-- 卡片整体容器 -->
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <!-- 卡片整体 -->
+            <div class="d-flex flex-wrap align-items-center shadow-sm p-4 mb-3 bg-white rounded custom-card">
+
+            <!-- 左栏：头像 -->
+            <div style="flex: 0 0 auto; padding-right: 20px;">
+                <img src="../images/Pan Zhou.jpeg" alt="Dr. Pan Zhou"
+                    style="width: 180px; border-radius: 10px;">
             </div>
-            </div>                        <!-- Ends: .col-md-6 -->
-                <!-- Ends: .col-md-12 -->
+
+            <!-- 中栏：职称信息 -->
+            <div style="flex: 0 0 auto; padding-right: 10px; line-height: 1.6; padding-bottom: 1rem;">
+                <div style="font-size: 1.7rem; font-weight: 500; color: #ee7023; text-primary: fw-bold;">Director</div>
+                <div style="font-weight: 600; font-size: 1.7rem;"><a href="https://www.comp.nus.edu.sg/cs/people/yansc/" style="color: #333; ">Dr. Pan Zhou</a></div>
+                <div style="color: #777; font-size: 1rem;">Assistant Professor,<br> School of Computing <br> and Information Systems,<br> Singapore Management University</div>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/zhou-pan-29986b111/" target="_blank" title="LinkedIn" aria-label="LinkedIn">
+                      <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <!-- <a href="https://www.facebook.com/shuicheng.yan" target="_blank" title="Facebook" aria-label="Facebook">
+                      <i class="fab fa-facebook-f"></i>
+                    </a> -->
+                    <a href="https://scholar.google.com/citations?user=0b7ZqlcAAAAJ&hl=en" target="_blank" title="Google Scholar" aria-label="Google Scholar">
+                      <i class="fas fa-graduation-cap"></i>
+                    </a>
+                    <a href="mailto:panzhou@smu.edu.sg" title="Email" aria-label="Email">
+                      <i class="fas fa-envelope"></i>
+                    </a>
+                  </div>
             </div>
-            </div>
-            <!-- Ends: .col-md-10 -->
+            
+            <div style="width: 1px; background-color: #ddd; height: auto; margin-right: 10px; align-self: flex-end;"></div>
 
-            </div>
-        </section>
-
-        <!-- Research Staff & Student @SMU -->
-        <section class="pt-6 pb-6">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-left section-title">
-                        <h2>Research Staff & Student
-                            <span>@ SMU</span>
-                        </h2>
-                    </div>
-                </div>
-                <div class="card-deck mt-neg-5 no-gutters row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-5">
-
-                    <div class="col">
-                        <div class="card mt-6">
-                            <div class="px-3 mt-3">
-                                <img src="../images/people/Xiandong Zou.jpeg" class="card-img mb-neg-2" alt="">
-                            </div>
-                            <div class="card-body">
-                                <!-- text-uppercase -->
-                                <h6 class="card-title mb-0">Xiandong Zou</h6>
-                                <p class="card-text mb-neg-1 fs--1 text-primary fw-bold">Ph.D.</p>
-                                <p class="mb-neg-2">2025 ~ Present</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="https://yqcca.github.io/" target="_blank"><i class="zmdi zmdi-home zmdi-hc-fw"></i></a>
-                                <a href="https://scholar.google.com/citations?user=ZhM-pMsAAAAJ&hl=en" target="_blank"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
-                                <a href="https://github.com/Yqcca" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a>
-                            </div> 
-                        </div> 
-                    </div>
-                    
-                    <div class="col">
-                        <div class="card mt-6">
-                            <div class="px-3 mt-3">
-                                <img src="../images/people/Jinyang Wu.jpeg" class="card-img mb-neg-2" alt="">
-                            </div>
-                            <div class="card-body">
-                                <!-- text-uppercase -->
-                                <h6 class="card-title mb-0">Jinyang Wu</h6>
-                                <p class="card-text mb-neg-1 fs--1 text-primary fw-bold">MSc</p>
-                                <p class="mb-neg-2">2024 ~ Present</p>
-                            </div>
-                            <div class="card-footer">
-                                <span style="opacity: 0;">
-                                    <!-- <a href="https://xiarho.github.io/" target="_blank"><i class="zmdi zmdi-home zmdi-hc-fw"></i></a>
-                                    <a href="https://scholar.google.com/citations?user=xvFJmwIAAAAJ&hl=zh-CN" target="_blank"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
-                                    <a href="https://github.com/xiarho" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a> -->
-                                    <i class="zmdi zmdi-home zmdi-hc-fw"></i></a>
-                                    <i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
-                                    <i class="zmdi zmdi-github zmdi-hc-fw"></i></a>
-                                </span>
-                            </div> 
-                        </div> 
-                    </div>
-
-                    <div class="col">
-                        <div class="card mt-6">
-                            <div class="px-3 mt-3">
-                                <img src="../images/people/Xiao Dong.jpeg" class="card-img mb-neg-2" alt="">
-                            </div>
-                            <div class="card-body">
-                                <!-- text-uppercase -->
-                                <h6 class="card-title mb-0">Xiao Dong</h6>
-                                <p class="card-text mb-neg-1 fs--1 text-primary fw-bold">Visiting Ph.D.</p>
-                                <p class="mb-neg-2">2024 ~ Present</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="https://www.researchgate.net/profile/Xiao-Dong-9?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19" target="_blank"><i class="zmdi zmdi-home zmdi-hc-fw"></i></a>
-                                <a href="https://scholar.google.com.hk/citations?user=jXLkbw8AAAAJ&hl=zh-CN" target="_blank"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
-                                <a href="https://github.com/Xiaodongsuper" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a>
-                            </div> 
-                        </div> 
-                    </div>
-
-                    <div class="col">
-                        <div class="card mt-6">
-                            <div class="px-3 mt-3">
-                                <img src="../images/people/Qi Zhao.jpeg" class="card-img mb-neg-2" alt="">
-                            </div>
-                            <div class="card-body">
-                                <!-- text-uppercase -->
-                                <h6 class="card-title mb-0">Qi Zhao</h6>
-                                <p class="card-text mb-neg-1 fs--1 text-primary fw-bold">Visiting Ph.D.</p>
-                                <p class="mb-neg-2">2024 ~ Present</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="https://scholar.google.com/citations?hl=en&pli=1&user=GIBwOR8AAAAJ" target="_blank"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
-                                <span style="opacity: 0;"><a href="https://github.com/xiarho" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a></span>
-                            </div> 
-                        </div> 
-                    </div>
-
-                    <div class="col">
-                        <div class="card mt-6">
-                            <div class="px-3 mt-3">
-                                <img src="../images/people/Ruihao Xia.jpeg" class="card-img mb-neg-2" alt="">
-                            </div>
-                            <div class="card-body">
-                                <!-- text-uppercase -->
-                                <h6 class="card-title mb-0">Ruihao Xia</h6>
-                                <p class="card-text mb-neg-1 fs--1 text-primary fw-bold">Visiting Ph.D.</p>
-                                <p class="mb-neg-2">2025 ~ Present</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="https://xiarho.github.io/" target="_blank"><i class="zmdi zmdi-home zmdi-hc-fw"></i></a>
-                                <a href="https://scholar.google.com/citations?user=xvFJmwIAAAAJ&hl=zh-CN" target="_blank"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
-                                <a href="https://github.com/xiarho" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a>
-                            </div> 
-                        </div> 
-                    </div>
-                    
-                    <div class="col">
-                        <div class="card mt-6">
-                            <div class="px-3 mt-3">
-                                <img src="../images/people/Jie Liu.jpeg" class="card-img mb-neg-2" alt="">
-                            </div>
-                            <div class="card-body">
-                                <!-- text-uppercase -->
-                                <h6 class="card-title mb-0">Jie Liu</h6>
-                                <p class="card-text mb-neg-1 fs--1 text-primary fw-bold">Visiting Ph.D.</p>
-                                <p class="mb-neg-2">2024 ~ Present</p>
-                            </div>
-                            <div class="card-footer">
-                                <a href="https://jliu4ai.github.io/" target="_blank"><i class="zmdi zmdi-home zmdi-hc-fw"></i></a>
-                                <a href="https://scholar.google.com/citations?user=A03ZAtwAAAAJ&hl=en" target="_blank"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
-                                <a href="https://github.com/jliu4ai" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a>
-                            </div> 
-                        </div> 
-                    </div>
-                    
+                <!-- 右栏介绍 -->
+            <div class="right-wrapper d-flex flex-column justify-content-center" style="flex:1;">
+                <div class="right-panel justify-text">
+                    <p style="margin-bottom: 0;">
+                    <strong>Prof. Pan Zhou</strong> is a tenure-track Assistant Professor at the School of Computing and Information Systems, Singapore Management University (SMU). Before joining SMU, he worked as a Senior Research Scientist at Sea AI Lab and as a Research Scientist at Salesforce. He received his Ph.D. from the National University of Singapore (NUS), where he was fortunate to be advised by Prof. Jiashi Feng and Prof. Shuicheng Yan. Prior to that, he completed his undergraduate studies at Peking University (PKU), where he had the honor of working with Prof. Zhouchen Lin and Prof. Chao Zhang. He also collaborated closely with Prof. Xiaotong Yuan. In addition, he spent several enriching months as a visiting student at Georgia Tech in 2018 and at Princeton University in 2019.
+                    </p>
                 </div>
             </div>
-        </section>
-        <!-- End of Research Staff & Student @SMU -->
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+<!-- Research Staff & Student @SMU -->
+<section class="pt-6 pb-6">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-left section-title" style="margin-bottom: 30px; margin-top: -20px;">
+                <h2>Research Staff & Student
+                </h2>
+            </div>
+        </div>
+
+        <!-- <div class="card-deck mt-neg-5 no-gutters row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-5 row-cols-xl-5"> -->
+        <div class="row custom-grid">
+            <div class="col">
+                <div class="card d-flex flex-column h-100">
+                    <div class="px-3 mt-3">
+                        <img src="../images/people/Xiandong Zou.jpeg" class="card-img mb-neg-2" alt="">
+                    </div>
+                    <div class="card-body">
+                        <!-- text-uppercase -->
+                        <h6 class="card-title mb-0">Xiandong Zou</h6>
+                        <p class="card-text mb-neg-1 fs--1 text-primary fw-bold">Ph.D. Student</p>
+                        <p class="mb-neg-2">2025.01 ~ Present</p>
+                    </div>
+                    <div class="card-footer mt-auto">
+                        <a href="https://yqcca.github.io/" target="_blank"><i class="zmdi zmdi-home zmdi-hc-fw"></i></a>
+                        <a href="https://scholar.google.com/citations?user=ZhM-pMsAAAAJ&hl=en" target="_blank"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
+                        <a href="https://github.com/Yqcca" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a>
+                    </div> 
+                </div> 
+            </div>
+            
+            <div class="col">
+                <div class="card d-flex flex-column h-100">
+                    <div class="px-3 mt-3">
+                        <img src="../images/people/Jinyang Wu.jpeg" class="card-img mb-neg-2" alt="">
+                    </div>
+                    <div class="card-body">
+                        <!-- text-uppercase -->
+                        <h6 class="card-title mb-0">Jinyang Wu</h6>
+                        <p class="card-text mb-neg-1 fs--1 text-primary fw-bold">Master Student</p>
+                        <p class="mb-neg-2">2024.08 ~ Present</p>
+                    </div>
+                    <div class="card-footer mt-auto">
+                        <span style="opacity: 0;">
+                            <!-- <a href="https://xiarho.github.io/" target="_blank"><i class="zmdi zmdi-home zmdi-hc-fw"></i></a>
+                            <a href="https://scholar.google.com/citations?user=xvFJmwIAAAAJ&hl=zh-CN" target="_blank"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
+                            <a href="https://github.com/xiarho" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a> -->
+                            <i class="zmdi zmdi-home zmdi-hc-fw"></i></a>
+                            <i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
+                            <i class="zmdi zmdi-github zmdi-hc-fw"></i></a>
+                        </span>
+                    </div> 
+                </div> 
+            </div>
+
+            <div class="col">
+                <div class="card d-flex flex-column h-100">
+                    <div class="px-3 mt-3">
+                        <img src="../images/people/Xiao Dong.jpeg" class="card-img mb-neg-2" alt="">
+                    </div>
+                    <div class="card-body">
+                        <!-- text-uppercase -->
+                        <h6 class="card-title mb-0">Xiao Dong</h6>
+                        <p class="card-text mb-neg-1 fs--1 text-primary fw-bold">Visiting Ph.D. Student</p>
+                        <p class="mb-neg-2">2024.10 ~ Present</p>
+                    </div>
+                    <div class="card-footer mt-auto">
+                        <a href="https://www.researchgate.net/profile/Xiao-Dong-9?ev=hdr_xprf&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoiaG9tZSIsInBvc2l0aW9uIjoiZ2xvYmFsSGVhZGVyIn19" target="_blank"><i class="zmdi zmdi-home zmdi-hc-fw"></i></a>
+                        <a href="https://scholar.google.com.hk/citations?user=jXLkbw8AAAAJ&hl=zh-CN" target="_blank"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
+                        <a href="https://github.com/Xiaodongsuper" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a>
+                    </div> 
+                </div> 
+            </div>
+
+            <div class="col">
+                <div class="card d-flex flex-column h-100">
+                    <div class="px-3 mt-3">
+                        <img src="../images/people/Qi Zhao.jpeg" class="card-img mb-neg-2" alt="">
+                    </div>
+                    <div class="card-body">
+                        <!-- text-uppercase -->
+                        <h6 class="card-title mb-0">Qi Zhao</h6>
+                        <p class="card-text mb-neg-1 fs--1 text-primary fw-bold">Visiting Ph.D. Student</p>
+                        <p class="mb-neg-2">2024.10 ~ Present</p>
+                    </div>
+                    <div class="card-footer mt-auto">
+                        <a href="https://scholar.google.com/citations?hl=en&pli=1&user=GIBwOR8AAAAJ" target="_blank"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
+                        <span style="opacity: 0;"><a href="https://github.com/xiarho" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a></span>
+                    </div> 
+                </div> 
+            </div>
+
+            <div class="col">
+                <div class="card d-flex flex-column h-100">
+                    <div class="px-3 mt-3">
+                        <img src="../images/people/Ruihao Xia.jpeg" class="card-img mb-neg-2" alt="">
+                    </div>
+                    <div class="card-body">
+                        <!-- text-uppercase -->
+                        <h6 class="card-title mb-0">Ruihao Xia</h6>
+                        <p class="card-text mb-neg-1 fs--1 text-primary fw-bold">Visiting Ph.D. Student</p>
+                        <p class="mb-neg-2">2025.01 ~ Present</p>
+                    </div>
+                    <div class="card-footer mt-auto">
+                        <a href="https://xiarho.github.io/" target="_blank"><i class="zmdi zmdi-home zmdi-hc-fw"></i></a>
+                        <a href="https://scholar.google.com/citations?user=xvFJmwIAAAAJ&hl=zh-CN" target="_blank"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
+                        <a href="https://github.com/xiarho" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a>
+                    </div> 
+                </div> 
+            </div>
+            
+            <div class="col">
+                <div class="card d-flex flex-column h-100">
+                    <div class="px-3 mt-3">
+                        <img src="../images/people/Jie Liu.jpeg" class="card-img mb-neg-2" alt="">
+                    </div>
+                    <div class="card-body">
+                        <!-- text-uppercase -->
+                        <h6 class="card-title mb-0">Jie Liu</h6>
+                        <p class="card-text mb-neg-1 fs--1 text-primary fw-bold">Visiting Ph.D. Student</p>
+                        <p class="mb-neg-2">2024.01 ~ Present</p>
+                    </div>
+                    <div class="card-footer mt-auto">
+                        <a href="https://jliu4ai.github.io/" target="_blank"><i class="zmdi zmdi-home zmdi-hc-fw"></i></a>
+                        <a href="https://scholar.google.com/citations?user=A03ZAtwAAAAJ&hl=en" target="_blank"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>
+                        <a href="https://github.com/jliu4ai" target="_blank"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a>
+                    </div> 
+                </div> 
+            </div>
+            
+        </div>
+    </div>
+</section>
+<!-- End of Research Staff & Student @SMU -->
 
 
 

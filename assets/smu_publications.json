@@ -6,8 +6,7 @@
     "authors": "Xingyu Xie, Zhijie Lin, Kim-chuan Toh, Pan Zhou",
     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025",
     "links": {
-      "paper": "https://arxiv.org/abs/2407.04480",
-      "code": "https://github.com/deepspeedai/DeepSpeed/pull/6730"
+      "paper": "https://arxiv.org/abs/2407.04480"
     }
   },
   {
@@ -29,7 +28,7 @@
     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025",
     "links": {
       "paper": "https://arxiv.org/abs/2403.18795",
-      "code": "https://florinshen.github.io/gamba-project/"
+      "code": "https://github.com/SkyworkAI/Gamba"
     }
   },
   {
@@ -113,7 +112,7 @@
     "venue": "International Journal of Computer Vision (IJCV), 2024",
     "links": {
       "paper": "https://arxiv.org/abs/2311.08403",
-      "code": "https://ming1993li.github.io/Instant3DProj/"
+      "code": "https://github.com/ming1993li/Instant3DCodes"
     }
   },
   {
