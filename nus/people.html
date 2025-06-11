@@ -154,6 +154,31 @@
     .social-icons a:hover {
         color: #ee7023;  /* 橙色 hover 效果，可改为品牌色 */
     }
+
+    @media (max-width: 768px) {
+        .custom-card {
+            flex-direction: column !important;
+            align-items: flex-start !important;
+        }
+
+        .custom-card > div {
+            width: 100% !important;
+            padding-right: 0 !important;
+            margin-bottom: 1rem;
+        }
+
+        .custom-card img {
+            width: 100% !important;
+            height: auto !important;
+            max-width: 240px;
+            margin-bottom: 1rem;
+        }
+
+        .right-wrapper {
+            padding-left: 0 !important;
+            border-left: none !important;
+        }
+    }
 </style>
 </head>
 <!--================================-->

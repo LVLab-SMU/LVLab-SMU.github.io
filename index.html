@@ -31,7 +31,38 @@
 
 <!-- Theme Stylesheets -->
 <link href="./assets/css/theme.css" rel="stylesheet">
+<style>
+    .row.g-4 {
+    margin-top: -1.5rem;
+    margin-left: -1.5rem;
+    }
+    .row.g-4 > [class*="col-"] {
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    }
 
+    .d-flex.gap-4,
+    .d-flex.gap-4 > *    
+    {
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    }
+
+    .d-flex.gap-4 {
+    gap: 1.5rem;
+    }
+
+    .founder-badge {
+        display: inline-block;
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #ee7023; 
+        padding: 3px 8px;
+        border-radius: 4px;
+        margin-top: 4px;
+    }
+</style>
 </head>
 <!--================================-->
 <!--End header-->
@@ -98,76 +129,112 @@
 <!-- Ends: header --><!--================================-->
 <!--End menu-->
 
-
 <section class="latest-project section-padding" style="padding-bottom: 5px;">
     <div class="container">
-        <div class="col-md-12 text-left section-title">
-            <h2>Founding <span>Director</span> & LV-Lab<span> @ NUS</span>
-                <!-- <span>Head</span> -->
-            </h2>
+      <div class="section-title text-left mb-1">
+        <h2><span>Principal Investigators</span></h2>
+      </div>
+  
+      <!-- Badge Row -->
+      <div class="row g-4 mb-2">
+        <div class="col-md-6">
+          <div style="display: inline-block; background: #66ccff; color: #ffffff; font-weight: 600;
+            padding: 4px 8px; border-radius: 6px; font-size: 0.9rem;">
+            LV-Lab @ NUS
+          </div>
         </div>
-        <!-- Ends: .section-title -->
-        <div class="col-md-13">
-            <div class="row">                
-                <div class="col-12">
-                    <div class="latest-single">
-                        <div class="left" style="padding: 10px;">
-                            <div class="author-avater">
-                                <img src="./images/yanshuicheng.png" alt="Dr. Shuicheng Yan" style="width: 160px; height: 200px;">
-                            </div>
-                        </div>
-                        <div class="right">
-                            <span>Director</span>
-                            <h3>
-                                <a href="https://scholar.google.com/citations?user=DNuiPHwAAAAJ&hl=zh-CN&oi=ao">Dr. Shuicheng Yan</a>
-                            </h3>
-                            <p><span>Professor, SoC, NUS</p>
-                            <h5 style="margin-top: 10px;">
-                                <a href="nus/index.html" style="font-weight: bold;">LV-Lab @ NUS</a>
-                            </h5>
-                            
-                        </div>
-                    </div>
-                </div>
+        <div class="col-md-6">
+          <div style="display: inline-block; background: #39C5BB; color: #ffffff; font-weight: 600;
+            padding: 4px 8px; border-radius: 6px; font-size: 0.9rem;">
+            LV-Lab @ SMU
+          </div>
+        </div>
+      </div>
+  
+      <!-- PI Cards -->
+      <div class="row g-4">
+        <!-- PI: NUS -->
+        <div class="col-md-6">
+          <div class="latest-single d-flex">
+            <div class="left pe-3">
+              <img src="./images/yanshuicheng.png" alt="Dr. Shuicheng Yan"
+                style="width:160px;height:200px;border-radius:8px;">
             </div>
+            <div class="right">
+              <span class="text-primary fw-semibold">Founding Director</span>
+              <h3 class="mb-1">
+                <a href="https://scholar.google.com/citations?user=DNuiPHwAAAAJ" target="_blank">
+                  Dr. Shuicheng Yan
+                </a>
+              </h3>
+              <p class="mb-2">Professor, School of Computing, NUS</p>
+              <a href="nus/index.html" class="fw-bold">Visit Lab</a>
+            </div>
+          </div>
         </div>
+  
+        <!-- PI: SMU -->
+        <div class="col-md-6">
+          <div class="latest-single d-flex">
+            <div class="left pe-3">
+              <img src="./images/Pan Zhou.jpeg" alt="Dr. Pan Zhou"
+                style="width:160px;height:200px;border-radius:8px;">
+            </div>
+            <div class="right">
+              <span class="text-primary fw-semibold">Director</span>
+              <h3 class="mb-1">
+                <a href="https://scholar.google.com/citations?user=0b7ZqlcAAAAJ" target="_blank">
+                  Dr. Pan Zhou
+                </a>
+              </h3>
+              <p class="mb-2">Assistant Professor, SCIS, SMU</p>
+              <a href="SMU/index.html" class="fw-bold">Visit Lab</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</section>
+  </section>
+  
+  
+  
 
-    
-<section class="latest-project section-padding" style="padding-bottom: 5px;">
+  <!-- =====================  Former Directors  ===================== -->
+<section class="latest-project section-padding" style="padding-bottom:5px;">
     <div class="container">
-        <div class="text-left section-title">
-            <h2><span>Director</span> & LV-Lab<span> @ SMU</span>
-                <!-- <span>Head</span> -->
-            </h2>
+      <div class="section-title text-left">
+        <h2><span>Former Directors</span></h2>
+      </div>
+  
+      <div class="d-flex flex-wrap gap-4">
+        <!-- Jiashi Feng -------------------------------------------->
+        <div class="latest-single d-flex align-items-start" style="min-width:280px;">
+          <div class="left pe-3">
+            <img src="./images/people/Jiashi Feng.jpg" alt="Dr. Jiashi Feng"
+                 style="width:140px;height:180px;border-radius:8px;">
+          </div>
+          <div class="right">
+            <h4 class="mb-1">Dr. Jiashi Feng</h4>
+            <p class="mb-1 text-muted">Director&nbsp;(2015 – 2021)</p>
+            <p class="mb-2"><strong>Now&nbsp;in:</strong> ByteDance</p>
+          </div>
         </div>
-        <!-- Ends: .section-title -->
-        <div class="col-md-13">
-            <div class="row">                
-                <div class="col-12">
-                    <div class="latest-single">
-                        <div class="left" style="padding: 10px;">
-                            <div class="author-avater">
-                                <img src="./images/Pan Zhou.jpeg" alt="Dr. Pan Zhou" style="width: 160px; height: 200px;">
-                            </div>
-                        </div>
-                        <div class="right">
-                            <span>Director</span>
-                            <h3>
-                                <a href="https://scholar.google.com/citations?user=0b7ZqlcAAAAJ&hl=en">Dr. Pan Zhou</a>
-                            </h3>
-                            <p><span>Assistant Professor, SCIS, SMU</p>
-                            <h5 style="margin-top: 10px;">
-                                <a href="SMU/index.html" style="font-weight: bold;">LV-Lab @ SMU</a>
-                            </h5>
-                        </div>
-                    </div>
-                </div>
-            </div>
+  
+        <!-- Xinchao Wang ------------------------------------------->
+        <div class="latest-single d-flex align-items-start" style="min-width:280px;">
+          <div class="left pe-3">
+            <img src="./images/people/xinchao wang.jpeg" alt="Dr. Xinchao Wang"
+                 style="width:140px;height:180px;border-radius:8px;">
+          </div>
+          <div class="right">
+            <h4 class="mb-1">Dr. Xinchao Wang</h4>
+            <p class="mb-1 text-muted">Director&nbsp;(2022 – 2025)</p>
+            <p class="mb-2"><strong>Now&nbsp;in:</strong> <a href="https://sites.google.com/view/xml-nus">xML Lab</a>, ECE, NUS</p>
+          </div>
         </div>
-    </div>
-</section>
+      </div><!-- /.flex -->
+    </div><!-- /.container -->
+  </section>
 
 <section class="blog-wrapper section-padding-small">
     <div class="container">
