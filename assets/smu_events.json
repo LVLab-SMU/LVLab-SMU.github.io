@@ -2,7 +2,7 @@
   {
     "date": "2025-06",
     "title": "Three papers are accepted by ICCV 2025",
-    "summary": "One paper introduces a memory-efficient 4-bit quantization method for preconditioned optimizers like Shampoo, enabling scalable training with significantly reduced memory overhead through novel Cholesky factor quantization and error feedback. The second paper presents SubZero, a zeroth-order fine-tuning method for large language models that operates in low-dimensional random subspaces to cut memory costs while maintaining high performance and convergence. The third paper proposes PPCN, a probabilistic calibration framework for vision-language models that enhances few-shot semantic segmentation by modeling multi-modal prototypes with uncertainty, improving adaptability and generalization to novel classes.",
+    "summary": "One paper introduces a memory-efficient 4-bit quantization method for preconditioned optimizers like Shampoo, enabling scalable training with significantly reduced memory overhead through novel Cholesky factor quantization and error feedback. Another one presents SubZero, a zeroth-order fine-tuning method for LLMs that operates in low-dimensional random subspaces to cut memory costs while maintaining high performance and convergence. The third paper proposes a probabilistic calibration framework for VLMs that enhances few-shot semantic segmentation by modeling multi-modal prototypes with uncertainty, improving adaptability and generalization to novel classes.",
     "link": "https://arxiv.org/abs/2502.14400"
   },
   {
