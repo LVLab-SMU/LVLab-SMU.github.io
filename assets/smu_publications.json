@@ -34,6 +34,33 @@
   {
     "year": 2025,
     "date": "2025",
+    "title": "Memory-Efficient 4-bit Preconditioned Stochastic Optimization",
+    "authors": "Jingyang Li, Kuangyu Ding, Kim-chuan Toh, Pan Zhou",
+    "venue": "International Conference on Computer Vision (ICCV)",
+    "links": {
+      "paper": "https://arxiv.org/abs/2412.10663"
+    }
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Zeroth-Order Fine-Tuning of LLMs in Random Subspaces",
+    "authors": "Ziming Yu, Pan Zhou, Sike Wang, Jia Li, Mi Tian, Hua Huang",
+    "venue": "International Conference on Computer Vision (ICCV)",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.08989"
+    }
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Probabilistic Prototype Calibration of Vision-language Models for Generalized Few-shot Semantic Segmentation",
+    "authors": "Jie Liu, Jiayi Shen, Pan Zhou, Jan-Jakob Sonke, Stratis Gavves",
+    "venue": "International Conference on Computer Vision (ICCV)"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
     "title": "HPS: Hard Preference Sampling for Human Preference Alignment",
     "authors": "Xiandong Zou, Wanyu Lin, Yuchen Li, Pan Zhou",
     "venue": "International Conference on Machine Learning (ICML), 2025",
