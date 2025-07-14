@@ -1,11 +1,44 @@
 [
+    {
+    "year": 2025,
+    "date": "2025",
+    "title": "Pask: Providing Answer before AsKing toward Proactive AI agent",
+    "authors": "Xiezhifei, ZongZheng Hu, Guibin Zhang, Jialin Zhang, Yue Liao, Chunyan Miao, Shuicheng YAN",
+    "venue": "ACM Multimedia (MM) Demo, 2025",
+    "links": {}
+  },
+    {
+    "year": 2025,
+    "date": "2025",
+    "title": "From Outline to Detail: An Hierarchical End-to-end Framework for Coherent and Consistent Visual Novel Generation and Assembly",
+    "authors": " Xinjie Zhang, Zhening Liu, Yifan Zhang, Xingtong Ge, Dailan He, Tongda Xu, Yan Wang, Zehong Lin, Shuicheng Yan, Jun Zhang",
+    "venue": "ACM Multimedia (MM), 2025",
+    "links": {}
+  },
+    {
+    "year": 2025,
+    "date": "2025",
+    "title": "Beyond Isolated Words: Diffusion Brush for Handwritten Text-Line Generation",
+    "authors": "Gang Dai, Yifan Zhang, Yutao Qin, Qiangya Guo, Shuangping Huang, Shuicheng Yan",
+    "venue": "International Conference on Computer Vision (ICCV), 2025",
+    "links": {}
+  },
+    {
+    "year": 2025,
+    "date": "2025",
+    "title": "MEGA: Memory-Efficient 4D Gaussian Splatting for Dynamic Scenes",
+    "authors": "Xinjie Zhang, Zhening Liu, Yifan Zhang, Xingtong Ge, Dailan He, Tongda Xu, Yan Wang, Zehong Lin, Shuicheng Yan, Jun Zhang",
+    "venue": "International Conference on Computer Vision (ICCV), 2025",
+    "links": {"paper": "https://arxiv.org/abs/2410.13613"}
+  },
   {
     "year": 2025,
     "date": "2025",
     "title": "Gamba: Marry Gaussian Splatting With Mamba for Single-View 3D Reconstruction",
     "authors": "Qiuhong Shen , Zike Wu , Xuanyu Yi , Pan Zhou , Hanwang Zhang , Shuicheng Yan , Xinchao Wang",
     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2025",
-    "links": {}
+    "links": {"paper": "https://arxiv.org/abs/2403.18795",
+      "code": "https://github.com/SkyworkAI/Gamba"}
   },
   {
     "year": 2025,
