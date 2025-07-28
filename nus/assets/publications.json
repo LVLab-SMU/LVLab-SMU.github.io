@@ -1,4 +1,13 @@
 [
+  
+   {
+    "year": 2025,
+    "date": "2025",
+    "title": "AR^2O Painter: An Artistic Oriented Realtime Realistic Oil Painting Agent Powered by Efficient Fluid Simulation",
+    "authors": "Jinfan Liu, Zhangli Hu, Hanqi Chen, Ye Chen, Bingbing Ni, Shuicheng Yan",
+    "venue": "ACM Multimedia (MM) Interactive Art Track, 2025",
+    "links": {}
+  },
   {
     "year": 2025,
     "date": "2025",
@@ -37,7 +46,7 @@
     "title": "MEGA: Memory-Efficient 4D Gaussian Splatting for Dynamic Scenes",
     "authors": "Xinjie Zhang, Zhening Liu, Yifan Zhang, Xingtong Ge, Dailan He, Tongda Xu, Yan Wang, Zehong Lin, Shuicheng Yan, Jun Zhang",
     "venue": "International Conference on Computer Vision (ICCV), 2025",
-    "links": {"paper": "https://arxiv.org/abs/2410.13613"}
+    "links": {"paper": "https://arxiv.org/abs/2410.13613"},
   },
   {
     "year": 2025,
