@@ -1,5 +1,11 @@
 [
   {
+    "date": "2025-08",
+    "title": "We released Genie-Envisioner, A Unified World Foundation Model for Robotic Manipulation",
+    "summary": "We introduce Genie Envisioner (GE), a unified world foundation platform for robotic manipulation that integrates policy learning, evaluation, and simulation within a single video-generative framework.",
+    "link": "https://genie-envisioner.github.io/"
+  },
+  {
     "date": "2025-05",
     "title": "General-Level and General-Bench Released for Evaluating Multimodal Generalists",
     "summary": "We release General-Level, a 5-scale evaluation framework for assessing multimodal generalists, and General-Bench, a comprehensive benchmark with over 700 tasks and 325K instances. Evaluation on 100+ state-of-the-art MLLMs reveals current capability rankings and highlights key challenges toward general AI.",
