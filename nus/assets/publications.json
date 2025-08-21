@@ -1,4 +1,16 @@
 [
+
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Audio-Reasoner: Improving Reasoning Capability in Large Audio Language Models",
+    "authors": "Xie Zhifei, Mingbao Lin, Zihang Liu, Pengcheng Wu, Shuicheng Yan, Chunyan Miao",
+    "venue": "The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2503.02318",
+      "code": "https://github.com/xzf-thu/Audio-Reasoner"
+    }
+  },
   {
     "year": 2025,
     "date": "2025",
