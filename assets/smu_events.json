@@ -1,5 +1,17 @@
 [
   {
+    "date": "2025-09",
+    "title": "Welcoming Four New Members to Our Team",
+    "summary": "We are delighted to announce that WANG Lifu and Anh-Khoa Nguyen Vu will soon be joining us as PhD students. In addition, YI Wenzhe from the University of Amsterdam and WANG Wenbin from Wuhan University join us as visiting students.",
+    "link": ""
+  },
+  {
+    "date": "2025-08",
+    "title": "Congratulations to Xiandong on Receiving SMU Presidential Doctoral Fellowship",
+    "summary": "Zou Xiandong has been awarded the SMU Presidential Doctoral Fellowship (2025) in recognition of his outstanding research achievements.",
+    "link": ""
+  },
+  {
     "date": "2025-06",
     "title": "Three papers are accepted by ICCV 2025",
     "summary": "One paper introduces a memory-efficient 4-bit quantization method for preconditioned optimizers like Shampoo, enabling scalable training with significantly reduced memory overhead through novel Cholesky factor quantization and error feedback. Another one presents SubZero, a zeroth-order fine-tuning method for LLMs that operates in low-dimensional random subspaces to cut memory costs while maintaining high performance and convergence. The third paper proposes a probabilistic calibration framework for VLMs that enhances few-shot semantic segmentation by modeling multi-modal prototypes with uncertainty, improving adaptability and generalization to novel classes.",
