@@ -70,7 +70,8 @@
     "authors": "Ziming Yu, Pan Zhou, Sike Wang, Jia Li, Mi Tian, Hua Huang",
     "venue": "International Conference on Computer Vision (ICCV)",
     "links": {
-      "paper": "https://arxiv.org/abs/2410.08989"
+      "paper": "https://arxiv.org/abs/2410.08989",
+      "code": "https://github.com/zimingyy/SubZero"
     }
   },
   {
@@ -78,7 +79,11 @@
     "date": "2025",
     "title": "Probabilistic Prototype Calibration of Vision-language Models for Generalized Few-shot Semantic Segmentation",
     "authors": "Jie Liu, Jiayi Shen, Pan Zhou, Jan-Jakob Sonke, Stratis Gavves",
-    "venue": "International Conference on Computer Vision (ICCV)"
+    "venue": "International Conference on Computer Vision (ICCV)",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.22979",
+      "code": "https://github.com/jliu4ai/FewCLIP"
+    }
   },
   {
     "year": 2025,
@@ -87,7 +92,8 @@
     "authors": "Xiandong Zou, Wanyu Lin, Yuchen Li, Pan Zhou",
     "venue": "International Conference on Machine Learning (ICML), 2025",
     "links": {
-      "paper": "https://arxiv.org/abs/2502.14400"
+      "paper": "https://arxiv.org/abs/2502.14400",
+      "code": "https://github.com/LVLab-SMU/HPS"
     }
   },
   {
@@ -129,7 +135,8 @@
     "authors": "Jie Liu, Pan Zhou, Yingjun Du, Ah-Hwee Tan, Cees G. M. Snoek, Jan-Jakob Sonke, Efstratios Gavves",
     "venue": "International Conference on Learning Representations (ICLR), 2025",
     "links": {
-      "paper": "https://arxiv.org/abs/2411.04679"
+      "paper": "https://arxiv.org/abs/2411.04679",
+      "code": "https://github.com/jliu4ai/CaPo"
     }
   },
   {
