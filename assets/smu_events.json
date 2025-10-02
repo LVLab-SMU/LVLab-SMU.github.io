@@ -1,8 +1,14 @@
 [
   {
     "date": "2025-09",
+    "title": "Two papers are accepted by NeurIPS 2025",
+    "summary": "One paper introduces GRIFFIN, a novel speculative decoding method that accelerates LLM inference by about threefold without compromising performance. Another presents an effective preference alignment framework for the text-to-motion generation task.",
+    "link": "https://arxiv.org/abs/2502.11018"
+  },
+  {
+    "date": "2025-09",
     "title": "Welcoming Four New Members to Our Team",
-    "summary": "We are delighted to announce that WANG Lifu and Anh-Khoa Nguyen Vu will soon be joining us as PhD students. In addition, YI Wenzhe from the University of Amsterdam and WANG Wenbin from Wuhan University join us as visiting students.",
+    "summary": "We are delighted to announce that WANG Lifu and Hung Manh Pham will soon be joining us as PhD students. In addition, YI Wenzhe from the University of Amsterdam and WANG Wenbin from Wuhan University join us as visiting students.",
     "link": ""
   },
   {
