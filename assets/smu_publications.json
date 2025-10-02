@@ -34,6 +34,28 @@
   {
     "year": 2025,
     "date": "2025",
+    "title": "GRIFFIN: Effective Token Alignment for Faster Speculative Decoding", 
+    "authors": "Shijing Hu, Jingyang Li, Xingyu Xie, Zhihui Lu, Kim-Chuan Toh, Pan Zhou",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.11018",
+      "code": "https://github.com/hsj576/GRIFFIN"
+    }
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "SoPo: Text-to-motion generation using semi-online preference optimization",
+    "authors": "Xiaofeng Tan, Hongsong Wang, Xin Geng, Pan Zhou",
+    "venue": "Neural Information Processing Systems (NeurIPS)",
+    "links": {
+      "paper": "https://arxiv.org/abs/2412.05095",
+      "code": "https://xiaofeng-tan.github.io/projects/SoPo/"
+    }
+  },
+  {
+    "year": 2025,
+    "date": "2025",
     "title": "Memory-Efficient 4-bit Preconditioned Stochastic Optimization",
     "authors": "Jingyang Li, Kuangyu Ding, Kim-chuan Toh, Pan Zhou",
     "venue": "International Conference on Computer Vision (ICCV)",
