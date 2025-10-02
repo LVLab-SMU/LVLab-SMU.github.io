@@ -1,10 +1,53 @@
 [
-
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "RoboCerebra: A Large-scale Benchmark for Long-horizon Robotic Manipulation Evaluation",
+    "authors": "Songhao Han, Boxiang Qiu, Yue Liao, Siyuan Huang, Chen Gao, Shuicheng Yan, Si Liu",
+    "venue": "The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track, 2025",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2506.06677",
+      "code": "https://github.com/qiuboxiang/RoboCerebra"
+    }
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "A Unified Multi-modal LLM for Sounding-Video Comprehension and Generation",
+    "authors": "Kai Liu, Jungang Li, Yuchong Sun, Shengqiong Wu, jianzhang gao, Daoan Zhang, Wei Zhang, Sheng Jin, Sicheng Yu, Geng Zhan, Jiayi Ji, Fan Zhou, Liang Zheng, Shuicheng Yan, Hao Fei, Tat-Seng Chua",
+    "venue": "The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS), 2025",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2506.17612"
+    },
+    "presentation": "spotlight"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "JarvisArt: Liberating Human Artistic Creativity via an Intelligent Photo Retouching Agent",
+    "authors": "Yunlong Lin, ZiXu Lin, Kunjie Lin, Jinbin Bai, Panwang Pan, Chenxin Li, Haoyu Chen, Zhongdao Wang, Xinghao Ding, Wenbo Li, Shuicheng Yan",
+    "venue": "The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS), 2025",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2506.17612"
+    }
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems",
+    "authors": "Guibin Zhang, Muxin Fu, Guancheng Wan, Miao Yu, Kun Wang, Shuicheng Yan",
+    "venue": "The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS), 2025",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2506.07398",
+      "code": "https://github.com/bingreeky/GMemory"
+    },
+    "presentation": "spotlight"
+  },
   {
     "year": 2025,
     "date": "2025",
     "title": "Audio-Reasoner: Improving Reasoning Capability in Large Audio Language Models",
-    "authors": "Xie Zhifei, Mingbao Lin, Zihang Liu, Pengcheng Wu, Shuicheng Yan, Chunyan Miao",
+    "authors": "Zhifei Xie, Mingbao Lin, Zihang Liu, Pengcheng Wu, Shuicheng Yan, Chunyan Miao",
     "venue": "The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025",
     "links": {
       "paper": "https://arxiv.org/pdf/2503.02318",
