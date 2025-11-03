@@ -2,6 +2,14 @@
   {
     "year": 2025,
     "date": "2025",
+    "title": "UniVST: A Unified Framework for Training-free Localized Video Style Transfer",
+    "authors": "Quanjian Song, Mingbao Lin, Wengyi Zhan, Shuicheng Yan, Liujuan Cao, Rongrong Ji",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2025",
+    "links": {"paper": "https://arxiv.org/abs/2410.20084"}
+  },
+  {
+    "year": 2025,
+    "date": "2025",
     "title": "RoboCerebra: A Large-scale Benchmark for Long-horizon Robotic Manipulation Evaluation",
     "authors": "Songhao Han, Boxiang Qiu, Yue Liao, Siyuan Huang, Chen Gao, Shuicheng Yan, Si Liu",
     "venue": "The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track, 2025",
@@ -60,7 +68,7 @@
     "title": "EditWorld: Simulating World Dynamics for Instruction-Following Image Editing",
     "authors": "Bohan Zeng, Ling Yang, Jiaming Liu, Minghao Xu, Yuanxing Zhang, Pengfei Wan, Wentao Zhang, Shuicheng Yan",
     "venue": "ACM Multimedia (MM) Dataset Track, 2025",
-    "links": {}
+    "links": {"paper": "https://arxiv.org/abs/2405.14785"}
   },
    {
     "year": 2025,
@@ -68,7 +76,7 @@
     "title": "AR^2O Painter: An Artistic Oriented Realtime Realistic Oil Painting Agent Powered by Efficient Fluid Simulation",
     "authors": "Jinfan Liu, Zhangli Hu, Hanqi Chen, Ye Chen, Bingbing Ni, Shuicheng Yan",
     "venue": "ACM Multimedia (MM) Interactive Art Track, 2025",
-    "links": {}
+    "links": {"paper": "https://dl.acm.org/doi/10.1145/3746027.3756143"}
   },
   {
     "year": 2025,
@@ -76,7 +84,7 @@
     "title": "DiffusionTrend: A Minimalist Approach to Virtual Fashion Try-On",
     "authors": "Wengyi Zhan, Mingbao Lin, Shuicheng Yan, Rongrong Ji",
     "venue": " IEEE Transactions on Multimedia (T-MM), 2025",
-    "links": {}
+    "links": {"paper": "https://arxiv.org/abs/2412.14465"}
   },
     {
     "year": 2025,
@@ -84,7 +92,7 @@
     "title": "Pask: Providing Answer before AsKing toward Proactive AI agent",
     "authors": "Zhifei Xie, ZongZheng Hu, Guibin Zhang, Jialin Zhang, Yue Liao, Chunyan Miao, Shuicheng Yan",
     "venue": "ACM Multimedia (MM) Demo, 2025",
-    "links": {}
+    "links": {"paper": "https://dl.acm.org/doi/10.1145/3746027.3754487"}
   },
     {
     "year": 2025,
@@ -92,7 +100,7 @@
     "title": "From Outline to Detail: An Hierarchical End-to-end Framework for Coherent and Consistent Visual Novel Generation and Assembly",
     "authors": " Xinjie Zhang, Zhening Liu, Yifan Zhang, Xingtong Ge, Dailan He, Tongda Xu, Yan Wang, Zehong Lin, Shuicheng Yan, Jun Zhang",
     "venue": "ACM Multimedia (MM), 2025",
-    "links": {}
+    "links": {"paper": "https://dl.acm.org/doi/10.1145/3746027.3755541"}
   },
     {
     "year": 2025,
@@ -100,7 +108,7 @@
     "title": "Beyond Isolated Words: Diffusion Brush for Handwritten Text-Line Generation",
     "authors": "Gang Dai, Yifan Zhang, Yutao Qin, Qiangya Guo, Shuangping Huang, Shuicheng Yan",
     "venue": "International Conference on Computer Vision (ICCV), 2025",
-    "links": {}
+    "links": {"paper": "https://arxiv.org/abs/2508.03256"}
   },
     {
     "year": 2025,

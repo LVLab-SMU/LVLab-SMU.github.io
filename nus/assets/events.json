@@ -1,4 +1,11 @@
 [
+
+  {
+    "date": "2025-10",
+    "title": "We released MemGen, A Generative Latent Memory System for Self-Evolving LLM Agents",
+    "summary": "MemGen emulates the human reasoning–memory loop, seamlessly and non-invasively weaving latent memories into the agent’s thought process. Without explicit supervision, it autonomously evolves a human-esque memory hierarchy encompassing working, planning, and procedural memory..",
+    "link": "https://arxiv.org/abs/2509.24704"
+  },
   {
     "date": "2025-08",
     "title": "We released Genie-Envisioner, A Unified World Foundation Model for Robotic Manipulation",
@@ -10,12 +17,6 @@
     "title": "General-Level and General-Bench Released for Evaluating Multimodal Generalists",
     "summary": "We release General-Level, a 5-scale evaluation framework for assessing multimodal generalists, and General-Bench, a comprehensive benchmark with over 700 tasks and 325K instances. Evaluation on 100+ state-of-the-art MLLMs reveals current capability rankings and highlights key challenges toward general AI.",
     "link": "https://generalist.top/"
-  },
-  {
-    "date": "2025-04",
-    "title": "Welcome Dr. Liao Yue to LV-Lab as a Research Fellow",
-    "summary": "Dr. Liao Yue joins LV-Lab as a Research Fellow. He previously served as a Postdoctoral Researcher at CUHK’s MMLab and received his Ph.D. from Beihang University. His research focuses on multimodal understanding and embodied AI.",
-    "link": "https://liaoyue.net/"
   },
   {
     "date": "2025-01",
