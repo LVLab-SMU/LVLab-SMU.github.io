@@ -1,5 +1,118 @@
 [
   {
+    "year": 2026,
+    "date": "2026",
+    "title": "From Spatial to Actions: Grounding Vision-Language-Action Model in Spatial Foundation Priors",
+    "authors": "Zhengshen Zhang, Hao Li, Yalun Dai, Zhengbang Zhu, Lei Zhou, Chenchen Liu, Dong Wang, Francis E. H. Tay, Sijin Chen, Ziwei Liu, Yuxiao Liu, Xinghang Li, Pan Zhou",
+    "venue": "International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.17439",
+      "code": "https://falcon-vla.github.io/"
+    }
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "DreamCS: Geometry-Aware Text-to-3D Generation with Unpaired 3D Reward Supervision",
+    "authors": "Xiandong Zou, Ruihao Xia, Hongsong Wang, Pan Zhou",
+    "venue": "International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2506.09814"
+    }
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Bridging Draft Policy Misalignment: Group Tree Optimization for Speculative Decoding",
+    "authors": "Shijing Hu, Jingyang Li, Zhihui Lu, Pan Zhou",
+    "venue": "International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.22134"
+    }
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Dragging with Geometry: From Pixels to Geometry-Guided Image Editing",
+    "authors": "Xinyu Pu, Hongsong Wang, Jie Gui, Pan Zhou",
+    "venue": "International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.25740" 
+    }
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Stacked from One: Multi-Scale Self-Injection for Context Window Extension",
+    "authors": "Wei Han, Pan Zhou, Shuicheng YAN",
+    "venue": "International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://openreview.net/forum?id=lh3Aa1u7kU&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions)"
+    }
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Distributional Vision-Language Alignment by Cauchy-Schwarz Divergence",
+    "authors": "Wenzhe Yin, Zehao Xiao, Pan Zhou, Shujian Yu, Jiayi Shen, Jan-Jakob Sonke, Stratis Gavves",
+    "venue": "International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2502.17028"
+    }
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Architecture-Agnostic Test-Time Adaptation via Backprop-Free Embedding Alignment",
+    "authors": "MA Xiao, Young D. Kwon, Pan Zhou, Dong Ma",
+    "venue": "International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://openreview.net/forum?id=7kLNGaAHaw"
+    }
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "SEMat: Semantic Enhanced Natural Image Interactive Matting",
+    "authors": "Ruihao Xia, Yu Liang, Peng-Tao Jiang, Hao Zhang, Qianru Sun, Yang Tang,  Bo Li, Pan Zhou",
+    "venue": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), 2026",
+    "links": {
+      "paper": "https://arxiv.org/html/2410.06593v1",
+      "code": "https://github.com/XiaRho/SEMat"
+    }
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Revisiting the Canonicalization for Fast and Accurate Crystal Tensor Property Prediction",
+    "authors": "Haowei Hua, Jingwen Yang, Wanyu Lin, Pan Zhou",
+    "venue": "Association for the Advancement of Artificial Intelligence (AAAI), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2410.02372" 
+    }
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "ReAlign: Text-to-Motion Generation via Step-Aware Reward-Guided Alignment",
+    "authors": "Wanjiang Weng, Xiaofeng Tan, Junbo Wang, Guo-Sen Xie, Pan Zhou, Hongsong Wang",
+    "venue": "Association for the Advancement of Artificial Intelligence (AAAI), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.04974",
+      "code": "https://wengwanjiang.github.io/ReAlign-page/"
+    }
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Benchmarking Gaslighting Attacks Against Speech Large Language Models",
+    "authors": "Jinyang Wu, Bin Zhu, Xiandong Zou, Qiquan Zhang, Xu Fang, Pan Zhou",
+    "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.19858"
+    }
+  },
+  {
     "year": 2025,
     "date": "2025",
     "title": "LoCo: Low-Bit Communication Adaptor for Large-scale Model Training",
