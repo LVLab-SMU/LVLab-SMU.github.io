@@ -1,4 +1,151 @@
 [
+
+
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "MC#: Mixture Compressor for Mixture-of-Experts Large Models",
+    "authors": "Wei Huang, Yue Liao, Yukang Chen, Jianhui Liu, Si Liu, Shiming Zhang, Shuicheng Yan, Xiaojuan Qi",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2026",
+    "links": {"paper": "https://arxiv.org/abs/2510.10962",
+      "code": "https://github.com/Aaronhuang-778/MC-MoE"}
+  },
+
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Stacked from One: Multi-Scale Self-Injection for Context Window Extension",
+    "authors": "Wei Han, Pan Zhou, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {"paper": "https://openreview.net/pdf?id=lh3Aa1u7kU"}
+  },
+
+  {
+  "year": 2026,
+  "date": "2026",
+  "title": "UniF$^2$ace: A Unified Fine‑grained Face Understanding and Generation Model",
+  "authors": "Junzhe Li, Sifan Zhou, Liya Guo, Xuerui Qiu, Linrui Xu, TingTing Long, Chun Fan, Ming Li, Hehe Fan, Jun Liu, Shuicheng Yan",
+  "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+  "links": {"paper": "https://arxiv.org/pdf/2503.08120"}
+  },
+
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Genie Envisioner: A Unified World Foundation Platform for Robotic Manipulation",
+    "authors": "Yue Liao, Pengfei Zhou, Siyuan Huang, Donglin Yang, Shengcong Chen, Yuxin Jiang, Yue Hu, Si Liu, Jianlan Luo, Liliang Chen, Shuicheng Yan, Maoqing Yao, Guanghui Ren",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {"paper": "https://arxiv.org/pdf/2508.05635",
+      "code": "https://github.com/AgibotTech/Genie-Envisioner"}
+  },
+
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion Model",
+    "authors": "Qingyu Shi, Jinbin Bai, Zhuoran Zhao, Wenhao Chai, Kaidong Yu, Jianzong Wu, Shuangyong Song, Yunhai Tong, Xiangtai Li, Xuelong Li, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {"paper": "https://arxiv.org/pdf/2505.23606",
+      "code": "https://github.com/M-E-AGI-Lab/Muddit"}
+  },
+
+
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents",
+    "authors": "Tri Cao, Bennett Lim, Yue Liu, Yuan Sui, Yuexin Li, Shumin Deng, Lin Lu, Nay Oo, Shuicheng Yan, Bryan Hooi",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {"paper": "https://arxiv.org/pdf/2506.02456",
+      "code": "https://github.com/cua-framework/agents"}
+  },
+
+{
+    "year": 2026,
+    "date": "2026",
+    "title": "Patch-as-Decodable-Token: Towards Unified Multi-Modal Vision Tasks in MLLMs",
+    "authors": "Yongyi Su, Haojie Zhang, Shijie Li, Nanqing Liu, Jingyi Liao, Junyi Pan, Yuan Liu, Xiaofen Xing, Chong Sun, Chen Li, Nancy F. Chen, Shuicheng Yan, Xulei Yang, Xun Xu",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {"paper": "https://arxiv.org/pdf/2510.01954",
+      "code": "https://github.com/KANABOON1/MemGen"}
+  },
+
+
+{
+    "year": 2026,
+    "date": "2026",
+    "title": "Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow",
+    "authors": "Xinlei Yu, Chengming Xu, Guibin Zhang, Yongbo He, Zhangquan Chen, Zhucun Xue, Jiangning Zhang, Yue Liao, Xiaobin Hu, Yu-Gang Jiang, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {"paper": "https://arxiv.org/pdf/2509.21789"}
+  },
+
+{
+    "year": 2026,
+    "date": "2026",
+    "title": "MemGen: Weaving Generative Latent Memory for Self-Evolving Agents",
+    "authors": "Guibin Zhang, Muxin Fu, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {"paper": "https://arxiv.org/pdf/2509.24704",
+      "code": "https://github.com/KANABOON1/MemGen"}
+  },
+
+ {
+    "year": 2026,
+    "date": "2026",
+    "title": "MemGen: Weaving Generative Latent Memory for Self-Evolving Agents",
+    "authors": "Guibin Zhang, Muxin Fu, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {"paper": "https://arxiv.org/pdf/2509.24704",
+      "code": "https://github.com/KANABOON1/MemGen"}
+  },
+
+ {
+    "year": 2026,
+    "date": "2026",
+    "title": "AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?",
+    "authors": "Guibin Zhang, Junhao Wang, Junjie Chen, Wangchunshu Zhou, Kun Wang, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {"paper": "https://arxiv.org/pdf/2509.03312",
+      "code": "https://github.com/bingreeky/AgenTracer"}
+  },
+
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Human-MME: A Holistic Evaluation Benchmark for Human-Centric Multimodal Large Language Models",
+    "authors": "Yuansen Liu, Haiming Tang, Jinlong Peng, Jiangning Zhang, Xiaozhong Ji, Qingdong He, Donghao Luo, Zhenye Gan, Junwei Zhu, Yunhang Shen, Chaoyou Fu, Chengjie Wang, Xiaobin Hu, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {"paper": "https://arxiv.org/pdf/2509.26165",
+      "code": "https://github.com/Yuan-Hou/Human-MME"}
+  },
+
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Synergizing Understanding and Generation with Interleaved Analyzing-Drafting Thinking",
+    "authors": "Shengqiong Wu, Bobo Li, Xinkai Wang, Xiangtai Li, Lei Cui, Furu Wei, Shuicheng Yan, Hao Fei, Tat-Seng Chua",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {"paper": "https://openreview.net/pdf?id=GtqmPJf00A"}
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "IVEBench: Modern Benchmark Suite for Instruction-Guided Video Editing Assessment",
+    "authors": "Yinan Chen, Jiangning Zhang, Teng Hu, Yuxiang Zeng, Zhucun Xue, Qingdong He, Chengjie Wang, Yong Liu, Xiaobin Hu, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {"paper": "https://arxiv.org/pdf/2510.11647",
+      "code": "https://github.com/RyanChenYN/IVEBench"}
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "M3CoTBench: Benchmark Chain-of-Thought of MLLMs in Medical Image Understanding",
+    "authors": "Juntao Jiang, Jiangning Zhang, Yali bi, BAI Jinsheng, Weixuan Liu, Weiwei Jin, Zhucun Xue, Yong Liu, Xiaobin Hu, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {"paper": "https://arxiv.org/abs/2601.08758",
+      "code": "https://github.com/juntaoJianggavin/M3CoTBench"}
+  },
   {
     "year": 2025,
     "date": "2025",
