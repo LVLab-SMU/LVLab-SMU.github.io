@@ -1,5 +1,53 @@
 [
 
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "MEMO: Memory-Guided Diffusion for Expressive Talking Video Generation",
+    "authors": "Longtao Zheng, Yifan Zhang, Hanzhong Guo, Jiachun Pan, Zhenxiong Tan, Jiahao Lu, Chuanxin Tang, Bo An, Shuicheng Yan",
+    "venue": "Transactions on Machine Learning Research (TMLR), 2026",
+    "links": {"paper": "https://arxiv.org/pdf/2412.04448",
+      "code": "https://github.com/memoavatar/memo"}
+  },
+
+
+ {
+  "year": 2026,
+  "date": "2026",
+  "title": "Boosting Reasoning in Large Multimodal Models via Activation Replay",
+  "authors": "Yun Xing, Xiaobin Hu, Qingdong He, Jiangning Zhang, Shuicheng Yan, Shijian Lu, Yu-Gang Jiang",
+  "venue": "Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
+  "links": {"paper": "https://arxiv.org/pdf/2511.19972",
+    "code": "https://github.com/christian42mmreason/ActivationReplay"}
+  },
+
+   {
+  "year": 2026,
+  "date": "2026",
+  "title": "Modeling Cross-vision Synergy for Unified Large Vision Model",
+  "authors": "Shengqiong Wu, Lanhu Wu, Mingyang Bao, Wenhao Xu, Hanwang Zhang, Shuicheng Yan, Hao Fei, Tat-Seng Chua",
+  "venue": "Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
+  "links": {"paper": "https://arxiv.org/pdf/2603.03564"}
+  },
+
+  {
+  "year": 2026,
+  "date": "2026",
+  "title": "VisMem: Latent Vision Memory Unlocks Potential of Vision-Language Models",
+  "authors": "Xinlei Yu, Chengming Xu, Guibin Zhang, Zhangquan Chen, Yudong Zhang, Yongbo He, Peng-Tao Jiang, Jiangning Zhang, Xiaobin Hu, Shuicheng Yan",
+  "venue": "Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
+  "links": {"paper": "https://arxiv.org/pdf/2511.19972",
+    "code": "https://github.com/christian42mmreason/ActivationReplay"}
+  },
+
+   {
+  "year": 2026,
+  "date": "2026",
+  "title": "Visual Document Understanding and Reasoning: A Multi-Agent Collaboration Framework with Agent-Wise Adaptive Test-Time Scaling",
+  "authors": "Xinlei Yu, Chengming Xu, Zhangquan Chen, Yudong Zhang, Shilin Lu, Cheng Yang, Jiangning Zhang, Shuicheng Yan, Xiaobin Hu",
+  "venue": "Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
+  "links": {"paper": "https://arxiv.org/pdf/2508.03404"}
+  },
 
   {
     "year": 2026,
