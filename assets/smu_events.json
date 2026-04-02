@@ -1,44 +1,65 @@
 [
-   {
+  {
     "date": "2026-01",
     "title": "Seven papers are accepted by ICLR 2026",
     "summary": "Through these seven works, we provide a full-stack advancement—optimizing how AI thinks (Inference/Context), how it acts (Robotics), how it creates (Image/3D), and how it aligns with our world.",
-    "link": "https://arxiv.org/abs/2510.17439"
+    "link": "https://arxiv.org/abs/2510.17439",
+    "year": 2026,
+    "displayDate": "2026-01",
+    "sortDate": "2026-01-31"
   },
   {
     "date": "2025-09",
     "title": "Welcoming Four New Members to Our Team",
     "summary": "We are delighted to announce that WANG Lifu and Hung Manh Pham will soon be joining us as PhD students. In addition, YI Wenzhe from the University of Amsterdam and WANG Wenbin from Wuhan University join us as visiting students.",
-    "link": ""
+    "link": "",
+    "year": 2025,
+    "displayDate": "2025-09",
+    "sortDate": "2025-09-30"
   },
   {
     "date": "2025-08",
     "title": "Congratulations to Xiandong on Receiving SMU Presidential Doctoral Fellowship",
     "summary": "Zou Xiandong has been awarded the SMU Presidential Doctoral Fellowship (2025) in recognition of his outstanding research achievements.",
-    "link": ""
+    "link": "",
+    "year": 2025,
+    "displayDate": "2025-08",
+    "sortDate": "2025-08-31"
   },
   {
     "date": "2025-09",
     "title": "Two papers are accepted by NeurIPS 2025",
     "summary": "One paper introduces GRIFFIN, a novel speculative decoding method that accelerates LLM inference by about threefold without compromising performance. Another presents an effective preference alignment framework for the text-to-motion generation task.",
-    "link": "https://arxiv.org/abs/2502.11018"
+    "link": "https://arxiv.org/abs/2502.11018",
+    "year": 2025,
+    "displayDate": "2025-09",
+    "sortDate": "2025-09-30"
   },
   {
     "date": "2025-06",
     "title": "Three papers are accepted by ICCV 2025",
     "summary": "One paper introduces a memory-efficient 4-bit quantization method for preconditioned optimizers like Shampoo, enabling scalable training with significantly reduced memory overhead through novel Cholesky factor quantization and error feedback. Another one presents SubZero, a zeroth-order fine-tuning method for LLMs that operates in low-dimensional random subspaces to cut memory costs while maintaining high performance and convergence. The third paper proposes a probabilistic calibration framework for VLMs that enhances few-shot semantic segmentation by modeling multi-modal prototypes with uncertainty, improving adaptability and generalization to novel classes.",
-    "link": "https://arxiv.org/abs/2502.14400"
+    "link": "https://arxiv.org/abs/2502.14400",
+    "year": 2025,
+    "displayDate": "2025-06",
+    "sortDate": "2025-06-30"
   },
   {
     "date": "2025-05",
     "title": "Two papers are accepted by ICML 2025",
     "summary": "One proposes Hard Preference Sampling (HPS), a novel framework for fully exploring varying informativeness of different dispreferred responses via preference sampling to reject harmful content generation and improve efficiency.  Another one designs a novel Neural-Processes-integrated probabilistic framework for interactive 3D segmentation and uncertainty estimation with only a few user clicks. ",
-    "link": "https://arxiv.org/abs/2502.14400"
+    "link": "https://arxiv.org/abs/2502.14400",
+    "year": 2025,
+    "displayDate": "2025-05",
+    "sortDate": "2025-05-31"
   },
   {
     "date": "2025-01",
     "title": "Two papers are accepted by ICLR 2025",
     "summary": "We propose Cooperative Plan Optimization (CaPo) to improve cooperation among LLM-based embodied agents. Inspired by human teamwork, CaPo enables agents to collaboratively create and dynamically refine a meta-plan, decomposing tasks into subtasks for efficient execution. Progress-based adjustments eliminate redundancies, enhancing coordination. In separate work, we theoretically prove that FixMatch-alike semi-supervised learning outperforms supervised learning in test accuracy.",
-    "link": "https://arxiv.org/abs/2411.04679"
+    "link": "https://arxiv.org/abs/2411.04679",
+    "year": 2025,
+    "displayDate": "2025-01",
+    "sortDate": "2025-01-31"
   }
 ]

@@ -1,0 +1,685 @@
+[
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "DrawMotion: Generating 3D Human Motions by Freehand Drawing",
+    "authors": "Tao Wang, Lei Jin, Zhihua Wu, Qiaozhi He, Jiaming Chu, Yu Cheng, Junliang Xing, Jian Zhao, Shuicheng Yan, Li Wang",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2026",
+    "links": {
+      "paper": "https://raw.githubusercontent.com/InvertedForest/DrawMotion/main/main.pdf",
+      "code": "https://github.com/InvertedForest/DrawMotion"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "Mar 2026",
+    "title": "HomoDrive: A Multimodal Large Language Model for Autonomous Driving in Rainy Driving Conditions",
+    "authors": "Yan Luo, Zhao Zhang*, Zeyu Xiao, Jinbiao Zhao, Yang Zhao, Wei Jia, Shuicheng Yan",
+    "venue": "IEEE Transactions on Multimedia (TMM), Mar 2026",
+    "links": {},
+    "displayDate": "Mar 2026",
+    "sortDate": "2026-03-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "MEMO: Memory-Guided Diffusion for Expressive Talking Video Generation",
+    "authors": "Longtao Zheng, Yifan Zhang, Hanzhong Guo, Jiachun Pan, Zhenxiong Tan, Jiahao Lu, Chuanxin Tang, Bo An, Shuicheng Yan",
+    "venue": "Transactions on Machine Learning Research (TMLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2412.04448",
+      "code": "https://github.com/memoavatar/memo"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Boosting Reasoning in Large Multimodal Models via Activation Replay",
+    "authors": "Yun Xing, Xiaobin Hu, Qingdong He, Jiangning Zhang, Shuicheng Yan, Shijian Lu, Yu-Gang Jiang",
+    "venue": "Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2511.19972",
+      "code": "https://github.com/christian42mmreason/ActivationReplay"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Modeling Cross-vision Synergy for Unified Large Vision Model",
+    "authors": "Shengqiong Wu, Lanhu Wu, Mingyang Bao, Wenhao Xu, Hanwang Zhang, Shuicheng Yan, Hao Fei, Tat-Seng Chua",
+    "venue": "Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2603.03564"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "VisMem: Latent Vision Memory Unlocks Potential of Vision-Language Models",
+    "authors": "Xinlei Yu, Chengming Xu, Guibin Zhang, Zhangquan Chen, Yudong Zhang, Yongbo He, Peng-Tao Jiang, Jiangning Zhang, Xiaobin Hu, Shuicheng Yan",
+    "venue": "Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2511.19972",
+      "code": "https://github.com/christian42mmreason/ActivationReplay"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Visual Document Understanding and Reasoning: A Multi-Agent Collaboration Framework with Agent-Wise Adaptive Test-Time Scaling",
+    "authors": "Xinlei Yu, Chengming Xu, Zhangquan Chen, Yudong Zhang, Shilin Lu, Cheng Yang, Jiangning Zhang, Shuicheng Yan, Xiaobin Hu",
+    "venue": "Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2508.03404"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "MC#: Mixture Compressor for Mixture-of-Experts Large Models",
+    "authors": "Wei Huang, Yue Liao, Yukang Chen, Jianhui Liu, Si Liu, Shiming Zhang, Shuicheng Yan, Xiaojuan Qi",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.10962",
+      "code": "https://github.com/Aaronhuang-778/MC-MoE"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Stacked from One: Multi-Scale Self-Injection for Context Window Extension",
+    "authors": "Wei Han, Pan Zhou, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://openreview.net/pdf?id=lh3Aa1u7kU"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "UniF$^2$ace: A Unified Fine‑grained Face Understanding and Generation Model",
+    "authors": "Junzhe Li, Sifan Zhou, Liya Guo, Xuerui Qiu, Linrui Xu, TingTing Long, Chun Fan, Ming Li, Hehe Fan, Jun Liu, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2503.08120"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Genie Envisioner: A Unified World Foundation Platform for Robotic Manipulation",
+    "authors": "Yue Liao, Pengfei Zhou, Siyuan Huang, Donglin Yang, Shengcong Chen, Yuxin Jiang, Yue Hu, Si Liu, Jianlan Luo, Liliang Chen, Shuicheng Yan, Maoqing Yao, Guanghui Ren",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2508.05635",
+      "code": "https://github.com/AgibotTech/Genie-Envisioner"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Beyond Text-to-Image: Liberating Generation with a Unified Discrete Diffusion Model",
+    "authors": "Qingyu Shi, Jinbin Bai, Zhuoran Zhao, Wenhao Chai, Kaidong Yu, Jianzong Wu, Shuangyong Song, Yunhai Tong, Xiangtai Li, Xuelong Li, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2505.23606",
+      "code": "https://github.com/M-E-AGI-Lab/Muddit"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "VPI-Bench: Visual Prompt Injection Attacks for Computer-Use Agents",
+    "authors": "Tri Cao, Bennett Lim, Yue Liu, Yuan Sui, Yuexin Li, Shumin Deng, Lin Lu, Nay Oo, Shuicheng Yan, Bryan Hooi",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2506.02456",
+      "code": "https://github.com/cua-framework/agents"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Patch-as-Decodable-Token: Towards Unified Multi-Modal Vision Tasks in MLLMs",
+    "authors": "Yongyi Su, Haojie Zhang, Shijie Li, Nanqing Liu, Jingyi Liao, Junyi Pan, Yuan Liu, Xiaofen Xing, Chong Sun, Chen Li, Nancy F. Chen, Shuicheng Yan, Xulei Yang, Xun Xu",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2510.01954",
+      "code": "https://github.com/KANABOON1/MemGen"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Visual Multi-Agent System: Mitigating Hallucination Snowballing via Visual Flow",
+    "authors": "Xinlei Yu, Chengming Xu, Guibin Zhang, Yongbo He, Zhangquan Chen, Zhucun Xue, Jiangning Zhang, Yue Liao, Xiaobin Hu, Yu-Gang Jiang, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2509.21789"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "MemGen: Weaving Generative Latent Memory for Self-Evolving Agents",
+    "authors": "Guibin Zhang, Muxin Fu, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2509.24704",
+      "code": "https://github.com/KANABOON1/MemGen"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems?",
+    "authors": "Guibin Zhang, Junhao Wang, Junjie Chen, Wangchunshu Zhou, Kun Wang, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2509.03312",
+      "code": "https://github.com/bingreeky/AgenTracer"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Human-MME: A Holistic Evaluation Benchmark for Human-Centric Multimodal Large Language Models",
+    "authors": "Yuansen Liu, Haiming Tang, Jinlong Peng, Jiangning Zhang, Xiaozhong Ji, Qingdong He, Donghao Luo, Zhenye Gan, Junwei Zhu, Yunhang Shen, Chaoyou Fu, Chengjie Wang, Xiaobin Hu, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2509.26165",
+      "code": "https://github.com/Yuan-Hou/Human-MME"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Synergizing Understanding and Generation with Interleaved Analyzing-Drafting Thinking",
+    "authors": "Shengqiong Wu, Bobo Li, Xinkai Wang, Xiangtai Li, Lei Cui, Furu Wei, Shuicheng Yan, Hao Fei, Tat-Seng Chua",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://openreview.net/pdf?id=GtqmPJf00A"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "IVEBench: Modern Benchmark Suite for Instruction-Guided Video Editing Assessment",
+    "authors": "Yinan Chen, Jiangning Zhang, Teng Hu, Yuxiang Zeng, Zhucun Xue, Qingdong He, Chengjie Wang, Yong Liu, Xiaobin Hu, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2510.11647",
+      "code": "https://github.com/RyanChenYN/IVEBench"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "M3CoTBench: Benchmark Chain-of-Thought of MLLMs in Medical Image Understanding",
+    "authors": "Juntao Jiang, Jiangning Zhang, Yali bi, BAI Jinsheng, Weixuan Liu, Weiwei Jin, Zhucun Xue, Yong Liu, Xiaobin Hu, Shuicheng Yan",
+    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2601.08758",
+      "code": "https://github.com/juntaoJianggavin/M3CoTBench"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "UniVST: A Unified Framework for Training-free Localized Video Style Transfer",
+    "authors": "Quanjian Song, Mingbao Lin, Wengyi Zhan, Shuicheng Yan, Liujuan Cao, Rongrong Ji",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.20084"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "RoboCerebra: A Large-scale Benchmark for Long-horizon Robotic Manipulation Evaluation",
+    "authors": "Songhao Han, Boxiang Qiu, Yue Liao, Siyuan Huang, Chen Gao, Shuicheng Yan, Si Liu",
+    "venue": "The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS) Datasets and Benchmarks Track, 2025",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2506.06677",
+      "code": "https://github.com/qiuboxiang/RoboCerebra"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "A Unified Multi-modal LLM for Sounding-Video Comprehension and Generation",
+    "authors": "Kai Liu, Jungang Li, Yuchong Sun, Shengqiong Wu, jianzhang gao, Daoan Zhang, Wei Zhang, Sheng Jin, Sicheng Yu, Geng Zhan, Jiayi Ji, Fan Zhou, Liang Zheng, Shuicheng Yan, Hao Fei, Tat-Seng Chua",
+    "venue": "The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS), 2025",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2506.17612"
+    },
+    "presentation": "spotlight",
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "JarvisArt: Liberating Human Artistic Creativity via an Intelligent Photo Retouching Agent",
+    "authors": "Yunlong Lin, ZiXu Lin, Kunjie Lin, Jinbin Bai, Panwang Pan, Chenxin Li, Haoyu Chen, Zhongdao Wang, Xinghao Ding, Wenbo Li, Shuicheng Yan",
+    "venue": "The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS), 2025",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2506.17612"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems",
+    "authors": "Guibin Zhang, Muxin Fu, Guancheng Wan, Miao Yu, Kun Wang, Shuicheng Yan",
+    "venue": "The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS), 2025",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2506.07398",
+      "code": "https://github.com/bingreeky/GMemory"
+    },
+    "presentation": "spotlight",
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Audio-Reasoner: Improving Reasoning Capability in Large Audio Language Models",
+    "authors": "Zhifei Xie, Mingbao Lin, Zihang Liu, Pengcheng Wu, Shuicheng Yan, Chunyan Miao",
+    "venue": "The 2025 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2025",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2503.02318",
+      "code": "https://github.com/xzf-thu/Audio-Reasoner"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "EditWorld: Simulating World Dynamics for Instruction-Following Image Editing",
+    "authors": "Bohan Zeng, Ling Yang, Jiaming Liu, Minghao Xu, Yuanxing Zhang, Pengfei Wan, Wentao Zhang, Shuicheng Yan",
+    "venue": "ACM Multimedia (MM) Dataset Track, 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2405.14785"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "AR^2O Painter: An Artistic Oriented Realtime Realistic Oil Painting Agent Powered by Efficient Fluid Simulation",
+    "authors": "Jinfan Liu, Zhangli Hu, Hanqi Chen, Ye Chen, Bingbing Ni, Shuicheng Yan",
+    "venue": "ACM Multimedia (MM) Interactive Art Track, 2025",
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3746027.3756143"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "DiffusionTrend: A Minimalist Approach to Virtual Fashion Try-On",
+    "authors": "Wengyi Zhan, Mingbao Lin, Shuicheng Yan, Rongrong Ji",
+    "venue": " IEEE Transactions on Multimedia (T-MM), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2412.14465"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Pask: Providing Answer before AsKing toward Proactive AI agent",
+    "authors": "Zhifei Xie, ZongZheng Hu, Guibin Zhang, Jialin Zhang, Yue Liao, Chunyan Miao, Shuicheng Yan",
+    "venue": "ACM Multimedia (MM) Demo, 2025",
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3746027.3754487"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "From Outline to Detail: An Hierarchical End-to-end Framework for Coherent and Consistent Visual Novel Generation and Assembly",
+    "authors": " Xinjie Zhang, Zhening Liu, Yifan Zhang, Xingtong Ge, Dailan He, Tongda Xu, Yan Wang, Zehong Lin, Shuicheng Yan, Jun Zhang",
+    "venue": "ACM Multimedia (MM), 2025",
+    "links": {
+      "paper": "https://dl.acm.org/doi/10.1145/3746027.3755541"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Beyond Isolated Words: Diffusion Brush for Handwritten Text-Line Generation",
+    "authors": "Gang Dai, Yifan Zhang, Yutao Qin, Qiangya Guo, Shuangping Huang, Shuicheng Yan",
+    "venue": "International Conference on Computer Vision (ICCV), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2508.03256"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "MEGA: Memory-Efficient 4D Gaussian Splatting for Dynamic Scenes",
+    "authors": "Xinjie Zhang, Zhening Liu, Yifan Zhang, Xingtong Ge, Dailan He, Tongda Xu, Yan Wang, Zehong Lin, Shuicheng Yan, Jun Zhang",
+    "venue": "International Conference on Computer Vision (ICCV), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.13613"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Gamba: Marry Gaussian Splatting With Mamba for Single-View 3D Reconstruction",
+    "authors": "Qiuhong Shen , Zike Wu , Xuanyu Yi , Pan Zhou , Hanwang Zhang , Shuicheng Yan , Xinchao Wang",
+    "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (PAMI), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.18795",
+      "code": "https://github.com/SkyworkAI/Gamba"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Masks Can be Learned As An Alternative of Experts",
+    "authors": "Peiyu Liu, Tianwen Wei, Bo Zhu, Xin Zhao, Shuicheng Yan",
+    "venue": "Annual Meeting of the Association for Computational Linguistics (ACL), 2025",
+    "links": {},
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Removing Prompt-template Bias in Reinforcement Learning from Human Feedback",
+    "authors": "Chaojie Wang, Haonan Shi, Long Tian, Bo An, Shuicheng Yan",
+    "venue": "Annual Meeting of the Association for Computational Linguistics (ACL Findings), 2025",
+    "links": {},
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "On Path to Multimodal Generalist: Levels and Benchmarks",
+    "authors": "Hao Fei, Yuan Zhou, Juncheng Li, Xiangtai Li, Qingshan Xu, Bobo Li, Shengqiong Wu, Yaoting Wang, Junbao Zhou, Jiahao Meng, Qingyu Shi, Zhiyuan Zhou, Liangtao Shi, Minghe Gao, Daoan Zhang, Zhiqi Ge, Siliang Tang, Kaihang Pan, Yaobo Ye, Haobo Yuan, Tao Zhang, Weiming Wu, Tianjie Ju, Zixiang Meng, Shilin Xu, Liyu Jia, Wentao Hu, Meng Luo, Jiebo Luo, Tat-Seng Chua, Shuicheng Yan, Hanwang Zhang",
+    "venue": "International Conference on Machine Learning (ICML), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2505.04620",
+      "code": "https://github.com/path2generalist/General-Level"
+    },
+    "presentation": "oral",
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "MoH: Multi-Head Attention as Mixture-of-Head Attention",
+    "authors": "Peng Jin, Bo Zhu, Li Yuan, Shuicheng Yan",
+    "venue": "International Conference on Machine Learning (ICML), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.11842",
+      "code": "https://github.com/SkyworkAI/MoH"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "EasyInv: Toward Fast and Better DDIM Inversion",
+    "authors": "Ziyue Zhang, Mingbao Lin, Shuicheng Yan, Rongrong Ji",
+    "venue": "International Conference on Machine Learning (ICML), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2408.05159",
+      "code": "https://github.com/potato-kitty/EasyInv"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Policy Regularization on Globally Accessible States in Cross-Dynamics Reinforcement Learning",
+    "authors": "Zhenghai Xue, Lang Feng, Jiacheng Xu, Kang Kang, Xiang Wen, Bo An, Shuicheng Yan",
+    "venue": "International Conference on Machine Learning (ICML), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2503.06893"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Cradle: Empowering Foundation Agents towards General Computer Control",
+    "authors": "Weihao Tan, Wentao Zhang, Xinrun Xu, Haochong Xia, Ziluo Ding, Boyu Li, Bohan Zhou, Junpeng Yue, Jiechuan Jiang, Yewen Li, Ruyi An, Molei Qin, Chuqiao Zong, Longtao Zheng, YuJie Wu, Xiaoqiang Chai, Yifei Bi, Tianbao Xie, Pengjie Gu, Xiyun Li, Ceyao Zhang, Long Tian, Chaojie Wang, Xinrun Wang, Börje F. Karlsson, Bo An, Shuicheng Yan, Zongqing Lu",
+    "venue": "International Conference on Machine Learning (ICML), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.03186",
+      "code": "https://github.com/BAAI-Agents/Cradle"
+    },
+    "presentation": "spotlight",
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "IPDreamer: Appearance-Controllable 3D Object Generation with Complex Image Prompts",
+    "authors": "Bohan Zeng, Shanglin Li, Yutang Feng, Ling Yang, Juan Zhang, Hong Li, Jiaming Liu, Conghui He, Wentao Zhang, Jianzhuang Liu, Baochang Zhang, Shuicheng Yan",
+    "venue": "International Conference on Learning Representations (ICLR), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2310.05375",
+      "code": "https://github.com/zengbohan0217/IPDreamer"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction",
+    "authors": "Ling Yang, Zhaochen Yu, Tianjun Zhang, Minkai Xu, Joseph E. Gonzalez, Bin CUI, Shuicheng Yan",
+    "venue": "International Conference on Learning Representations (ICLR), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.09008",
+      "code": "https://github.com/YangLing0818/SuperCorrect-llm"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Meissonic: Revitalizing Masked Generative Transformers for Efficient High-Resolution Text-to-Image Synthesis",
+    "authors": "Jinbin Bai, Tian Ye, Wei Chow, Enxin Song, Qing-Guo Chen, Xiangtai Li, Zhen Dong, Lei Zhu, Shuicheng Yan",
+    "venue": "International Conference on Learning Representations (ICLR), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.08261",
+      "code": "https://github.com/viiika/Meissonic"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Poison-splat: Computation Cost Attack on 3D Gaussian Splatting",
+    "authors": "Jiahao Lu, Yifan Zhang, Qiuhong Shen, Xinchao Wang, Shuicheng Yan",
+    "venue": "International Conference on Learning Representations (ICLR), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.08190",
+      "code": "https://github.com/jiahaolu97/poison-splat"
+    },
+    "presentation": "spotlight",
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Policy Optimization under Imperfect Human Interactions with Agent-Gated Shared Autonomy",
+    "authors": "Zhenghai Xue, Bo An, Shuicheng Yan",
+    "venue": "International Conference on Learning Representations (ICLR), 2025",
+    "links": {
+      "paper": "https://openreview.net/forum?id=LfekK1E0QE",
+      "code": "https://agsa4rl.github.io/"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Towards Semantic Equivalence of Tokenization in Multimodal LLM",
+    "authors": "Shengqiong Wu, Hao Fei, Xiangtai Li, Jiayi Ji, Hanwang Zhang, Tat-Seng Chua, Shuicheng Yan",
+    "venue": "International Conference on Learning Representations (ICLR), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2406.05127",
+      "code": "https://github.com/ChocoWu/SeTok-web"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "MoE++: Accelerating Mixture-of-Experts Methods with Zero-Computation Experts",
+    "authors": "Peng Jin, Bo Zhu, Li Yuan, Shuicheng Yan",
+    "venue": "International Conference on Learning Representations (ICLR), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2410.07348",
+      "code": "https://github.com/SkyworkAI/MoE-plus-plus"
+    },
+    "presentation": "oral",
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "AgentStudio: A Toolkit for Building General Virtual Agents",
+    "authors": "Longtao Zheng, Zhiyuan Huang, Zhenghai Xue, Xinrun Wang, Bo An, Shuicheng Yan",
+    "venue": "International Conference on Learning Representations (ICLR), 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.17918",
+      "code": "https://github.com/ltzheng/agent-studio"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Explore In-Context Segmentation via Latent Diffusion Models",
+    "authors": "Chaoyang Wang, Xiangtai Li, Henghui Ding, Lu Qi, Jiangning Zhang, Yunhai Tong, Chen Change Loy, Shuicheng Yan",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence, 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.09616",
+      "code": "https://github.com/wang-chaoyang/RefLDMSeg"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "PointDGMamba: Domain Generalization of Point Cloud Classification via Generalized State Space Model",
+    "authors": "Hao Yang, Qianyu Zhou, Haijia Sun, Xiangtai Li, Fengqi Liu, Xuequan Lu, Lizhuang Ma, Shuicheng Yan",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence, 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2408.13574",
+      "code": "https://github.com/yxltya/PointDGMamba"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Point Cloud Mamba: Point Cloud Learning via State Space Model",
+    "authors": "Tao Zhang, Haobo Yuan, Lu Qi, Jiangning Zhang, Qianyu Zhou, Shunping Ji, Shuicheng Yan, Xiangtai Li",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence, 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2403.00762",
+      "code": "https://github.com/zhang-tao-whu/PCM"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Combating Multimodal LLM Hallucination via Bottom-up Holistic Reasoning",
+    "authors": "Shengqiong Wu, Hao Fei, Liangming Pan, William Yang Wang, Shuicheng Yan, Tat-Seng Chua",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence, 2025",
+    "links": {
+      "paper": "https://arxiv.org/abs/2412.11124",
+      "code": "https://github.com/showlab/Awesome-MLLM-Hallucination"
+    },
+    "presentation": "oral",
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  }
+]

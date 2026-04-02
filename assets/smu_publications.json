@@ -1,10 +1,12 @@
-[  
+[
   {
     "year": 2026,
     "date": "2026",
     "title": "Anatomical Domain Shifts: Test-time Heterogeneous Adaptation for 3D Human Pose Prediction",
     "authors": "Qiongjie Cui, Pan Zhou, Jingjing Chen, Na Zhao",
     "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026",
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
   },
   {
     "year": 2026,
@@ -15,7 +17,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2510.17439",
       "code": "https://falcon-vla.github.io/"
-    }
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
   },
   {
     "year": 2026,
@@ -25,7 +29,9 @@
     "venue": "International Conference on Learning Representations (ICLR), 2026",
     "links": {
       "paper": "https://arxiv.org/abs/2506.09814"
-    }
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
   },
   {
     "year": 2026,
@@ -35,7 +41,9 @@
     "venue": "International Conference on Learning Representations (ICLR), 2026",
     "links": {
       "paper": "https://arxiv.org/abs/2509.22134"
-    }
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
   },
   {
     "year": 2026,
@@ -44,8 +52,10 @@
     "authors": "Xinyu Pu, Hongsong Wang, Jie Gui, Pan Zhou",
     "venue": "International Conference on Learning Representations (ICLR), 2026",
     "links": {
-      "paper": "https://arxiv.org/abs/2509.25740" 
-    }
+      "paper": "https://arxiv.org/abs/2509.25740"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
   },
   {
     "year": 2026,
@@ -55,7 +65,9 @@
     "venue": "International Conference on Learning Representations (ICLR), 2026",
     "links": {
       "paper": "https://openreview.net/forum?id=lh3Aa1u7kU&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2026%2FConference%2FAuthors%23your-submissions)"
-    }
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
   },
   {
     "year": 2026,
@@ -65,7 +77,9 @@
     "venue": "International Conference on Learning Representations (ICLR), 2026",
     "links": {
       "paper": "https://arxiv.org/abs/2502.17028"
-    }
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
   },
   {
     "year": 2026,
@@ -75,7 +89,9 @@
     "venue": "International Conference on Learning Representations (ICLR), 2026",
     "links": {
       "paper": "https://openreview.net/forum?id=7kLNGaAHaw"
-    }
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
   },
   {
     "year": 2026,
@@ -86,7 +102,9 @@
     "links": {
       "paper": "https://arxiv.org/html/2410.06593v1",
       "code": "https://github.com/XiaRho/SEMat"
-    }
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
   },
   {
     "year": 2026,
@@ -95,8 +113,10 @@
     "authors": "Haowei Hua, Jingwen Yang, Wanyu Lin, Pan Zhou",
     "venue": "Association for the Advancement of Artificial Intelligence (AAAI), 2026",
     "links": {
-      "paper": "https://arxiv.org/pdf/2410.02372" 
-    }
+      "paper": "https://arxiv.org/pdf/2410.02372"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
   },
   {
     "year": 2026,
@@ -107,7 +127,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2505.04974",
       "code": "https://wengwanjiang.github.io/ReAlign-page/"
-    }
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
   },
   {
     "year": 2026,
@@ -117,7 +139,9 @@
     "venue": "IEEE International Conference on Acoustics, Speech, and Signal Processing (ICASSP), 2026",
     "links": {
       "paper": "https://arxiv.org/abs/2509.19858"
-    }
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
   },
   {
     "year": 2025,
@@ -127,7 +151,9 @@
     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2025",
     "links": {
       "paper": "https://arxiv.org/abs/2407.04480"
-    }
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
   },
   {
     "year": 2025,
@@ -138,7 +164,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2501.15147",
       "code": "https://lotbench.github.io/"
-    }
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
   },
   {
     "year": 2025,
@@ -149,18 +177,22 @@
     "links": {
       "paper": "https://arxiv.org/abs/2403.18795",
       "code": "https://github.com/SkyworkAI/Gamba"
-    }
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
   },
   {
     "year": 2025,
     "date": "2025",
-    "title": "GRIFFIN: Effective Token Alignment for Faster Speculative Decoding", 
+    "title": "GRIFFIN: Effective Token Alignment for Faster Speculative Decoding",
     "authors": "Shijing Hu, Jingyang Li, Xingyu Xie, Zhihui Lu, Kim-Chuan Toh, Pan Zhou",
     "venue": "Neural Information Processing Systems (NeurIPS)",
     "links": {
       "paper": "https://arxiv.org/abs/2502.11018",
       "code": "https://github.com/hsj576/GRIFFIN"
-    }
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
   },
   {
     "year": 2025,
@@ -171,7 +203,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2412.05095",
       "code": "https://xiaofeng-tan.github.io/projects/SoPo/"
-    }
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
   },
   {
     "year": 2025,
@@ -181,7 +215,9 @@
     "venue": "International Conference on Computer Vision (ICCV)",
     "links": {
       "paper": "https://arxiv.org/abs/2412.10663"
-    }
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
   },
   {
     "year": 2025,
@@ -192,7 +228,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2410.08989",
       "code": "https://github.com/zimingyy/SubZero"
-    }
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
   },
   {
     "year": 2025,
@@ -203,7 +241,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2506.22979",
       "code": "https://github.com/jliu4ai/FewCLIP"
-    }
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
   },
   {
     "year": 2025,
@@ -214,7 +254,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2502.14400",
       "code": "https://github.com/LVLab-SMU/HPS"
-    }
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
   },
   {
     "year": 2025,
@@ -225,7 +267,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2502.14400",
       "code": "https://github.com/jliu4ai/NPISeg3D"
-    }
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
   },
   {
     "year": 2025,
@@ -235,7 +279,9 @@
     "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2025",
     "links": {
       "paper": "https://cvpr.thecvf.com/virtual/2025/poster/32902"
-    }
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
   },
   {
     "year": 2025,
@@ -246,7 +292,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2410.11206"
     },
-    "presentation": "oral"
+    "presentation": "oral",
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
   },
   {
     "year": 2025,
@@ -257,7 +305,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2411.04679",
       "code": "https://github.com/jliu4ai/CaPo"
-    }
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
   },
   {
     "year": 2024,
@@ -269,7 +319,9 @@
       "paper": "https://arxiv.org/abs/2402.05189",
       "code": "https://github.com/sail-sg/win"
     },
-    "presentation": "oral"
+    "presentation": "oral",
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -280,7 +332,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2208.06677",
       "code": "https://github.com/sail-sg/Adan"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -291,7 +345,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2311.08403",
       "code": "https://github.com/ming1993li/Instant3DCodes"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -302,7 +358,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2311.08403",
       "code": "https://github.com/sail-sg/ptp"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -312,7 +370,9 @@
     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2024",
     "links": {
       "paper": "https://ieeexplore.ieee.org/abstract/document/10480574"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -323,7 +383,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2405.18144",
       "code": "https://github.com/XiaRho/MADM"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -334,7 +396,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2405.14974",
       "code": "https://github.com/showlab/LOVA3"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -345,7 +409,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2405.18144",
       "code": "https://github.com/Sike-Wang/low-bit-Shampoo"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -356,7 +422,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2406.06367",
       "code": "https://github.com/SkyworkAI/Gamba"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -367,7 +435,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2312.06731",
       "code": "https://github.com/zhaohengyuan1/Genixer"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -375,8 +445,9 @@
     "title": "Efficient Cascaded Multiscale Adaptive Network for Image Restoration",
     "authors": "Yichen Zhou, Pan Zhou, Teck Khim Ng",
     "venue": "European Conference on Computer Vision (ECCV), 2024",
-    "links": {
-    }
+    "links": {},
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -387,7 +458,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2312.02439",
       "code": "https://github.com/sail-sg/CLoT"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -398,7 +471,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2303.16900",
       "code": "https://github.com/sail-sg/inceptionnext"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -409,7 +484,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2401.09050",
       "code": "https://github.com/sail-sg/Consistent3D"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -420,7 +497,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2403.12350",
       "code": "https://github.com/nblt/F-SAM"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -431,7 +510,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2403.02649",
       "code": "https://github.com/yue-zhongqi/tif"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2024,
@@ -442,7 +523,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2403.02649",
       "code": "https://github.com/yxymessi/DTC123"
-    }
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
   },
   {
     "year": 2023,
@@ -454,7 +537,9 @@
       "paper": "https://arxiv.org/abs/2210.13452",
       "code": "https://github.com/sail-sg/metaformer"
     },
-    "presentation": "oral"
+    "presentation": "oral",
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
   },
   {
     "year": 2023,
@@ -465,7 +550,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2302.13668",
       "code": "https://github.com/doc-doc/CoVGT"
-    }
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
   },
   {
     "year": 2023,
@@ -475,7 +562,9 @@
     "venue": "IEEE Transactions on Knowledge and Data Engineering (TKDE), 2023",
     "links": {
       "paper": "https://arxiv.org/abs/2010.12609"
-    }
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
   },
   {
     "year": 2023,
@@ -486,7 +575,9 @@
     "links": {
       "paper": "https://arxiv.org/pdf/2310.13545.pdf",
       "code": "https://github.com/sail-sg/ScaleLong"
-    }
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
   },
   {
     "year": 2023,
@@ -497,7 +588,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2303.14389",
       "code": "https://github.com/sail-sg/MDT"
-    }
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
   },
   {
     "year": 2023,
@@ -508,7 +601,9 @@
     "links": {
       "paper": "https://dl.acm.org/doi/10.1145/3581783.3612680",
       "code": "https://github.com/sail-sg/EditAnything"
-    }
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
   },
   {
     "year": 2023,
@@ -518,7 +613,9 @@
     "venue": "International Conference on Computer Vision (ICCV), 2023",
     "links": {
       "paper": "https://arxiv.org/abs/2301.03046"
-    }
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
   },
   {
     "year": 2023,
@@ -529,7 +626,9 @@
     "links": {
       "paper": "https://arxiv.org/pdf/2212.09737.pdf",
       "code": "https://github.com/sail-sg/ptp"
-    }
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
   },
   {
     "year": 2023,
@@ -540,7 +639,9 @@
     "links": {
       "paper": "https://openreview.net/pdf?id=CPdc77SQfQ5",
       "code": "https://github.com/sail-sg/win"
-    }
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
   },
   {
     "year": 2023,
@@ -550,7 +651,9 @@
     "venue": "International Conference on Learning Representations (ICLR), 2023",
     "links": {
       "paper": "https://arxiv.org/pdf/2206.03826.pdf"
-    }
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
   },
   {
     "year": 2023,
@@ -561,7 +664,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2210.01033",
       "code": "https://github.com/DongSky/LPT"
-    }
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
   },
   {
     "year": 2022,
@@ -572,7 +677,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2106.09645",
       "code": "https://github.com/ha-lins/PGCL"
-    }
+    },
+    "displayDate": "2022",
+    "sortDate": "2022-12-31"
   },
   {
     "year": 2022,
@@ -584,7 +691,9 @@
       "paper": "https://arxiv.org/abs/2205.12956",
       "code": "https://github.com/sail-sg/iFormer"
     },
-    "presentation": "oral"
+    "presentation": "oral",
+    "displayDate": "2022",
+    "sortDate": "2022-12-31"
   },
   {
     "year": 2022,
@@ -595,7 +704,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2203.14415",
       "code": "https://github.com/sail-sg/mugs"
-    }
+    },
+    "displayDate": "2022",
+    "sortDate": "2022-12-31"
   },
   {
     "year": 2022,
@@ -606,7 +717,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2112.04674",
       "code": "https://github.com/sail-sg/dualformer"
-    }
+    },
+    "displayDate": "2022",
+    "sortDate": "2022-12-31"
   },
   {
     "year": 2022,
@@ -617,7 +730,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2207.05342",
       "code": "https://github.com/sail-sg/VGT"
-    }
+    },
+    "displayDate": "2022",
+    "sortDate": "2022-12-31"
   },
   {
     "year": 2022,
@@ -628,7 +743,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2203.07057",
       "code": "https://github.com/DongSky/few-shot-vit"
-    }
+    },
+    "displayDate": "2022",
+    "sortDate": "2022-12-31"
   },
   {
     "year": 2022,
@@ -639,7 +756,9 @@
     "links": {
       "paper": "https://arxiv.org/abs/2111.11418#:~:text=Based%20on%20the%20extensive%20experiments,on%20the%20token%20mixer%20modules.",
       "code": "https://github.com/sail-sg/poolformer"
-    }
+    },
+    "displayDate": "2022",
+    "sortDate": "2022-12-31"
   },
   {
     "year": 2021,
@@ -649,7 +768,9 @@
     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2021",
     "links": {
       "paper": "../assets/pdf/2021-TPAMI-HSDN.pdf"
-    }
+    },
+    "displayDate": "2021",
+    "sortDate": "2021-12-31"
   },
   {
     "year": 2021,
@@ -659,7 +780,9 @@
     "venue": "IEEE Transactions on Neural Networks and Learning Systems (TNNLS), 2021",
     "links": {
       "paper": "https://ieeexplore.ieee.org/abstract/document/9463415"
-    }
+    },
+    "displayDate": "2021",
+    "sortDate": "2021-12-31"
   },
   {
     "year": 2021,
@@ -671,7 +794,9 @@
       "paper": "https://arxiv.org/abs/2106.14749",
       "code": "https://openreview.net/forum?id=P84bifNCpFQ&referrer=%5BAuthor%20Console%5D"
     },
-    "presentation": "spotlight"
+    "presentation": "spotlight",
+    "displayDate": "2021",
+    "sortDate": "2021-12-31"
   },
   {
     "year": 2021,
@@ -682,7 +807,9 @@
     "links": {
       "paper": "../assets/pdf/2021-NIPS-LA.pdf",
       "code": "https://github.com/sail-sg/SLRLA-optimizer"
-    }
+    },
+    "displayDate": "2021",
+    "sortDate": "2021-12-31"
   },
   {
     "year": 2021,
@@ -693,7 +820,9 @@
     "links": {
       "paper": "https://meta-learn.github.io/2020/papers/69_paper.pdf",
       "code": "https://github.com/Carbonaraa/TSA-MAML"
-    }
+    },
+    "displayDate": "2021",
+    "sortDate": "2021-12-31"
   },
   {
     "year": 2021,
@@ -703,7 +832,9 @@
     "venue": "Conference on Empirical Methods in Natural Language Processing  (EMNLP), 2021 (Findings)",
     "links": {
       "paper": "https://arxiv.org/pdf/2109.09161.pdf"
-    }
+    },
+    "displayDate": "2021",
+    "sortDate": "2021-12-31"
   },
   {
     "year": 2021,
@@ -713,7 +844,9 @@
     "venue": "International Conference on Machine Learning (ICML), 2021",
     "links": {
       "paper": "https://arxiv.org/pdf/2010.05843.pdf"
-    }
+    },
+    "displayDate": "2021",
+    "sortDate": "2021-12-31"
   },
   {
     "year": 2021,
@@ -724,7 +857,9 @@
     "links": {
       "paper": "https://openreview.net/pdf?id=KmykpuSrjcq",
       "code": "https://github.com/salesforce/PCL"
-    }
+    },
+    "displayDate": "2021",
+    "sortDate": "2021-12-31"
   },
   {
     "year": 2021,
@@ -735,7 +870,9 @@
     "links": {
       "paper": "https://arxiv.org/pdf/2012.11988.pdf",
       "code": "https://github.com/ha-lins/GEML-MDG"
-    }
+    },
+    "displayDate": "2021",
+    "sortDate": "2021-12-31"
   },
   {
     "year": 2021,
@@ -745,7 +882,9 @@
     "venue": "Association for the Advancement of Artificial Intelligence (AAAI), 2021",
     "links": {
       "paper": "https://arxiv.org/pdf/2012.11896.pdf"
-    }
+    },
+    "displayDate": "2021",
+    "sortDate": "2021-12-31"
   },
   {
     "year": 2020,
@@ -757,7 +896,9 @@
       "paper": "https://arxiv.org/pdf/2006.16537.pdf",
       "code": "https://github.com/salesforce/PR-DARTS"
     },
-    "presentation": "oral"
+    "presentation": "oral",
+    "displayDate": "2020",
+    "sortDate": "2020-12-31"
   },
   {
     "year": 2020,
@@ -768,7 +909,9 @@
     "links": {
       "paper": "https://arxiv.org/pdf/2010.05627.pdf",
       "code": "https://github.com/salesforce/comparison_SGD_ADAM"
-    }
+    },
+    "displayDate": "2020",
+    "sortDate": "2020-12-31"
   },
   {
     "year": 2020,
@@ -779,7 +922,9 @@
     "links": {
       "paper": "https://arxiv.org/pdf/2006.06900.pdf",
       "code": "https://github.com/Holmeswww/PPOGAN"
-    }
+    },
+    "displayDate": "2020",
+    "sortDate": "2020-12-31"
   },
   {
     "year": 2020,
@@ -789,7 +934,9 @@
     "venue": "International Conference on Machine Learning (ICML), 2020",
     "links": {
       "paper": "https://arxiv.org/pdf/2009.09835.pdf"
-    }
+    },
+    "displayDate": "2020",
+    "sortDate": "2020-12-31"
   },
   {
     "year": 2019,
@@ -800,7 +947,9 @@
     "links": {
       "paper": "../assets/pdf/2019-TPAMI-tensor.pdf",
       "code": "../assets/code/TLRR-code.zip"
-    }
+    },
+    "displayDate": "2019",
+    "sortDate": "2019-12-31"
   },
   {
     "year": 2019,
@@ -810,7 +959,9 @@
     "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2019",
     "links": {
       "paper": "https://ieeexplore.ieee.org/document/8792163"
-    }
+    },
+    "displayDate": "2019",
+    "sortDate": "2019-12-31"
   },
   {
     "year": 2019,
@@ -822,7 +973,9 @@
       "paper": "../assets/pdf/2019-NIPS-metaleanring.pdf",
       "code": "../assets/code/MetaMinibatchProx.zip"
     },
-    "presentation": "spotlight"
+    "presentation": "spotlight",
+    "displayDate": "2019",
+    "sortDate": "2019-12-31"
   },
   {
     "year": 2019,
@@ -832,7 +985,9 @@
     "venue": "International Joint Conference on Artificial Intelligence (IJCAI), 2019",
     "links": {
       "paper": "https://www.ijcai.org/proceedings/2019/0591.pdf"
-    }
+    },
+    "displayDate": "2019",
+    "sortDate": "2019-12-31"
   },
   {
     "year": 2019,
@@ -842,7 +997,9 @@
     "venue": "International Conference on Artificial Intelligence and Statistics (AISTATS), 2019",
     "links": {
       "paper": "https://arxiv.org/pdf/1811.08109.pdf"
-    }
+    },
+    "displayDate": "2019",
+    "sortDate": "2019-12-31"
   },
   {
     "year": 2018,
@@ -851,9 +1008,11 @@
     "authors": "Pan Zhou, Xiaotong Yuan, Jiashi Feng",
     "venue": "Neural Information Processing Systems (NeurIPS), 2018",
     "links": {
-      "paper": "http://papers.nips.cc/paper/7469-efficient-stochastic-gradient-hard-thresholding",
+      "paper": "https://papers.nips.cc/paper/7469-efficient-stochastic-gradient-hard-thresholding",
       "code": "../assets/code/HSGHTcode.rar"
-    }
+    },
+    "displayDate": "2018",
+    "sortDate": "2018-12-31"
   },
   {
     "year": 2018,
@@ -862,8 +1021,10 @@
     "authors": "Pan Zhou, Xiaotong Yuan, Jiashi Feng",
     "venue": "Neural Information Processing Systems (NeurIPS), 2018",
     "links": {
-      "paper": "http://papers.nips.cc/paper/7399-new-insight-into-hybrid-stochastic-gradient-descent-beyond-with-replacement-sampling-and-convexity"
-    }
+      "paper": "https://papers.nips.cc/paper/7399-new-insight-into-hybrid-stochastic-gradient-descent-beyond-with-replacement-sampling-and-convexity"
+    },
+    "displayDate": "2018",
+    "sortDate": "2018-12-31"
   },
   {
     "year": 2018,
@@ -873,7 +1034,9 @@
     "venue": "International Conference on Machine Learning (ICML), 2018",
     "links": {
       "paper": "https://arxiv.org/abs/1805.10767"
-    }
+    },
+    "displayDate": "2018",
+    "sortDate": "2018-12-31"
   },
   {
     "year": 2018,
@@ -884,7 +1047,9 @@
     "links": {
       "paper": "../assets/pdf/2018-CVPR-DSCN.pdf",
       "code": "../assets/code/dsc_code.zip"
-    }
+    },
+    "displayDate": "2018",
+    "sortDate": "2018-12-31"
   },
   {
     "year": 2018,
@@ -894,7 +1059,9 @@
     "venue": "International Conference on Learning Representations (ICLR), 2018",
     "links": {
       "paper": "https://arxiv.org/abs/1705.07038"
-    }
+    },
+    "displayDate": "2018",
+    "sortDate": "2018-12-31"
   },
   {
     "year": 2019,
@@ -904,7 +1071,9 @@
     "venue": "IEEE Winter Conference on Applications of Computer Vision (WACV), 2019",
     "links": {
       "paper": "https://ieeexplore.ieee.org/document/8658407"
-    }
+    },
+    "displayDate": "2019",
+    "sortDate": "2019-12-31"
   },
   {
     "year": 2017,
@@ -915,7 +1084,9 @@
     "links": {
       "paper": "../assets/pdf/2017-TIP-TCTF.pdf",
       "code": "../assets/code/TCTF_code.rar"
-    }
+    },
+    "displayDate": "2017",
+    "sortDate": "2017-12-31"
   },
   {
     "year": 2017,
@@ -925,7 +1096,9 @@
     "venue": "Neurocomputing, 2017",
     "links": {
       "paper": "../assets/pdf/2017-NEUCOM-DLSN.pdf"
-    }
+    },
+    "displayDate": "2017",
+    "sortDate": "2017-12-31"
   },
   {
     "year": 2017,
@@ -936,7 +1109,9 @@
     "links": {
       "paper": "../assets/pdf/2017-PR-FE-PDE.pdf",
       "code": "../assets/code/LPDE_featurelearning_code.rar"
-    }
+    },
+    "displayDate": "2017",
+    "sortDate": "2017-12-31"
   },
   {
     "year": 2017,
@@ -947,7 +1122,9 @@
     "links": {
       "paper": "../assets/pdf/2017-CVPR-RTPCA.pdf",
       "code": "../assets/code/OR_TPCA_code.rar"
-    }
+    },
+    "displayDate": "2017",
+    "sortDate": "2017-12-31"
   },
   {
     "year": 2016,
@@ -957,7 +1134,9 @@
     "venue": "IEEE Transactions on Image Processing (TIP), 2016",
     "links": {
       "paper": "../assets/pdf/2016-TIP-bilevel.pdf"
-    }
+    },
+    "displayDate": "2016",
+    "sortDate": "2016-12-31"
   },
   {
     "year": 2016,
@@ -968,7 +1147,8 @@
     "links": {
       "paper": "../assets/pdf/2016-TNNLS-Integrated-Low-Rank.pdf",
       "code": "../assets/code/integrated_low_rank code.rar"
-    }
+    },
+    "displayDate": "2016",
+    "sortDate": "2016-12-31"
   }
 ]
-
