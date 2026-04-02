@@ -12,11 +12,11 @@
     <meta property="og:site_name" content="Language and Vision Laboratory (LV-Lab)">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Research · LV-Lab @ NUS">
-    <meta property="og:description" content="Research page for Language and Vision Laboratory (LV-Lab) at SoC, NUS.">
+    <meta property="og:description" content="Research overview for LV Lab and LV Robotics Lab at SoC, NUS.">
     <meta property="og:url" content="https://www.lv-lab.org/nus/research.html">
     <meta property="og:image" content="https://www.lv-lab.org/android-chrome-512x512.png">
-    <meta name="description" content="Research page for Language and Vision Laboratory (LV-Lab) at SoC, NUS.">
-    <meta name="keywords" content="Language and Vision Laboratory (LV-Lab), LV-Lab @ NUS, SoC, NUS, AI, machine learning, computer vision">
+    <meta name="description" content="Research overview for LV Lab and LV Robotics Lab at SoC, NUS.">
+    <meta name="keywords" content="Language and Vision Laboratory (LV-Lab), LV Lab, LV Robotics Lab, LV-Lab @ NUS, SoC, NUS, AI, machine learning, computer vision, robotics, world models, tactile sensing, vision-language-action">
 <title>Research · LV-Lab @ NUS</title>
 
 <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
@@ -41,15 +41,10 @@
     --card-bg:#f8fafc;
   }
 
-  /* --- 动效 --- */
-  @keyframes slideFade{
-    from{transform:translateY(40px);opacity:0}
-    to{transform:none;opacity:1}
-  }
-  [data-animate]{opacity:0;animation:slideFade .8s .1s both;}
+  [data-animate]{opacity:1;}
 
   /* --- 版心 & 标题 --- */
-  .research-wrap{max-width:1200px;margin:auto;padding:3rem 1rem;}
+  .research-wrap{max-width:1200px;margin:auto;padding:1rem 1rem 3rem;}
   .hero-title{
     font-family: "Oswald",sans-serif;
     color:var(--lv-blue);
@@ -62,7 +57,7 @@
   .hero-tagline{
     text-align:center;
     font-size:1.1rem;
-    margin-bottom:3rem;
+    margin-bottom:.75rem;
     line-height:1.5;
     color:#334155;
   }
@@ -99,6 +94,119 @@
   .space-y-6 > * + * {
     margin-top: 1.5rem; /* 约等于 Tailwind 的 space-y-6 */
     }
+
+  .lab-section + .lab-section{
+    margin-top:1.2rem;
+    padding-top:1.1rem;
+    border-top:1px solid #e5e7eb;
+  }
+
+  .lab-section-title{
+    color:var(--lv-blue);
+    font-family:"Oswald",sans-serif;
+    font-size:clamp(1.8rem,4vw,2.4rem);
+    margin:0 0 .5rem;
+    text-align:left;
+  }
+
+  .lab-section-intro{
+    color:#475569;
+    line-height:1.75;
+    text-align:justify;
+    margin:0 0 .8rem;
+  }
+
+  .lab-summary-card{
+    background:var(--card-bg);
+    border-left:4px solid var(--lv-orange);
+    border-radius:8px;
+    padding:1.5rem 1.6rem;
+    box-shadow:0 1px 4px rgba(0,0,0,.04);
+  }
+
+  .lab-summary-card h3{
+    color:var(--lv-blue);
+    font-size:1.15rem;
+    font-weight:600;
+    margin:0 0 .75rem;
+  }
+
+  .lab-summary-card p{
+    color:#475569;
+    line-height:1.7;
+    margin:0 0 1rem;
+    text-align:justify;
+  }
+
+  .lab-summary-card p:last-of-type{
+    margin-bottom:0;
+  }
+
+  .lab-contact{
+    margin-top:1rem;
+  }
+
+  .lab-contact-row{
+    display:flex;
+    gap:.5rem;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-top:.45rem;
+    color:#334155;
+  }
+
+  .lab-contact-row strong{
+    color:var(--lv-blue);
+  }
+
+  .lab-contact-row a{
+    color:var(--lv-blue);
+    text-decoration:none;
+    font-weight:600;
+  }
+
+  .lab-contact-row a:hover{
+    color:var(--lv-orange);
+  }
+
+  .lab-contact-row img{
+    display:block;
+    height:24px;
+    width:auto;
+  }
+
+  .research-figure-box{
+    text-align:center;
+  }
+
+  .research-figure-box img{
+    width:100%;
+    max-width:360px;
+    height:auto;
+    filter:drop-shadow(0 10px 18px rgba(8,59,90,.08));
+  }
+
+  .research-figure-caption{
+    margin:1rem auto 0;
+    max-width:360px;
+    background:var(--card-bg);
+    border-left:4px solid var(--lv-orange);
+    border-radius:8px;
+    padding:1rem 1.1rem;
+    text-align:left;
+    box-shadow:0 1px 4px rgba(0,0,0,.04);
+  }
+
+  .research-figure-caption p{
+    color:#475569;
+    line-height:1.65;
+    margin:0 0 .8rem;
+    text-align:justify;
+  }
+
+  .research-figure-caption p:last-of-type{
+    margin-bottom:0;
+  }
 </style>
 </head>
 
@@ -184,9 +292,14 @@ background-image: url(images/banner_9.webp);
 
     
     <p class="hero-tagline" data-animate>
-      We pursue <strong style="color:var(--lv-orange)">Efficient, Executive & Evolving AGI</strong> –<br>
-      advancing the executive function of foundation models, and enhancing computational efficiecy and evolving capabilities.
+      Research at NUS spans two closely related sub labs: <strong style="color:var(--lv-orange)">LV Lab</strong> and <strong style="color:var(--lv-orange)">LV Robotics Lab</strong>.
     </p>
+
+    <section class="lab-section" data-animate>
+      <h2 class="lab-section-title">LV Lab</h2>
+      <p class="lab-section-intro">
+        LV Lab carries the original language-and-vision focus of the group and studies how foundation models can become more efficient, more capable in multimodal reasoning, and more adaptive over time.
+      </p>
 
     <div class="plane-grid">
       
@@ -230,6 +343,60 @@ background-image: url(images/banner_9.webp);
         </p>
       </div>
     </div>
+    </section>
+
+    <section class="lab-section" data-animate>
+      <h2 class="lab-section-title">LV Robotics Lab</h2>
+      <p class="lab-section-intro">
+        LV Robotics Lab focuses on general-purpose robotic manipulation research. Our goal is to build general-purpose robotic systems with multimodal perception, physical world understanding, and dexterous manipulation capabilities.
+      </p>
+
+      <div class="plane-grid">
+        <div class="space-y-6">
+          <article class="pillar" data-animate>
+            <span style="font-weight:600;color:var(--lv-blue);letter-spacing:0.5px;font-size:1.5rem;">
+              VLA & World Models
+            </span>
+            <h3>Vision-Language-Action Learning, Simulation & Physical World Modeling</h3>
+            <p style="text-indent: 2rem;">
+              This direction studies how robots can connect perception, language, planning, and control through scalable vision-language-action models and world models. We are interested in representations that support forecasting, policy learning, simulator alignment, and robust transfer from virtual environments to real-world manipulation.
+            </p>
+          </article>
+
+          <article class="pillar" data-animate>
+            <span style="font-weight:600;color:var(--lv-blue);letter-spacing:0.5px;font-size:1.5rem;">
+              Tactile Perception
+            </span>
+            <h3>Multimodal Touch Sensing for Contact-Rich Interaction</h3>
+            <p style="text-indent: 2rem;">
+              This direction explores tactile sensing as a core modality for robotic intelligence. We study how touch can be fused with vision and action to infer contact states, object properties, and manipulation progress, especially in scenarios where visual signals alone are ambiguous or insufficient.
+            </p>
+          </article>
+
+          <article class="pillar" data-animate>
+            <span style="font-weight:600;color:var(--lv-blue);letter-spacing:0.5px;font-size:1.5rem;">
+              Dexterous Hands
+            </span>
+            <h3>Dexterous Manipulation with High-DoF End Effectors</h3>
+            <p style="text-indent: 2rem;">
+              This direction focuses on dexterous robotic hands and fine-grained manipulation skills. We study how multimodal feedback, learned control policies, and structured task representations can enable reliable grasping, tool use, in-hand adjustment, and other high-precision manipulation behaviors.
+            </p>
+          </article>
+        </div>
+
+        <aside class="research-figure-box" data-animate>
+          <img src="images/research/lv-robotics-diagram.png" alt="LV Robotics Lab research diagram">
+          <div class="research-figure-caption">
+            <div class="lab-contact">
+              <div class="lab-contact-row">
+                <strong>Email:</strong>
+                <img src="images/contact/lv-robotics-lab-email.png" alt="LV Robotics Lab email address">
+              </div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
   
   </main>
 
@@ -302,15 +469,6 @@ background-image: url(images/banner_9.webp);
     </div>
   </footer>
 
-<script>
-    const io=new IntersectionObserver(es=>es.forEach(e=>{
-      if(e.isIntersecting){e.target.style.animationPlayState='running';io.unobserve(e.target);}
-    }),{threshold:.15});
-    document.querySelectorAll('[data-animate]').forEach(el=>{
-      el.style.animationPlayState='paused';
-      io.observe(el);
-    });
-  </script>
   <script src="../js/vendor/jquery/jquery-1.12.3.js"></script>
   <script src="../js/vendor/jquery/popper.min.js"></script>
   <script src="../js/vendor/bootstrap.min.js"></script>

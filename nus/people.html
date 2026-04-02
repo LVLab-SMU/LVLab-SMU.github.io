@@ -88,6 +88,24 @@
         gap: 0rem;
     }
 
+    .sub-lab-people-title {
+        color: var(--lv-blue);
+        font-size: 1.35rem;
+        font-weight: 600;
+        margin: 0.5rem 0 1rem;
+    }
+
+    .sub-lab-columns {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2rem;
+        align-items: start;
+    }
+
+    .sub-lab-column .custom-grid {
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+
     /* 左侧头像区域 padding 调整 */
     .custom-card .author-avater {
         margin-right: 20px;
@@ -162,6 +180,11 @@
     }
 
     @media (max-width: 768px) {
+        .sub-lab-columns {
+            grid-template-columns: 1fr;
+            gap: 1.5rem;
+        }
+
         .custom-card {
             flex-direction: column !important;
             align-items: flex-start !important;
@@ -332,8 +355,11 @@
             </h2>
         </div>
     </div>
-    
-        <div class="row custom-grid">
+
+    <div class="sub-lab-columns">
+        <div class="sub-lab-column">
+            <h3 class="sub-lab-people-title">LV Lab</h3>
+            <div class="row custom-grid" id="lv-lab-grid">
 
              <div class="col">
                 <div class="card d-flex flex-column h-100">
@@ -696,7 +722,13 @@
                     </div> 
                 </div> 
             </div>
+            </div>
         </div>
+        <div class="sub-lab-column">
+            <h3 class="sub-lab-people-title">LV Robotics Lab</h3>
+            <div class="row custom-grid" id="lv-robotics-grid"></div>
+        </div>
+    </div>
     
 </div>
 </section>
@@ -715,6 +747,28 @@
     </div>
     
 </section>
+
+<script>
+    (() => {
+        const roboticsMembers = new Set([
+            'Yue Liao',
+            'Chen Gao',
+            'Yuhang Zheng',
+            'Jingxiang Guo',
+            'Feibo Duan'
+        ]);
+        const lvLabGrid = document.getElementById('lv-lab-grid');
+        const roboticsGrid = document.getElementById('lv-robotics-grid');
+        if (!lvLabGrid || !roboticsGrid) return;
+
+        Array.from(lvLabGrid.children).forEach((card) => {
+            const name = card.querySelector('.card-title')?.textContent?.trim();
+            if (name && roboticsMembers.has(name)) {
+                roboticsGrid.appendChild(card);
+            }
+        });
+    })();
+</script>
 
 <script src="../js/vendor/jquery/jquery-1.12.3.js"></script>
 <script src="../js/vendor/jquery/popper.min.js"></script>

@@ -1,0 +1,71 @@
+<svg width="880" height="1180" viewBox="0 0 880 1180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="coreGradient" x1="440" y1="120" x2="440" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#C8F0EA"/>
+      <stop offset="0.48" stop-color="#9FE1D7"/>
+      <stop offset="1" stop-color="#36AEB5"/>
+    </linearGradient>
+    <linearGradient id="wingGradient" x1="132" y1="510" x2="748" y2="510" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EAF6EE"/>
+      <stop offset="0.5" stop-color="#B9E8DE"/>
+      <stop offset="1" stop-color="#6DC8C6"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF9B73"/>
+      <stop offset="1" stop-color="#FF6230"/>
+    </linearGradient>
+    <filter id="softShadow" x="12" y="32" width="856" height="1096" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="14"/>
+      <feGaussianBlur stdDeviation="18"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.113725 0 0 0 0 0.34902 0 0 0 0 0.486275 0 0 0 0.16 0"/>
+    </filter>
+    <filter id="textShadow" x="188" y="252" width="504" height="318" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feOffset dy="6"/>
+      <feGaussianBlur stdDeviation="5"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0509804 0 0 0 0 0.211765 0 0 0 0 0.329412 0 0 0 0.18 0"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="440" cy="1116" rx="154" ry="28" fill="#E7EEE0"/>
+
+  <g filter="url(#softShadow)">
+    <path d="M440 74C518 74 582 140 582 222V820C582 930 528 1038 468 1104C453 1121 427 1121 412 1104C352 1038 298 930 298 820V222C298 140 362 74 440 74Z" fill="url(#coreGradient)"/>
+    <path d="M440 248C504 248 560 278 618 328L804 496C830 519 814 562 778 566L596 584C575 586 558 603 555 625L523 896C519 928 481 942 458 920L440 902L422 920C399 942 361 928 357 896L325 625C322 603 305 586 284 584L102 566C66 562 50 519 76 496L262 328C320 278 376 248 440 248Z" fill="url(#wingGradient)"/>
+    <path d="M368 146C393 116 421 102 440 102C459 102 487 116 512 146L556 214C568 233 554 258 532 258H348C326 258 312 233 324 214L368 146Z" fill="#2F9FAF"/>
+    <path d="M160 864C178 846 206 846 224 864L314 950L298 1032L194 1058C173 1063 154 1044 159 1023L160 864Z" fill="#2FAEB8"/>
+    <path d="M720 864C702 846 674 846 656 864L566 950L582 1032L686 1058C707 1063 726 1044 721 1023L720 864Z" fill="#2FAEB8"/>
+    <rect x="232" y="416" width="56" height="126" rx="18" fill="#35B4BE"/>
+    <rect x="592" y="416" width="56" height="126" rx="18" fill="#35B4BE"/>
+  </g>
+
+  <g filter="url(#textShadow)" fill="#083B5A">
+    <text x="440" y="332" text-anchor="middle" font-size="54" font-family="Arial, sans-serif" font-weight="700">LV Robotics Lab</text>
+    <text x="440" y="562" text-anchor="middle" font-size="86" font-family="Arial, sans-serif" font-weight="700">Robot</text>
+    <text x="440" y="650" text-anchor="middle" font-size="86" font-family="Arial, sans-serif" font-weight="700">Manipulation</text>
+  </g>
+
+  <g fill="url(#accentGradient)" stroke="url(#accentGradient)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <text x="138" y="794" font-size="58" font-family="Arial, sans-serif" font-weight="500" stroke="none">Tactile</text>
+    <circle cx="228" cy="912" r="36" fill="none"/>
+    <circle cx="228" cy="912" r="84" fill="none" opacity="0.3"/>
+    <path d="M168 912C168 877 193 848 228 848C263 848 288 877 288 912C288 947 263 976 228 976C193 976 168 947 168 912Z" opacity="0.16"/>
+    <path d="M202 912C202 898 212 888 226 888C240 888 250 898 250 912C250 926 240 936 226 936C212 936 202 926 202 912Z" fill="none"/>
+
+    <text x="560" y="794" font-size="58" font-family="Arial, sans-serif" font-weight="500" stroke="none">Dexterous</text>
+    <text x="612" y="854" font-size="58" font-family="Arial, sans-serif" font-weight="500" stroke="none">Hands</text>
+    <path d="M664 926L714 878L746 910L780 876"/>
+    <path d="M680 964L732 912L762 942L798 906"/>
+    <path d="M802 900L802 944"/>
+    <path d="M782 922L802 944L822 922"/>
+
+    <text x="208" y="1012" font-size="54" font-family="Arial, sans-serif" font-weight="500" stroke="none">VLA &amp;</text>
+    <text x="144" y="1070" font-size="54" font-family="Arial, sans-serif" font-weight="500" stroke="none">World Models</text>
+    <rect x="468" y="998" width="58" height="58" rx="10" fill="none"/>
+    <rect x="544" y="960" width="58" height="58" rx="10" fill="none"/>
+    <rect x="544" y="1036" width="58" height="58" rx="10" fill="none"/>
+    <path d="M526 1028L544 990"/>
+    <path d="M526 1028L544 1066"/>
+    <path d="M602 990L640 990"/>
+    <path d="M602 1066L640 1066"/>
+  </g>
+</svg>

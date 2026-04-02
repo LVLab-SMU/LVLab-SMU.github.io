@@ -17,11 +17,11 @@
     <meta property="og:site_name" content="Language and Vision Laboratory (LV-Lab)">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Home · LV-Lab @ NUS">
-    <meta property="og:description" content="Home page for Language and Vision Laboratory (LV-Lab) at SoC, NUS.">
+    <meta property="og:description" content="Umbrella home for LV Lab and LV Robotics Lab at SoC, NUS.">
     <meta property="og:url" content="https://www.lv-lab.org/nus/index.html">
     <meta property="og:image" content="https://www.lv-lab.org/android-chrome-512x512.png">
-<meta name="description" content="Home page for Language and Vision Laboratory (LV-Lab) at SoC, NUS.">
-    <meta name="keywords" content="Language and Vision Laboratory (LV-Lab), LV-Lab @ NUS, SoC, NUS, AI, machine learning, computer vision">
+<meta name="description" content="Umbrella home for LV Lab and LV Robotics Lab at SoC, NUS.">
+    <meta name="keywords" content="Language and Vision Laboratory (LV-Lab), LV Lab, LV Robotics Lab, LV-Lab @ NUS, SoC, NUS, AI, machine learning, computer vision, robotics">
     <title>Home · LV-Lab @ NUS</title>
 
     <link href="../css//font-awesome.min.css" rel="stylesheet">
@@ -104,6 +104,71 @@
         text-align: justify;
     }
 
+    .sub-lab-overview {
+      margin: 0 0 1.5rem;
+      line-height: 1.75;
+      text-align: justify;
+      text-indent: 2rem;
+      color: #444;
+    }
+
+    .sub-lab-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.25rem;
+      margin-top: 1.25rem;
+    }
+
+    .sub-lab-card {
+      background: var(--card-bg);
+      border-left: 4px solid var(--lv-orange);
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, .06);
+      text-align: left;
+    }
+
+    .sub-lab-card h3 {
+      color: var(--lv-blue);
+      margin: 0 0 .85rem;
+      font-size: 1.35rem;
+      font-weight: 600;
+    }
+
+    .sub-lab-card p {
+      margin: 0 0 .9rem;
+      line-height: 1.75;
+      color: #555;
+      text-align: justify;
+      text-indent: 0;
+    }
+
+    .sub-lab-contact {
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+      flex-wrap: wrap;
+      margin-top: .35rem;
+      color: var(--lv-blue);
+      font-weight: 600;
+    }
+
+    .sub-lab-contact img {
+      display: block;
+      height: 24px;
+      width: auto;
+    }
+
+    @media (max-width: 768px) {
+      .sub-lab-card {
+        padding: 1.2rem;
+      }
+
+      .sub-lab-contact img {
+        height: 22px;
+      }
+    }
+
   </style>
 
 </head>
@@ -175,13 +240,36 @@
 
 <section class="about-lab-section" style="margin-top: 0; padding-top: 0; margin-bottom: 0; padding-bottom: 0;">
     <div class="container"> <div class="row">
-            <div class="col-12 px-3 pt-2 pb-3 section-title text-center" style="margin-bottom: 0.2rem;"> <h2 style="color: var(--lv-blue); margin-bottom: 0.4rem;">Welcome to  Language and Vision Lab (LV-Lab)</h2>
+            <div class="col-12 px-3 pt-2 pb-3 section-title text-center" style="margin-bottom: 0.2rem;"> <h2 style="color: var(--lv-blue); margin-bottom: 0.4rem;">Welcome to LV-Lab @ NUS</h2>
             </div>
         </div>
-        <div class="row align-items-center"> <div class="col-12 d-flex justify-content-center" > <div class="lab-intro px-3 pt-1 pb-2 text-justify" style="max-width: 1000px; margin-top: 0rem; text-indent: 2rem;"> <p>
-            The <span style="color:var(--lv-orange); font-weight:600;">Language and Vision Laboratory (LV-Lab)</span>, formerly the <em>Learning and Vision Lab</em>, is a research group focused on advancing the foundations of artificial intelligence through the integrated study of vision, language, robotics and other modalities. In response to the paradigm shift brought by foundation models, our research agenda has expanded beyond single-modality learning toward multimodal representation, reasoning, and generation. We aim to develop general-purpose intelligent systems capable of structured perception, proactive inference, and continual adaptation across complex environments. Our work lies at the intersection of multimodal learning, large-scale model optimization, and cognitive-level decision-making, with the goal of bridging low-level sensory input and high-level intelligence. We welcome collaboration and participation from researchers and students interested in shaping the next generation of AI.
+        <div class="row align-items-center"> <div class="col-12 d-flex justify-content-center" > <div class="lab-intro px-3 pt-1 pb-2 text-justify" style="max-width: 1000px; margin-top: 0rem;"> <p class="sub-lab-overview">
+            At NUS, <span style="color:var(--lv-orange); font-weight:600;">LV-Lab</span> serves as an umbrella home for two closely related sub labs: <strong>LV Lab</strong> and <strong>LV Robotics Lab</strong>. Together, they span foundational research in language, vision, multimodal intelligence, and general-purpose robotic manipulation.
         </p>
-        
+        <div class="sub-lab-grid">
+            <article class="sub-lab-card">
+                <h3>LV Lab</h3>
+                <p>
+                    The <span style="color:var(--lv-orange); font-weight:600;">Language and Vision Laboratory (LV-Lab)</span>, formerly the <em>Learning and Vision Lab</em>, focuses on advancing the foundations of artificial intelligence through the integrated study of language, vision, and other modalities. In response to the paradigm shift brought by foundation models, our agenda has expanded from single-modality learning toward multimodal representation, reasoning, and generation.
+                </p>
+                <p>
+                    We aim to develop general-purpose intelligent systems capable of structured perception, proactive inference, and continual adaptation across complex environments, bridging low-level sensory input with high-level intelligence.
+                </p>
+            </article>
+            <article class="sub-lab-card">
+                <h3>LV Robotics Lab</h3>
+                <p>
+                    LV Robotics Lab focuses on general-purpose robotic manipulation research. We aim to build general-purpose robotic systems with multimodal perception, physical world understanding, and dexterous manipulation capabilities.
+                </p>
+                <p>
+                    Our research directions include world models, simulators, vision-language-action models, and tactile sensing. We are especially interested in how perception, reasoning, and control can be unified into scalable robot learning systems that transfer from simulation to real-world manipulation.
+                </p>
+                <div class="sub-lab-contact">
+                    <span>Contact:</span>
+                    <img src="images/contact/lv-robotics-lab-email.png" alt="LV Robotics Lab email address">
+                </div>
+            </article>
+        </div>
                 </div>
             </div>
     </div>
