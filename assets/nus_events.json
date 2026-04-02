@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-04",
+    "title": "Looking for self-motivated (IPP) Ph.D./Master students, research assistants, research fellows, and visiting students and scholars at the following directions:",
+    "summary": "LV-AGI: Memory, Continual-learning, Video Generation, Proactive Agent, Computational Creativity, Model Architecture, Inference Speedup, Optimizer, RL\nLV-Robotics: VLA/VTA, World Model, Simulator, Teleoperation, RL\nApplication email: yansc at comp.nus.edu.sg",
+    "link": "",
+    "multilineSummary": true,
+    "year": 2026,
+    "displayDate": "2026-04",
+    "sortDate": "2026-04-30"
+  },
+  {
     "date": "2025-10",
     "title": "We released MemGen, A Generative Latent Memory System for Self-Evolving LLM Agents",
     "summary": "MemGen emulates the human reasoning–memory loop, seamlessly and non-invasively weaving latent memories into the agent’s thought process. Without explicit supervision, it autonomously evolves a human-esque memory hierarchy encompassing working, planning, and procedural memory..",

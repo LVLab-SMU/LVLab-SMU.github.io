@@ -268,6 +268,7 @@
     </article>
   </template>
 
+  <script src="../assets/js/dev-live-reload.js"></script>
   <script>
     let events=[];
 
@@ -357,7 +358,7 @@
     /* ========== Bootstrap ========== */
     (async()=>{
       try{
-        const res=await fetch('../assets/smu_events.json');
+        const res=await fetch('../assets/smu_events.json', { cache: 'no-store' });
         events=await res.json();
       }catch(e){
         console.error('Failed to load events.json',e);
@@ -372,6 +373,7 @@
 
       renderTimeline(years);
       bindControls(years);
+      window.enableJsonLiveReload?.('../assets/smu_events.json');
     })();
   </script>
 

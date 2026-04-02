@@ -150,6 +150,10 @@
     .pub-card p {
         text-indent: 2rem;
     }
+    .pub-card p.multiline-summary{
+      white-space: pre-line;
+      text-indent: 0;
+    }
     .pub-card .authors{
       font-size:.95rem;
       color:#555;
@@ -291,6 +295,7 @@
     </article>
   </template>
 
+  <script src="../assets/js/dev-live-reload.js"></script>
   <script>
     let events=[];
 
@@ -340,7 +345,12 @@
         card.querySelector('time').textContent=formatDate(ev.displayDate);
         card.querySelector('h3').textContent=ev.title;
         const summaryP = card.querySelector('p');
-        if(ev.summary){card.querySelector('p').textContent=ev.summary;}else{summaryP.remove();}
+        if(ev.summary){
+          summaryP.textContent=ev.summary;
+          if(ev.multilineSummary) summaryP.classList.add('multiline-summary','multi-line-summary');
+        }else{
+          summaryP.remove();
+        }
         const link=card.querySelector('a');
         if(ev.link){link.href=ev.link;}else{link.remove();}
         list.appendChild(card);
@@ -381,7 +391,7 @@
     /* ========== Bootstrap ========== */
     (async()=>{
       try{
-        const res=await fetch('../assets/nus_events.json');
+        const res=await fetch('../assets/nus_events.json', { cache: 'no-store' });
         events=await res.json();
       }catch(e){
         console.error('Failed to load events.json',e);
@@ -396,6 +406,7 @@
 
       renderTimeline(years);
       bindControls(years);
+      window.enableJsonLiveReload?.('../assets/nus_events.json');
     })();
   </script>
 <script src="../js/vendor/jquery/jquery-1.12.3.js"></script>

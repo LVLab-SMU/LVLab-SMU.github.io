@@ -104,6 +104,11 @@
         text-align: justify;
     }
 
+    .a-desc p.multi-line-summary {
+      white-space: pre-line;
+      text-indent: 0;
+    }
+
     .sub-lab-overview {
       margin: 0 0 1.5rem;
       line-height: 1.75;
@@ -280,24 +285,6 @@
       <div class="row justify-content-center">
         <div class="col-md-12 section-title text-center" style="margin-bottom: 1rem;">
           <h2 style="color: var(--lv-blue); ">News in LV-Lab</h2>
-          <div style="max-width: 1000px; margin: 0 auto;">
-            <p style="
-                font-style: italic;
-                color: var(--lv-orange);
-                text-align: center;
-                font-size: 0.85rem;
-                line-height: 1.4;
-                font-weight: 500;
-                margin: 0 auto;
-                padding-bottom: 0.5rem;
-                width: 100%;
-                max-width: 1000px;">
-                Looking for self-motivated (IPP) Ph.D./Master students, research assistants,
-                research fellows, and visiting students and scholars. 
-                
-                (Now, we have a PhD scholarship particularly for Proactive Agent.)
-            </p>
-          </div>
         </div>
 
         <div id="home-events-list" class="col-lg-10"></div>
@@ -309,10 +296,11 @@
     </div>
   </section>
 
+  <script src="../assets/js/dev-live-reload.js"></script>
   <script>
     async function loadHomeEvents () {
       try {
-        const res   = await fetch('../assets/nus_events.json');
+        const res   = await fetch('../assets/nus_events.json', { cache: 'no-store' });
         const items = await res.json();
   
         const top3 = items
@@ -334,7 +322,7 @@
                     <h3>
                       <a href="${ev.link || '#'}" ${ev.link ? 'target="_blank" rel="noopener noreferrer"' : ''}>${ev.title}</a>
                     </h3>
-                    ${ev.summary ? `<p>${ev.summary}</p>` : ''}
+                    ${ev.summary ? `<p${ev.multilineSummary ? ' class="multi-line-summary"' : ''}>${ev.summary}</p>` : ''}
                   </div>
                 </div>
               </div>
@@ -347,6 +335,7 @@
     }
   
     loadHomeEvents();
+    window.enableJsonLiveReload?.('../assets/nus_events.json');
   </script>
 
 <script src="../js/vendor/jquery/jquery-1.12.3.js"></script>
@@ -414,7 +403,7 @@
                     </div>
                     <div class="widget-contents">
                         <p>Please refer to 
-                            <i class="zmdi zmdi-github zmdi-hc-fw mr-1"></i><a href="https://github.com/LVLab-NUS">LV-Lab-NUS</a> 
+                            <i class="zmdi zmdi-github zmdi-hc-fw mr-1"></i><a href="https://github.com/LV-NUS">LV-Lab-NUS</a> 
                             for details.
                         </p>
                     </div>

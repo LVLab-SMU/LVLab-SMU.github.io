@@ -271,6 +271,7 @@
             <section id="pubList" class="pub-list"></section>
           </main>
 
+      <script src="../assets/js/dev-live-reload.js"></script>
       <script>
         let pubs=[];
         const starCache = new Map();
@@ -380,7 +381,7 @@
         /* ===== Bootstrap ===== */
         (async()=>{
           try{
-            const res=await fetch('../assets/nus_publications.json');
+            const res=await fetch('../assets/nus_publications.json', { cache: 'no-store' });
             pubs=await res.json();
           }catch(e){
             console.error('load publications failed',e);pubs=[];
@@ -391,6 +392,7 @@
             return b-a;
           });
           bindControls(years);
+          window.enableJsonLiveReload?.('../assets/nus_publications.json');
         })();
       </script>
     </section>

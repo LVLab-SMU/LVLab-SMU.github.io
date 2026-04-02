@@ -211,10 +211,11 @@
     </div>
 </section>
 
+  <script src="../assets/js/dev-live-reload.js"></script>
   <script>
     async function loadHomeEvents () {
       try {
-        const res   = await fetch('../assets/smu_events.json');   
+        const res   = await fetch('../assets/smu_events.json', { cache: 'no-store' });   
         const items = await res.json();
   
         const top3 = items
@@ -249,6 +250,7 @@
     }
   
     loadHomeEvents();
+    window.enableJsonLiveReload?.('../assets/smu_events.json');
 </script>
 
 <script src="../js/vendor/jquery/jquery-1.12.3.js"></script>

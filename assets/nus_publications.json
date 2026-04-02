@@ -24,6 +24,33 @@
   },
   {
     "year": 2026,
+    "date": "Mar 2026",
+    "title": "OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation",
+    "authors": "Yuhang Zheng, Songen Gu, Weize Li, Yupeng Zheng, Yujie Zang, Shuai Tian, Xiang Li, Ce Hao, Chen Gao, Si Liu, Haoran Li, Yilun Chen, Shuicheng Yan, Wenchao Ding",
+    "venue": "arXiv preprint arXiv:2603.19201, Mar 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.19201",
+      "code": "https://github.com/MrSecant/OmniVTA",
+      "project": "https://mrsecant.github.io/OmniVTA/"
+    },
+    "displayDate": "Mar 2026",
+    "sortDate": "2026-03-23"
+  },
+  {
+    "year": 2026,
+    "date": "Mar 2026",
+    "title": "Slow-Fast Inference: Training-Free Inference Acceleration via Within-Sentence Support Stability",
+    "authors": "Xingyu Xie, Zhaochen Yu, Yue Liao, Tao Wang, Kim-Chuan Toh, Shuicheng Yan",
+    "venue": "arXiv preprint arXiv:2603.12038, Mar 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2603.12038",
+      "code": "https://github.com/LV-NUS/SFI"
+    },
+    "displayDate": "Mar 2026",
+    "sortDate": "2026-03-12"
+  },
+  {
+    "year": 2026,
     "date": "2026",
     "title": "MEMO: Memory-Guided Diffusion for Expressive Talking Video Generation",
     "authors": "Longtao Zheng, Yifan Zhang, Hanzhong Guo, Jiachun Pan, Zhenxiong Tan, Jiahao Lu, Chuanxin Tang, Bo An, Shuicheng Yan",
