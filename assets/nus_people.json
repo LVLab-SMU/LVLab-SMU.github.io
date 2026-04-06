@@ -1,0 +1,243 @@
+[
+  {
+    "name": "Xiaobin Hu",
+    "image": "images/people/xiaobin hu.jpg",
+    "role": "Senior Research Fellow",
+    "roleOrder": 1,
+    "date": "2025.09 ~ Present",
+    "lab": "agi",
+    "links": {
+      "home": "https://huuxiaobin.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=3lMuodUAAAAJ&hl=en",
+      "github": "https://github.com/HUuxiaobin"
+    }
+  },
+  {
+    "name": "Yue Liao",
+    "image": "images/people/Yue Liao.jpeg",
+    "role": "Research Fellow",
+    "roleOrder": 2,
+    "date": "2025.04 ~ Present",
+    "lab": "robotics",
+    "links": {
+      "home": "https://liaoyue.net/",
+      "scholar": "https://scholar.google.com/citations?user=mIt-3fEAAAAJ&hl=en",
+      "github": "https://github.com/YueLiao"
+    }
+  },
+  {
+    "name": "Chen Gao",
+    "image": "images/people/gaochen.jpg",
+    "role": "Research Fellow",
+    "roleOrder": 2,
+    "date": "2026.03 ~ Present",
+    "lab": "robotics",
+    "links": {
+      "home": "https://chengaopro.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=n5i2mAMAAAAJ&hl=zh-CN",
+      "github": "https://github.com/chengaopro"
+    }
+  },
+  {
+    "name": "Zhifei Xie",
+    "image": "images/people/Zhifei Xie.jpeg",
+    "role": "Ph.D. Student",
+    "roleOrder": 3,
+    "date": "2025.01~Present",
+    "note": "Co. w. Prof. Chunyan Miao",
+    "lab": "agi",
+    "links": {
+      "home": "http://xzf-home.com/",
+      "scholar": "https://scholar.google.com/citations?hl=en&user=zSaASjAAAAAJ",
+      "github": "https://github.com/gpt-omni"
+    }
+  },
+  {
+    "name": "Guibin Zhang",
+    "image": "images/people/guibin zhang.jpeg",
+    "role": "Ph.D. Student",
+    "roleOrder": 3,
+    "date": "2025.08~Present",
+    "lab": "agi",
+    "links": {
+      "home": "https://guibinz.top/",
+      "scholar": "https://scholar.google.com/citations?user=ApmxNvwAAAAJ",
+      "github": "https://github.com/bingreeky"
+    }
+  },
+  {
+    "name": "Tri Cao",
+    "image": "images/people/Tri Cao.jpeg",
+    "role": "Ph.D. Student",
+    "roleOrder": 3,
+    "date": "2025.08~Present",
+    "note": "Co. w. Prof. Bryan Hooio",
+    "lab": "agi",
+    "links": {
+      "home": "https://caothientri2001vn.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=QytvkD4AAAAJ&hl=zh-CN&oi=sra",
+      "github": "https://github.com/caothientri2001vn"
+    }
+  },
+  {
+    "name": "Yuhang Zheng",
+    "image": "images/people/Yuhang Zheng.jpg",
+    "role": "Ph.D. Student",
+    "roleOrder": 3,
+    "date": "2025.08~Present",
+    "lab": "robotics",
+    "links": {
+      "home": "https://mrsecant.github.io",
+      "scholar": "https://scholar.google.com/citations?user=Wn2Aic0AAAAJ&hl=en",
+      "github": "https://github.com/MrSecant/"
+    }
+  },
+  {
+    "name": "Jingxiang Guo",
+    "image": "images/people/jingxiang guo.jpg",
+    "role": "Ph.D. Student",
+    "roleOrder": 3,
+    "date": "2026.08~Present",
+    "lab": "robotics",
+    "imageStyle": "object-position: center 18%;",
+    "links": {
+      "home": "https://jingxiangguo.com",
+      "scholar": "https://scholar.google.com/citations?user=JEjiaq0AAAAJ",
+      "github": "https://github.com/BorisGuo6"
+    }
+  },
+  {
+    "name": "Zhaochen Yu",
+    "image": "images/people/Zhaochen Yu.jpg",
+    "role": "Ph.D. Student",
+    "roleOrder": 3,
+    "date": "2026.08~Present",
+    "lab": "agi",
+    "links": {
+      "home": "https://zhaochenyu0201.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=9RNgZOIAAAAJ&hl=zh-CN",
+      "github": "https://github.com/ZhaochenYu0201"
+    }
+  },
+  {
+    "name": "Hanzhen Zhao",
+    "image": "images/people/hanzheng zhang.jpg",
+    "role": "Ph.D. Student",
+    "roleOrder": 3,
+    "date": "2026.08~Present",
+    "lab": "agi",
+    "links": {}
+  },
+  {
+    "name": "Jialin Zhang",
+    "image": "images/people/Zhangjia Lin.jpeg",
+    "role": "Master Student",
+    "roleOrder": 4,
+    "date": "2025.08~Present",
+    "lab": "agi",
+    "links": {}
+  },
+  {
+    "name": "Haiyue Sun",
+    "image": "images/people/haiyue sun.jpg",
+    "role": "Master Student",
+    "roleOrder": 4,
+    "date": "2025.08~Present",
+    "lab": "agi",
+    "links": {}
+  },
+  {
+    "name": "Jiawei Liu",
+    "image": "images/people/Jiawei Liu.jpg",
+    "role": "Visiting Prof",
+    "roleOrder": 5,
+    "date": "2025.09~Present",
+    "affiliation": "University of Science and Technology of China",
+    "lab": "agi",
+    "links": {
+      "home": "https://jiaweiliu92.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=sR7Sf2YAAAAJ",
+      "github": "https://github.com/jiaweiliu92"
+    }
+  },
+  {
+    "name": "Feibo Duan",
+    "image": "images/people/feibo duan.jpg",
+    "role": "Visiting Scholar",
+    "roleOrder": 6,
+    "date": "2025.10~Present",
+    "affiliation": "Leiden University",
+    "lab": "robotics",
+    "links": {
+      "home": "https://www.universiteitleiden.nl/en/staffmembers/feibo-duan"
+    }
+  },
+  {
+    "name": "Xudong Wang",
+    "image": "images/people/Xudong Wang.jpeg",
+    "role": "Visiting Scholar",
+    "roleOrder": 6,
+    "date": "2026.03~Present",
+    "affiliation": "University of Chinese Academy of Sciences (UCAS)",
+    "lab": "robotics",
+    "links": {
+      "home": "https://wangxudongsia.github.io",
+      "scholar": "https://scholar.google.com.hk/citations?user=-SGDuS4AAAAJ&hl=zh-CN",
+      "github": "https://github.com/WangXudongSIA"
+    }
+  },
+  {
+    "name": "Yao Xiao",
+    "image": "images/people/yao xiao.jpg",
+    "role": "Visiting Student",
+    "roleOrder": 7,
+    "date": "2025.06~Present",
+    "affiliation": "Sun Yat-sen University",
+    "lab": "agi",
+    "links": {
+      "home": "https://coxy7.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=NKKwkGsAAAAJ",
+      "github": "https://github.com/Coxy7"
+    }
+  },
+  {
+    "name": "Jiaqi Zhao",
+    "image": "images/people/jiaqi wang.jpg",
+    "role": "Visiting Student",
+    "roleOrder": 7,
+    "date": "2025.11~Present",
+    "affiliation": "Harbin Institute of Technology Shenzhen",
+    "lab": "agi",
+    "links": {
+      "home": "https://zjq0455.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=lrJ0VWYAAAAJ&hl=zh-CN",
+      "github": "https://github.com/zjq0455"
+    }
+  },
+  {
+    "name": "Zihang Liu",
+    "image": "images/people/Zihang Liu.jpeg",
+    "role": "Remote Collaborator",
+    "roleOrder": 8,
+    "date": "2025 ~ Present",
+    "affiliation": "Beijing Institute of Technology",
+    "lab": "agi",
+    "links": {
+      "scholar": "https://scholar.google.com/citations?user=6n-przQAAAAJ&hl=zh-CN"
+    }
+  },
+  {
+    "name": "Hongyu Qu",
+    "image": "images/people/Hongyu Qu.jpg",
+    "role": "Remote Collaborator",
+    "roleOrder": 8,
+    "date": "2025.09 ~ Present",
+    "affiliation": "Nanjing University of Science and Technology",
+    "lab": "agi",
+    "links": {
+      "home": "https://quhongyu.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=X6-IzF4AAAAJ&hl=zh-CN",
+      "github": "https://github.com/quhongyu"
+    }
+  }
+]
