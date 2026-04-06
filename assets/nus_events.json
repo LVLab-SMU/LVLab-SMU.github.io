@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-03",
+    "title": "We released OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation",
+    "summary": "OmniVTA presents a visuo-tactile world model that integrates visual and tactile sensing for contact-rich robotic manipulation, enabling robots to better understand and interact with objects through multi-modal perception.",
+    "link": "https://arxiv.org/abs/2603.19201",
+    "year": 2026,
+    "displayDate": "2026-03",
+    "sortDate": "2026-03-23"
+  },
+  {
+    "date": "2026-03",
+    "title": "We released Slow-Fast Inference: Training-Free Inference Acceleration via Within-Sentence Support Stability",
+    "summary": "Slow-Fast Inference is a training-free method that accelerates LLM inference by leveraging within-sentence support stability, selectively applying full attention to stable tokens while using lightweight processing for the rest, achieving significant speedups without any fine-tuning.",
+    "link": "https://arxiv.org/abs/2603.12038",
+    "year": 2026,
+    "displayDate": "2026-03",
+    "sortDate": "2026-03-12"
+  },
+  {
     "date": "2026-04",
     "title": "Looking for self-motivated (IPP) Ph.D./Master students, research assistants, research fellows, and visiting students and scholars at the following directions:",
     "summary": "LV-AGI: Memory, Continual-learning, Video Generation, Proactive Agent, Computational Creativity, Model Architecture, Inference Speedup, Optimizer, RL\nLV-Robotics: VLA/VTA, World Model, Simulator, Teleoperation, RL\nApplication email: lv.robotics.lab at gmail dot com",
