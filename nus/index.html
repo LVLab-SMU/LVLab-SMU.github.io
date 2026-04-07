@@ -281,42 +281,56 @@
 
   <script src="../assets/js/dev-live-reload.js"></script>
   <script>
+    function renderEventCard(ev) {
+      return `
+        <div class="single-event mb-4" style="padding: 1.5rem">
+          <div class="row no-gutters align-items-center" style="padding: 0rem">
+            <div class="col-lg-2">
+              <div class="a-date">${ev.displayDate}</div>
+            </div>
+            <div class="col-lg-9">
+              <div class="a-desc">
+                <h3>
+                  <a href="${ev.link || '#'}" ${ev.link ? 'target="_blank" rel="noopener noreferrer"' : ''}>${ev.title}</a>
+                </h3>
+                ${ev.summary ? `<p${ev.multilineSummary ? ' class="multi-line-summary"' : ''}>${ev.summary}</p>` : ''}
+              </div>
+            </div>
+          </div>
+        </div>`;
+    }
+
     async function loadHomeEvents () {
       try {
         const res   = await fetch('../assets/nus_events.json', { cache: 'no-store' });
         const items = await res.json();
-  
-        const top3 = items
-          .sort((a, b) => b.sortDate.localeCompare(a.sortDate))
-          .slice(0, 4);
-  
+        items.sort((a, b) => b.sortDate.localeCompare(a.sortDate));
+
+        const cutoffYear = new Date().getFullYear() - 1;   // 2025 when current year is 2026
+        const recent = items.filter(ev => ev.year >= cutoffYear);
+        const older  = items.filter(ev => ev.year <  cutoffYear);
+
         const list = document.getElementById('home-events-list');
-        list.innerHTML = '';  
-  
-        top3.forEach(ev => {
+        list.innerHTML = '';
+
+        recent.forEach(ev => list.insertAdjacentHTML('beforeend', renderEventCard(ev)));
+
+        if (older.length) {
           list.insertAdjacentHTML('beforeend', `
-            <div class="single-event mb-4" style="padding: 1.5rem">
-              <div class="row no-gutters align-items-center" style="padding: 0rem">
-                <div class="col-lg-2">
-                  <div class="a-date">${ev.displayDate}</div>
-                </div>
-                <div class="col-lg-9">
-                  <div class="a-desc">
-                    <h3>
-                      <a href="${ev.link || '#'}" ${ev.link ? 'target="_blank" rel="noopener noreferrer"' : ''}>${ev.title}</a>
-                    </h3>
-                    ${ev.summary ? `<p${ev.multilineSummary ? ' class="multi-line-summary"' : ''}>${ev.summary}</p>` : ''}
-                  </div>
-                </div>
-              </div>
-            </div>
-          `);
-        });
+            <details class="older-news-folder" style="margin-top:1rem">
+              <summary style="cursor:pointer;font-weight:600;color:var(--lv-blue);font-size:1.1rem;padding:10px 0;user-select:none;">
+                Earlier News (${older.length})
+              </summary>
+              <div id="older-events"></div>
+            </details>`);
+          const olderList = document.getElementById('older-events');
+          older.forEach(ev => olderList.insertAdjacentHTML('beforeend', renderEventCard(ev)));
+        }
       } catch (e) {
         console.error('events.json load failed', e);
       }
     }
-  
+
     loadHomeEvents();
     window.enableJsonLiveReload?.('../assets/nus_events.json');
   </script>

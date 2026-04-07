@@ -298,6 +298,7 @@
   <script src="../assets/js/dev-live-reload.js"></script>
   <script>
     let events=[];
+    const cutoffYear=new Date().getFullYear()-1; // show recent 2 years
 
     /* ========== Utils ========== */
     const byDateDesc=(a,b)=>b.sortDate.localeCompare(a.sortDate);
@@ -330,7 +331,7 @@
       let curYear=null;
 
       data.sort(byDateDesc).forEach(ev=>{
-        const group=ev.year<2024?'Before 2024':ev.year;
+        const group=ev.year<cutoffYear?'Earlier':String(ev.year);
 
         if(group!==curYear){
           curYear=group;
@@ -370,8 +371,8 @@
         let data=[...events];
 
         if(sel.value!=='all'){
-          data=data.filter(ev=>sel.value==='Before 2024'
-                   ? ev.year < 2024
+          data=data.filter(ev=>sel.value==='Earlier'
+                   ? ev.year < cutoffYear
                    : String(ev.year) === sel.value);
         }
         const kw=input.value.trim().toLowerCase();
@@ -398,9 +399,9 @@
         events=[];
       }
 
-      const years=[...new Set(events.map(ev=>ev.year<2024?'Before 2024':String(ev.year)))].sort((a,b)=>{
-        if(a==='Before 2024') return 1;
-        if(b==='Before 2024') return -1;
+      const years=[...new Set(events.map(ev=>ev.year<cutoffYear?'Earlier':String(ev.year)))].sort((a,b)=>{
+        if(a==='Earlier') return 1;
+        if(b==='Earlier') return -1;
         return b-a;
       });
 
