@@ -1,5 +1,15 @@
 [
   {
+    "date": "2026-04",
+    "title": "NUS LV Robotics Lab × G&M Lab Joint Recruitment",
+    "summary": "LV Robotics Lab and Prof. Jianshu Zhou's Grasping & Manipulation (G&M) Lab are jointly recruiting self-motivated students, postdocs, research assistants, and visiting researchers.\nTracks: embodied AI and manipulation algorithms (software/AI); robot systems and dexterous manipulation (hardware/systems).\nApplication emails: lv.robotics.lab at gmail dot com; jianshuzhou at nus dot edu dot sg",
+    "link": "https://sites.google.com/view/dr-jianshu-zhou-nus/bio",
+    "multilineSummary": true,
+    "year": 2026,
+    "displayDate": "2026-04",
+    "sortDate": "2026-04-19"
+  },
+  {
     "date": "2026-03",
     "title": "We released OmniVTA: Visuo-Tactile World Modeling for Contact-Rich Robotic Manipulation",
     "summary": "OmniVTA presents a visuo-tactile world model that integrates visual and tactile sensing for contact-rich robotic manipulation, enabling robots to better understand and interact with objects through multi-modal perception.",
@@ -25,7 +35,7 @@
     "multilineSummary": true,
     "year": 2026,
     "displayDate": "2026-04",
-    "sortDate": "2026-04-30"
+    "sortDate": "2026-04-01"
   },
   {
     "date": "2025-10",
