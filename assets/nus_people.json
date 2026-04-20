@@ -39,6 +39,19 @@
     }
   },
   {
+    "name": "Haoyu Zhao (Harry)",
+    "image": "images/people/Haoyu Zhao.jpg",
+    "role": "Research Fellow",
+    "roleOrder": 2,
+    "date": "2026.04 ~ Present",
+    "lab": "robotics",
+    "links": {
+      "home": "https://gulucaptain.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=pCGM7jwAAAAJ&hl=zh-CN",
+      "github": "https://github.com/gulucaptain"
+    }
+  },
+  {
     "name": "Zhifei Xie",
     "image": "images/people/Zhifei Xie.jpeg",
     "role": "Ph.D. Student",
