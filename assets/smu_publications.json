@@ -2,6 +2,55 @@
   {
     "year": 2026,
     "date": "2026",
+    "title": "Variational Speculative Decoding: Rethinking Draft Training from Token Likelihood to Sequence Acceptance",
+    "authors": "Xiandong Zou, Jianshu Li, Jing Huang, Pan Zhou",
+    "venue": "International Conference on Machine Learning (ICML), 2026",
+    "links": {
+      "paper": "https://arxiv.org/html/2602.05774v1"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Towards Scalable and Consistent 3D Editing",
+    "authors": "Ruihao Xia, Yang Tang, Pan Zhou",
+    "venue": "International Conference on Machine Learning (ICML), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2510.02994",
+      "code": "https://www.lv-lab.org/3DEditFormer/"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Towards Uniformity and Alignment for Multimodal Representation Learning",
+    "authors": "Wenzhe Yin, Pan Zhou, Zehao Xiao, Jie Liu, Shujian Yu, Jan-Jakob Sonke, Stratis Gavves",
+    "venue": "International Conference on Machine Learning (ICML), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.09507"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "TranX-Adapter: Bridging Artifacts and Semantics within MLLMs for Robust AI-generated Image Detection",
+    "authors": "Wenbin Wang, Yuge Huang, Jianqing Xu, Yue Yu, Jiangtao Yan, Shouhong Ding, Pan Zhou, Yong Luo",
+    "venue": "International Conference on Machine Learning (ICML), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2602.21716"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
     "title": "Anatomical Domain Shifts: Test-time Heterogeneous Adaptation for 3D Human Pose Prediction",
     "authors": "Qiongjie Cui, Pan Zhou, Jingjing Chen, Na Zhao",
     "venue": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2026",

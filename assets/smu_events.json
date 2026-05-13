@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-05",
+    "title": "Four papers are accepted by ICML 2026 and one paper is accepted by CVPR 2026",
+    "summary": "These five papers advance cutting-edge AI by introducing innovative methodologies for expanding generative capabilities, which include accelerating large language model inference, scaling consistent 3D asset editing, mitigating distributional conflicts in multimodal representation learning, and strengthening fake media security through robust semantic and artifact-based AI-generated image detection.",
+    "link": "https://arxiv.org/html/2602.05774v1",
+    "year": 2026,
+    "displayDate": "2026-05",
+    "sortDate": "2026-05-13"
+  },
+  {
+    "date": "2026-05",
+    "title": "Welcoming Two New Members to Our Team",
+    "summary": "We are delighted to welcome two new members to our team: Xinyu Pu from Southeast University and Runzhi Deng from the Nanjing University join us as visiting students.",
+    "link": "",
+    "year": 2026,
+    "displayDate": "2026-05",
+    "sortDate": "2026-05-13"
+  },
+  {
     "date": "2026-01",
     "title": "Seven papers are accepted by ICLR 2026",
     "summary": "Through these seven works, we provide a full-stack advancement—optimizing how AI thinks (Inference/Context), how it acts (Robotics), how it creates (Image/3D), and how it aligns with our world.",
@@ -11,7 +29,7 @@
   {
     "date": "2025-09",
     "title": "Welcoming Four New Members to Our Team",
-    "summary": "We are delighted to announce that WANG Lifu and Hung Manh Pham will soon be joining us as PhD students. In addition, YI Wenzhe from the University of Amsterdam and WANG Wenbin from Wuhan University join us as visiting students.",
+    "summary": "We are delighted to announce that WANG Lifu and Hung Manh Pham will soon be joining us as PhD students. In addition, YIN Wenzhe from the University of Amsterdam and WANG Wenbin from Wuhan University join us as visiting students.",
     "link": "",
     "year": 2025,
     "displayDate": "2025-09",
