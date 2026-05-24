@@ -1,5 +1,366 @@
 [
   {
+    "year": 2024,
+    "date": "2024",
+    "title": "MVGamba: Unify 3D Content Generation as State Space Sequence Modeling",
+    "authors": "Xuanyu Yi, Zike Wu, Qiuhong Shen, Qingshan Xu, Pan Zhou, Joo Hwee Lim, Shuicheng Yan, Xinchao Wang, Hanwang Zhang",
+    "venue": "NeurIPS 2024 poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=AprsVxrwXT"
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
+  },
+  {
+    "year": 2023,
+    "date": "2023",
+    "title": "ScaleLong: Towards More Stable Training of Diffusion Model via Scaling Network Long Skip Connection",
+    "authors": "Zhongzhan Huang, Pan Zhou, Shuicheng Yan, Liang Lin",
+    "venue": "NeurIPS 2023 poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=0N73P8pH2l"
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "The Landscape of Agentic Reinforcement Learning for LLMs: A Survey",
+    "authors": "Guibin Zhang, Hejia Geng, Xiaohang Yu, Zhenfei Yin, Zaibin Zhang, Zelin Tan, Heng Zhou, Zhong-Zhi Li, Xiangyuan Xue, Yijiang Li, Yifan Zhou, Yang Chen, Chen Zhang, Yutao Fan, Zihu Wang, Songtao Huang, Francisco Piedrahita Velez, Yue Liao, Hongru WANG, Mengyue Yang, Heng Ji, Jun Wang, Shuicheng Yan, Philip Torr, LEI BAI",
+    "venue": "Accepted by TMLR",
+    "links": {
+      "paper": "https://openreview.net/forum?id=RY19y2RI1O"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2024,
+    "date": "2024",
+    "title": "Hierarchical Banzhaf Interaction for General  Video-Language Representation Learning",
+    "authors": "Peng Jin, Li Hao, Li Yuan, Shuicheng Yan",
+    "venue": "TPAMI",
+    "links": {
+      "paper": "https://openreview.net/forum?id=VjvYRhKIrc"
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "2025",
+    "title": "Reason3D: Searching and Reasoning 3D Segmentation via Large Language Model",
+    "authors": "Kuan-Chih Huang, Xiangtai Li, Lu Qi, Shuicheng Yan, Ming-Hsuan Yang",
+    "venue": "3DV 2025 Poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=w1M87lE7D2"
+    },
+    "displayDate": "2025",
+    "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2024,
+    "date": "2024",
+    "title": "Automating Dataset Updates Towards Reliable and Timely Evaluation of Large Language Models",
+    "authors": "Jiahao Ying, Yixin Cao, Yushi Bai, Qianru Sun, Bo Wang, Wei Tang, Zhaojun Ding, Yizhe Yang, Xuanjing Huang, Shuicheng Yan",
+    "venue": "NeurIPS 2024 Track Datasets and Benchmarks Poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=EvEqYlQv8T"
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
+  },
+  {
+    "year": 2024,
+    "date": "2024",
+    "title": "OMG-LLaVA: Bridging Image-level, Object-level, Pixel-level Reasoning and Understanding",
+    "authors": "Tao Zhang, Xiangtai Li, Hao Fei, Haobo Yuan, Shengqiong Wu, Shunping Ji, Chen Change Loy, Shuicheng Yan",
+    "venue": "NeurIPS 2024 poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=WeoNd6PRqS"
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
+  },
+  {
+    "year": 2024,
+    "date": "2024",
+    "title": "Action Imitation in Common Action Space for Customized Action Image Synthesis",
+    "authors": "Wang Lin, Jingyuan Chen, Jiaxin Shi, Zirun Guo, Yichen Zhu, Zehan Wang, Tao Jin, Zhou Zhao, Fei Wu, Shuicheng Yan, Hanwang Zhang",
+    "venue": "NeurIPS 2024 poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=h2e4G2YiwR"
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
+  },
+  {
+    "year": 2024,
+    "date": "2024",
+    "title": "Vitron: A Unified Pixel-level Vision LLM for Understanding, Generating, Segmenting, Editing",
+    "authors": "Hao Fei, Shengqiong Wu, Hanwang Zhang, Tat-Seng Chua, Shuicheng Yan",
+    "venue": "NeurIPS 2024 poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=kPmSfhCM5s"
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
+  },
+  {
+    "year": 2024,
+    "date": "2024",
+    "title": "DGMamba: Domain Generalization via Generalized State Space Model",
+    "authors": "Shaocong Long, Qianyu Zhou, Xiangtai Li, Xuequan Lu, Chenhao Ying, Yuan Luo, Lizhuang Ma, Shuicheng Yan",
+    "venue": "MM2024 Poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=kaJsB2H0EX"
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
+  },
+  {
+    "year": 2024,
+    "date": "2024",
+    "title": "Learning to Optimize for Reinforcement Learning",
+    "authors": "Qingfeng Lan, A. Rupam Mahmood, Shuicheng Yan, Zhongwen Xu",
+    "venue": "RLC 2024",
+    "links": {
+      "paper": "https://openreview.net/forum?id=JQuEXGj2r1"
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
+  },
+  {
+    "year": 2024,
+    "date": "2024",
+    "title": "Non-confusing Generation of Customized Concepts in Diffusion Models",
+    "authors": "Wang Lin, Jingyuan Chen, Jiaxin Shi, Yichen Zhu, Chen Liang, Junzhong Miao, Tao Jin, Zhou Zhao, Fei Wu, Shuicheng Yan, Hanwang Zhang",
+    "venue": "ICML 2024 Poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=XoencoHWy7"
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31"
+  },
+  {
+    "year": 2024,
+    "date": "2024",
+    "title": "Auto-Encoding Morph-Tokens for Multimodal LLM",
+    "authors": "Kaihang Pan, Siliang Tang, Juncheng Li, Zhaoyu Fan, Wei Chow, Shuicheng Yan, Tat-Seng Chua, Yueting Zhuang, Hanwang Zhang",
+    "venue": "ICML 2024 Spotlight",
+    "links": {
+      "paper": "https://openreview.net/forum?id=U97MIrs35l"
+    },
+    "displayDate": "2024",
+    "sortDate": "2024-12-31",
+    "presentation": "spotlight"
+  },
+  {
+    "year": 2023,
+    "date": "2023",
+    "title": "Generative Table Pre-training Empowers Models for Tabular Prediction",
+    "authors": "Tianping Zhang, Shaowen Wang, Shuicheng Yan, Li Jian, Qian Liu",
+    "venue": "EMNLP 2023 Main",
+    "links": {
+      "paper": "https://openreview.net/forum?id=3gdG9upo7e"
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
+  },
+  {
+    "year": 2023,
+    "date": "2023",
+    "title": "Efficient Diffusion Policies For Offline Reinforcement Learning",
+    "authors": "Bingyi Kang, Xiao Ma, Chao Du, Tianyu Pang, Shuicheng Yan",
+    "venue": "NeurIPS 2023 poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=0P6uJtndWu"
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
+  },
+  {
+    "year": 2023,
+    "date": "2023",
+    "title": "Mutual Information Regularized Offline Reinforcement Learning",
+    "authors": "Xiao Ma, Bingyi Kang, Zhongwen Xu, Min Lin, Shuicheng Yan",
+    "venue": "NeurIPS 2023 poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=2z8noau98f"
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
+  },
+  {
+    "year": 2023,
+    "date": "2023",
+    "title": "Gaussian Mixture Solvers for Diffusion Models",
+    "authors": "Hanzhong Allan Guo, Cheng Lu, Fan Bao, Tianyu Pang, Shuicheng Yan, Chao Du, Chongxuan Li",
+    "venue": "NeurIPS 2023 poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=0NuseeBuB4"
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
+  },
+  {
+    "year": 2023,
+    "date": "2023",
+    "title": "On Calibrating Diffusion Probabilistic Models",
+    "authors": "Tianyu Pang, Cheng Lu, Chao Du, Min Lin, Shuicheng Yan, Zhijie Deng",
+    "venue": "NeurIPS 2023 poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=XcQzXeF7fX"
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
+  },
+  {
+    "year": 2023,
+    "date": "2023",
+    "title": "Nonparametric Generative Modeling with Conditional Sliced-Wasserstein Flows",
+    "authors": "Chao Du, Tianbo Li, Tianyu Pang, Shuicheng Yan, Min Lin",
+    "venue": "ICML 2023 Poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=cOngPVufCF"
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
+  },
+  {
+    "year": 2023,
+    "date": "2023",
+    "title": "Bag of Tricks for Training Data Extraction from Language Models",
+    "authors": "Weichen Yu, Tianyu Pang, Qian Liu, Chao Du, Bingyi Kang, Yan Huang, Min Lin, Shuicheng Yan",
+    "venue": "ICML 2023 Poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=22hmxMop1O"
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
+  },
+  {
+    "year": 2023,
+    "date": "2023",
+    "title": "Better Diffusion Models Further Improve Adversarial Training",
+    "authors": "Zekai Wang, Tianyu Pang, Chao Du, Min Lin, Weiwei Liu, Shuicheng Yan",
+    "venue": "ICML 2023 Poster",
+    "links": {
+      "paper": "https://openreview.net/forum?id=1EWPr0ks8I"
+    },
+    "displayDate": "2023",
+    "sortDate": "2023-12-31"
+  },
+  {
+    "year": 2015,
+    "date": "2015",
+    "title": "Generalized singular value thresholding",
+    "authors": "Canyi Lu, Changbo Zhu, Chunyan Xu, Shuicheng Yan, Zhouchen Lin",
+    "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+    "links": {
+      "paper": "https://openreview.net/forum?id=w8Z1dDxBjO"
+    },
+    "displayDate": "2015",
+    "sortDate": "2015-12-31"
+  },
+  {
+    "year": 2014,
+    "date": "2014",
+    "title": "Convex optimization procedure for clustering: theoretical revisit",
+    "authors": "Changbo Zhu, huan xu, Chenlei Leng, Shuicheng Yan",
+    "venue": "Advances in Neural Information Processing Systems 27",
+    "links": {
+      "paper": "https://openreview.net/forum?id=9pzTGVmGMM"
+    },
+    "displayDate": "2014",
+    "sortDate": "2014-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "May 2026",
+    "title": "FeRA: Frequency-Energy Constrained Routing for Effective Diffusion Adaptation Fine-Tuning",
+    "authors": "Bo Yin, Xiaobin Hu, Xingyu Zhou, Yu He, Peng-Tao Jiang, Yue Liao, Junwei Zhu, Jiangning Zhang, Ying Tai, Shuicheng Yan",
+    "venue": "International Conference on Machine Learning (ICML), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2511.17979"
+    },
+    "displayDate": "May 2026",
+    "sortDate": "2026-05-24"
+  },
+  {
+    "year": 2026,
+    "date": "May 2026",
+    "title": "From Perception to Planning: Evolving Ego-Centric Task-Oriented Spatiotemporal Reasoning via Curriculum Learning",
+    "authors": "Xiaoda Yang, Yuxiang Liu, Shenzhou Gao, Can Wang, Jingyang Xue, Lixin Yang, Yao Mu, Tao Jin, Shuicheng Yan, Zhimeng Zhang, Zhou Zhao",
+    "venue": "International Conference on Machine Learning (ICML), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2604.10517"
+    },
+    "displayDate": "May 2026",
+    "sortDate": "2026-05-24"
+  },
+  {
+    "year": 2026,
+    "date": "May 2026",
+    "title": "MemEvolve: Meta-Evolution of Agent Memory Systems",
+    "authors": "Guibin Zhang, Haotian Ren, Chong Zhan, Junhao Wang, He Zhu, Wangchunshu Zhou, Shuicheng Yan",
+    "venue": "International Conference on Machine Learning (ICML), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2512.18746"
+    },
+    "displayDate": "May 2026",
+    "sortDate": "2026-05-24"
+  },
+  {
+    "year": 2026,
+    "date": "May 2026",
+    "title": "Dual Latent Memory for Visual Multi-agent System",
+    "authors": "Xinlei Yu, Chengming Xu, Zhangquan Chen, Bo Yin, Cheng Yang, Yongbo He, Yihao Hu, Jiangning Zhang, Cheng Tan, Xiaobin Hu, Shuicheng Yan",
+    "venue": "International Conference on Machine Learning (ICML), 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2602.00471"
+    },
+    "displayDate": "May 2026",
+    "sortDate": "2026-05-24"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Tracking the Truth: Object-Centric Spatio-Temporal Monitoring for Video Large Language Models",
+    "authors": "Tri Cao, Khoi M. Le, Thong Thanh Nguyen, Cong-Duy T Nguyen, Quynh Vo, Anh Tuan Luu, Chunyan Miao, See-Kiong Ng, Shuicheng Yan, Bryan Hooi",
+    "venue": "ICML 2026 AIWILD Workshop, 2026",
+    "links": {
+      "paper": "https://openreview.net/forum?id=h3t25yHdPc"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "WARD: Adversarially Robust Defense of Web Agents Against Prompt Injections",
+    "authors": "Tri Cao, Yulin Chen, Thanh Hieu Cao, Yibo Li, Khoi M. Le, Thong Thanh Nguyen, Yuexin Li, Yufei He, Yue Liu, Shuicheng Yan, Bryan Hooi",
+    "venue": "ICML 2026 AIWILD Workshop, 2026",
+    "links": {
+      "paper": "https://openreview.net/forum?id=wjnoc49RpR"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "WebAgentGuard: A Reasoning-Driven Guard Model for Detecting Prompt Injection Attacks in Web Agents",
+    "authors": "Yulin Chen, Tri Cao, Haoran Li, Yibo Li, Yue Liu, Yufei He, Khoi M. Le, Yangqiu Song, Shuicheng Yan, Bryan Hooi",
+    "venue": "ICML 2026 AIWILD Workshop, 2026",
+    "links": {
+      "paper": "https://openreview.net/forum?id=jM8p3cBjNF"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
     "year": 2026,
     "date": "2026",
     "title": "DrawMotion: Generating 3D Human Motions by Freehand Drawing",
@@ -113,9 +474,9 @@
   {
     "year": 2026,
     "date": "2026",
-    "title": "UniF$^2$ace: A Unified Fine‑grained Face Understanding and Generation Model",
+    "title": "UniF$^2$ace: A $\\underline{Uni}$fied $\\underline{F}$ine-grained $\\underline{Face}$ Understanding and Generation Model",
     "authors": "Junzhe Li, Sifan Zhou, Liya Guo, Xuerui Qiu, Linrui Xu, TingTing Long, Chun Fan, Ming Li, Hehe Fan, Jun Liu, Shuicheng Yan",
-    "venue": "The Fourteenth International Conference on Learning Representations (ICLR), 2026",
+    "venue": "ICLR 2026 Poster",
     "links": {
       "paper": "https://arxiv.org/pdf/2503.08120"
     },
@@ -291,9 +652,9 @@
   {
     "year": 2025,
     "date": "2025",
-    "title": "A Unified Multi-modal LLM for Sounding-Video Comprehension and Generation",
+    "title": "JavisGPT: A Unified Multi-modal LLM for Sounding-Video Comprehension and Generation",
     "authors": "Kai Liu, Jungang Li, Yuchong Sun, Shengqiong Wu, jianzhang gao, Daoan Zhang, Wei Zhang, Sheng Jin, Sicheng Yu, Geng Zhan, Jiayi Ji, Fan Zhou, Liang Zheng, Shuicheng Yan, Hao Fei, Tat-Seng Chua",
-    "venue": "The Thirty-ninth Annual Conference on Neural Information Processing Systems (NeurIPS), 2025",
+    "venue": "NeurIPS 2025 spotlight",
     "links": {
       "paper": "https://arxiv.org/pdf/2506.17612"
     },
@@ -460,9 +821,9 @@
   {
     "year": 2025,
     "date": "2025",
-    "title": "On Path to Multimodal Generalist: Levels and Benchmarks",
+    "title": "On Path to Multimodal Generalist: General-Level and General-Bench",
     "authors": "Hao Fei, Yuan Zhou, Juncheng Li, Xiangtai Li, Qingshan Xu, Bobo Li, Shengqiong Wu, Yaoting Wang, Junbao Zhou, Jiahao Meng, Qingyu Shi, Zhiyuan Zhou, Liangtao Shi, Minghe Gao, Daoan Zhang, Zhiqi Ge, Siliang Tang, Kaihang Pan, Yaobo Ye, Haobo Yuan, Tao Zhang, Weiming Wu, Tianjie Ju, Zixiang Meng, Shilin Xu, Liyu Jia, Wentao Hu, Meng Luo, Jiebo Luo, Tat-Seng Chua, Shuicheng Yan, Hanwang Zhang",
-    "venue": "International Conference on Machine Learning (ICML), 2025",
+    "venue": "ICML 2025 oral",
     "links": {
       "paper": "https://arxiv.org/abs/2505.04620",
       "code": "https://github.com/path2generalist/General-Level"

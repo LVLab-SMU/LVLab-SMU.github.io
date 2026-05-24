@@ -286,7 +286,9 @@
           const raw = String(item.date ?? item.displayDate ?? '').trim();
           return raw && raw !== String(item.year);
         };
-        const formatTitle = (title) => escapeHtml(title).replace(/\$\^([^$]+)\$/g, '<sup>$1</sup>');
+        const formatTitle = (title) => escapeHtml(title)
+          .replace(/\$\\underline\{([^}]*)\}\$/g, '$1')
+          .replace(/\$\^([^$]+)\$/g, '<sup>$1</sup>');
         const byDateDesc=(a,b)=>{
           if (a.year !== b.year) return b.year - a.year;
           const aSpecific = hasSpecificDate(a);
