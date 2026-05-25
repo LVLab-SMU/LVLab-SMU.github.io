@@ -1,5 +1,18 @@
 [
   {
+    "year": 2026,
+    "date": "May 2026",
+    "title": "Mega-ASR: Towards In-the-wild² Speech Recognition via Scaling up Real-world Acoustic Simulation",
+    "authors": "Zhifei Xie, Kaiyu Pang, Haobin Zhang, Deheng Ye, Xiaobin Hu, Shuicheng Yan, Chunyan Miao",
+    "venue": "arXiv, 2026",
+    "links": {
+      "paper": "https://arxiv.org/pdf/2605.19833",
+      "code": "https://github.com/xzf-thu/Mega-ASR"
+    },
+    "displayDate": "May 2026",
+    "sortDate": "2026-05-19"
+  },
+  {
     "year": 2024,
     "date": "2024",
     "title": "MVGamba: Unify 3D Content Generation as State Space Sequence Modeling",
