@@ -58,7 +58,7 @@ function validateHtmlRefs() {
   for (const file of htmlFiles) {
     let html = fs.readFileSync(path.join(root, file), "utf8");
     html = html.replace(/<!--[\s\S]*?-->/g, "");
-    html = html.replace(/<script\b[\s\S]*?<\/script>/gi, "");
+    html = html.replace(/<script\b(?![^>]*\bsrc=)[\s\S]*?<\/script>/gi, "");
 
     const refs = [];
     for (const pattern of attrPatterns) {

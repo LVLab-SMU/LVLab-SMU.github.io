@@ -1,0 +1,144 @@
+:root {
+  --lv-blue: #003d7c;
+  --lv-orange: #ee7023;
+  --card-bg: #f8fafc;
+}
+
+.pubs-layout {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.blog-wrapper {
+  margin-top: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.pub-list {
+  margin-top: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.pub-card {
+  background: #f9fafb;
+  padding: 1.2rem 1.5rem;
+  border-left: 4px solid var(--lv-orange);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  margin-bottom: 1rem;
+}
+
+.pub-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.pub-card time {
+  font-weight: 700;
+  color: #1e3a8a;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.pub-card h3 {
+  display: block;
+  margin: 0;
+  margin-top: 0.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--lv-orange);
+  line-height: 1.35;
+}
+
+.pub-card .authors {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.pub-card .venue {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0.15rem 0 0.3rem;
+}
+
+.pub-card p {
+  text-indent: 2rem;
+}
+
+.pub-card a.icon {
+  margin-right: 10px;
+  font-size: 0.9rem;
+  color: var(--lv-blue);
+}
+
+.pub-card a.icon:hover {
+  color: var(--lv-orange);
+  text-decoration: underline;
+}
+
+.pub-card .link-icon {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 1.2rem;
+  font-size: 0.9rem;
+  color: var(--lv-blue);
+}
+
+.pub-card .link-icon i {
+  margin-right: 6px;
+  font-size: 0.9rem;
+}
+
+.pub-card .link-icon:hover {
+  color: var(--lv-orange);
+  text-decoration: underline;
+}
+
+.gh-code {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.gh-code .gh-star-wrap {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: #f59e0b;
+}
+
+.gh-code:hover .gh-star-wrap {
+  color: var(--lv-orange);
+  text-decoration: underline;
+}
+
+.pres-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 2px 8px 3px;
+  border-radius: 6px;
+  vertical-align: middle;
+  font-size: 0.7rem;
+  font-weight: 600;
+  line-height: 1;
+}
+
+.pres-badge.oral {
+  background: #39c5bb;
+  color: #fff;
+}
+
+.pres-badge.spotlight {
+  background: #66ccff;
+  color: #fff;
+}
+
+.pub-load-error {
+  color: #555;
+  background: #fff7ed;
+  border-left-color: var(--lv-orange);
+}

@@ -1,0 +1,171 @@
+:root {
+  --lv-blue: #003d7c;
+  --lv-orange: #ee7023;
+  --card-bg: #f8fafc;
+}
+
+html,
+body {
+  height: 100%;
+  overflow-y: auto;
+}
+
+#timelineYears {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+  max-height: calc(100vh - 5rem);
+  overflow-y: auto;
+  padding-right: 0.5rem;
+}
+
+#timelineYears::-webkit-scrollbar {
+  width: 6px;
+}
+
+#timelineYears::-webkit-scrollbar-thumb {
+  background: var(--lv-blue);
+  border-radius: 3px;
+}
+
+#timelineYears li {
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 14px;
+  color: #1e293b;
+  transition: background 0.3s, color 0.3s;
+}
+
+#timelineYears li:hover {
+  background: var(--lv-orange);
+  color: #fff;
+}
+
+.news-layout {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  align-items: flex-start;
+  position: relative;
+}
+
+.timeline-nav {
+  position: sticky;
+  top: 5rem;
+  align-self: flex-start;
+  width: 200px;
+  height: fit-content;
+}
+
+.events-list {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.pub-card {
+  background: #f9fafb;
+  padding: 1.2rem 1.5rem;
+  border-left: 4px solid var(--lv-orange);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+  margin-bottom: 1rem;
+}
+
+.pub-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
+}
+
+.pub-card time {
+  font-weight: 700;
+  color: #1e3a8a;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.pub-card h3 {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--lv-orange);
+  margin-top: 0.2rem;
+}
+
+.pub-card p {
+  text-indent: 2rem;
+}
+
+.pub-card p.multiline-summary {
+  white-space: pre-line;
+  text-indent: 0;
+}
+
+.pub-card .authors {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.pub-card .venue {
+  font-size: 0.9rem;
+  color: #777;
+  margin: 0.15rem 0 0.3rem;
+}
+
+.pub-card a.icon {
+  margin-right: 10px;
+  font-size: 0.9rem;
+  color: var(--lv-blue);
+}
+
+.pub-card a.icon:hover,
+.pub-card .link-icon:hover {
+  color: var(--lv-orange);
+  text-decoration: underline;
+}
+
+.pub-card .link-icon {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 1.2rem;
+  font-size: 0.9rem;
+  color: var(--lv-blue);
+}
+
+.pub-card .link-icon i {
+  margin-right: 6px;
+  font-size: 0.9rem;
+}
+
+.event-load-error {
+  color: #555;
+  background: #fff7ed;
+  border-left-color: var(--lv-orange);
+}
+
+@media (max-width: 768px) {
+  .news-layout {
+    display: block;
+    padding: 1rem;
+  }
+
+  .timeline-nav {
+    position: static;
+    width: auto;
+    margin-bottom: 1rem;
+  }
+
+  #timelineYears {
+    display: flex;
+    gap: 0.5rem;
+    overflow-x: auto;
+    max-height: none;
+    padding-bottom: 0.5rem;
+  }
+
+  #timelineYears li {
+    white-space: nowrap;
+  }
+}
