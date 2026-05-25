@@ -1,23 +1,5 @@
 [
   {
-    "date": "2026-05",
-    "title": "Four papers are accepted by ICML 2026",
-    "summary": "Four papers from LV-Lab are accepted by the ICML 2026 main conference: FeRA, From Perception to Planning, MemEvolve, and Dual Latent Memory.",
-    "link": "https://openreview.net/group?id=ICML.cc/2026/Conference",
-    "year": 2026,
-    "displayDate": "2026-05",
-    "sortDate": "2026-05-24"
-  },
-  {
-    "date": "2026-05",
-    "title": "Three papers are accepted by ICML 2026 AIWILD",
-    "summary": "Three papers from LV-Lab are accepted by the ICML 2026 AIWILD workshop: Tracking the Truth, WARD, and WebAgentGuard.",
-    "link": "https://openreview.net/search?term=~Shuicheng_YAN3&content=authors&group=all&source=forum&sort=cdate:desc",
-    "year": 2026,
-    "displayDate": "2026-05",
-    "sortDate": "2026-05-24"
-  },
-  {
     "date": "2026-04",
     "title": "NUS LV Robotics Lab × G&M Lab Joint Recruitment",
     "summary": "LV Robotics Lab and Prof. Jianshu Zhou's Grasping & Manipulation (G&M) Lab are jointly recruiting self-motivated students, postdocs, research assistants, and visiting researchers.\nTracks: embodied AI and manipulation algorithms (software/AI); robot systems and dexterous manipulation (hardware/systems).\nApplication emails:\nLV Robotics Lab: lv.robotics.lab at gmail dot com\nProf. Jianshu Zhou: jianshuzhou at nus dot edu dot sg",
