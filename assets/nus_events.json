@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-05",
+    "title": "We released Mega-ASR: Towards In-the-wild² Speech Recognition via Scaling up Real-world Acoustic Simulation",
+    "summary": "Mega-ASR scales up real-world acoustic simulation for in-the-wild² speech recognition, targeting more robust ASR under diverse real-world acoustic conditions.",
+    "link": "https://arxiv.org/pdf/2605.19833",
+    "year": 2026,
+    "displayDate": "2026-05",
+    "sortDate": "2026-05-19"
+  },
+  {
     "date": "2026-04",
     "title": "NUS LV Robotics Lab × G&M Lab Joint Recruitment",
     "summary": "LV Robotics Lab and Prof. Jianshu Zhou's Grasping & Manipulation (G&M) Lab are jointly recruiting self-motivated students, postdocs, research assistants, and visiting researchers.\nTracks: embodied AI and manipulation algorithms (software/AI); robot systems and dexterous manipulation (hardware/systems).\nApplication emails:\nLV Robotics Lab: lv.robotics.lab at gmail dot com\nProf. Jianshu Zhou: jianshuzhou at nus dot edu dot sg",

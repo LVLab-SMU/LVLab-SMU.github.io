@@ -281,19 +281,35 @@
 
   <script src="../assets/js/dev-live-reload.js"></script>
   <script>
+    function escapeHtml(value = '') {
+      return String(value).replace(/[&<>"']/g, (char) => ({
+        '&': '&amp;',
+        '<': '&lt;',
+        '>': '&gt;',
+        '"': '&quot;',
+        "'": '&#39;'
+      }[char]));
+    }
+
     function renderEventCard(ev) {
+      const link = String(ev.link || '').trim();
+      const href = link ? escapeHtml(link) : '#';
+      const linkAttrs = link ? 'target="_blank" rel="noopener noreferrer"' : '';
+      const summary = ev.summary
+        ? `<p${ev.multilineSummary ? ' class="multi-line-summary"' : ''}>${escapeHtml(ev.summary)}</p>`
+        : '';
       return `
         <div class="single-event mb-4" style="padding: 1.5rem">
           <div class="row no-gutters align-items-center" style="padding: 0rem">
             <div class="col-lg-2">
-              <div class="a-date">${ev.displayDate}</div>
+              <div class="a-date">${escapeHtml(ev.displayDate)}</div>
             </div>
             <div class="col-lg-9">
               <div class="a-desc">
                 <h3>
-                  <a href="${ev.link || '#'}" ${ev.link ? 'target="_blank" rel="noopener noreferrer"' : ''}>${ev.title}</a>
+                  <a href="${href}" ${linkAttrs}>${escapeHtml(ev.title)}</a>
                 </h3>
-                ${ev.summary ? `<p${ev.multilineSummary ? ' class="multi-line-summary"' : ''}>${ev.summary}</p>` : ''}
+                ${summary}
               </div>
             </div>
           </div>
