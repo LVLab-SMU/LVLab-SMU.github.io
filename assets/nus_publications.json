@@ -1,6 +1,16 @@
 [
   {
     "year": 2026,
+    "date": "June 2026",
+    "title": "Semantic Frame Interpolation",
+    "authors": "Yijia Hong, Jiangning Zhang, Ran Yi, Weijian Cao, Xiaobin Hu, Lizhuang Ma, Shuicheng Yan",
+    "venue": "IEEE Transactions on Image Processing (TIP), 2026",
+    "links": {},
+    "displayDate": "June 2026",
+    "sortDate": "2026-06-01"
+  },
+  {
+    "year": 2026,
     "date": "May 2026",
     "title": "Mega-ASR: Towards In-the-wild² Speech Recognition via Scaling up Real-world Acoustic Simulation",
     "authors": "Zhifei Xie, Kaiyu Pang, Haobin Zhang, Deheng Ye, Xiaobin Hu, Shuicheng Yan, Chunyan Miao",
