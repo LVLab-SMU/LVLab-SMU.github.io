@@ -59,20 +59,26 @@ function validateSortDateYear(file, item, index) {
   }
 }
 
-function validateOptionalLink(file, item, index) {
-  if (!("link" in item) || item.link === "") return;
-  if (!hasText(item.link)) {
-    errors.push(`${file}: item ${index} has invalid link`);
+function validateLinkValue(file, value, label) {
+  if (!hasText(value)) {
+    errors.push(`${file}: ${label} is not a valid link`);
     return;
   }
+  if (!/^[a-z][a-z0-9+.-]*:/i.test(value)) return;
+
   try {
-    const url = new URL(item.link);
+    const url = new URL(value);
     if (!["http:", "https:"].includes(url.protocol)) {
-      errors.push(`${file}: item ${index} has unsupported link protocol`);
+      errors.push(`${file}: ${label} has unsupported link protocol`);
     }
   } catch {
-    errors.push(`${file}: item ${index} has invalid link URL`);
+    errors.push(`${file}: ${label} has invalid link URL`);
   }
+}
+
+function validateOptionalLink(file, item, index) {
+  if (!("link" in item) || item.link === "") return;
+  validateLinkValue(file, item.link, `item ${index} link`);
 }
 
 function validateCommonDatedRecord(file, item, index) {
@@ -116,9 +122,7 @@ function validateJson() {
         errors.push(`${file}: item ${index} has invalid links object`);
       } else if (item.links) {
         for (const [key, value] of Object.entries(item.links)) {
-          if (!hasText(value)) {
-            errors.push(`${file}: item ${index} has invalid ${key} link`);
-          }
+          validateLinkValue(file, value, `item ${index} ${key} link`);
         }
       }
     });
