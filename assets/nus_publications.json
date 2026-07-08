@@ -2,6 +2,19 @@
   {
     "year": 2026,
     "date": "June 2026",
+    "title": "SPOT-E: Test-Time Entropy Shaping with Visual Spotlights for Frozen VLMs",
+    "authors": "Bo Yin, Xiaobin Hu, Chengming Xu, Ruolin Shen, Mo Yang, Jiangning Zhang, Peng-Tao Jiang, Cheng Tan, Shuicheng Yan",
+    "venue": "European Conference on Computer Vision (ECCV), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.20244",
+      "code": "https://github.com/YinBo0927/SPOT-E"
+    },
+    "displayDate": "June 2026",
+    "sortDate": "2026-06-18"
+  },
+  {
+    "year": 2026,
+    "date": "June 2026",
     "title": "Semantic Frame Interpolation",
     "authors": "Yijia Hong, Jiangning Zhang, Ran Yi, Weijian Cao, Xiaobin Hu, Lizhuang Ma, Shuicheng Yan",
     "venue": "IEEE Transactions on Image Processing (TIP), 2026",
@@ -21,6 +34,18 @@
     },
     "displayDate": "May 2026",
     "sortDate": "2026-05-19"
+  },
+  {
+    "year": 2026,
+    "date": "April 2026",
+    "title": "HiPA: Enabling One-Step Text-to-Image Diffusion via High-Frequency Promotion",
+    "authors": "Yifan Zhang, Bryan Hooi, Shuicheng Yan",
+    "venue": "Proceedings of AI for Accelerated Research Symposium, 2026",
+    "links": {
+      "paper": "https://easychair.org/publications/paper/cl8M"
+    },
+    "displayDate": "April 2026",
+    "sortDate": "2026-04-19"
   },
   {
     "year": 2024,
@@ -81,6 +106,18 @@
     },
     "displayDate": "2025",
     "sortDate": "2025-12-31"
+  },
+  {
+    "year": 2025,
+    "date": "October 2025",
+    "title": "Individual/joint deblurring and low-light image enhancement in one go via unsupervised deblurring paradigm",
+    "authors": "Suiyi Zhao, Zhao Zhang, Yanyan Wei, Jicong Fan, Yang Zhao, Shuicheng Yan, Meng Wang",
+    "venue": "Science China Information Sciences, 2025",
+    "links": {
+      "paper": "https://link.springer.com/article/10.1007/s11432-023-4562-8"
+    },
+    "displayDate": "October 2025",
+    "sortDate": "2025-10-23"
   },
   {
     "year": 2024,
