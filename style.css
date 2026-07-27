@@ -450,9 +450,9 @@ textarea {
 }
 
 a {
-  -webkit-transition: 0.3s ease;
-  -o-transition: 0.3s ease;
-  transition: 0.3s ease;
+  -webkit-transition: color 160ms ease;
+  -o-transition: color 160ms ease;
+  transition: color 160ms ease;
 }
 
 a:hover {
@@ -3608,3 +3608,46 @@ footer:before {
   color: #e74c3c;
   margin-right: 15px;
 } */
+
+/* Shared interaction and legacy-loader safeguards */
+.preloader {
+  display: none !important;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+summary:focus-visible,
+[tabindex]:not([tabindex="-1"]):focus-visible,
+.navbar-toggler:focus-visible {
+  outline: 3px solid #ee7023 !important;
+  outline-offset: 3px;
+}
+
+.btns {
+  -webkit-transition: transform 140ms cubic-bezier(0.23, 1, 0.32, 1), background-color 160ms ease, color 160ms ease;
+  -o-transition: transform 140ms cubic-bezier(0.23, 1, 0.32, 1), background-color 160ms ease, color 160ms ease;
+  transition: transform 140ms cubic-bezier(0.23, 1, 0.32, 1), background-color 160ms ease, color 160ms ease;
+}
+
+.btns:active {
+  -webkit-transform: scale(0.97);
+      -ms-transform: scale(0.97);
+          transform: scale(0.97);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btns {
+    -webkit-transition: background-color 160ms ease, color 160ms ease;
+    -o-transition: background-color 160ms ease, color 160ms ease;
+    transition: background-color 160ms ease, color 160ms ease;
+  }
+
+  .btns:active {
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+  }
+}

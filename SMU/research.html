@@ -19,8 +19,6 @@
     <meta name="keywords" content="Learning and Vision Laboratory (LV-Lab), LV-Lab @ SMU, SCIS, SMU, AI, machine learning, computer vision">
 <title>Research · LV-Lab @ SMU</title>
 
-<link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
-<link rel="stylesheet" href="../style.css">
 <link href="../css/font-awesome.min.css" rel="stylesheet">
 <link href="../css/magnific-popup.css" rel="stylesheet">
 <link href="../css/owl.carousel.min.css" rel="stylesheet">
@@ -32,7 +30,6 @@
 <link href="../assets/vendor/material-design-iconic-font/dist/css/material-design-iconic-font.min.css" rel="stylesheet">
 
 <link href="../assets/css/theme.css" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 <style>
   :root{
@@ -40,13 +37,6 @@
     --lv-orange:#ee7023;
     --card-bg:#f8fafc;
   }
-
-  /* --- 动效 --- */
-  @keyframes slideFade{
-    from{transform:translateY(40px);opacity:0}
-    to{transform:none;opacity:1}
-  }
-  [data-animate]{opacity:0;animation:slideFade .8s .1s both;}
 
   /* --- 版心 & 标题 --- */
   .research-wrap{max-width:1200px;margin:auto;padding:3rem 1rem;}
@@ -74,9 +64,7 @@
     border-radius:8px;
     padding:1.4rem 1.6rem;
     box-shadow:0 1px 4px rgba(0,0,0,.04);
-    transition:transform .25s,box-shadow .25s;
   }
-  .pillar:hover{transform:translateY(-4px);box-shadow:0 6px 14px rgba(0,0,0,.08);}
   .pillar h3{color:var(--lv-orange);margin:0 0 .6rem;font-size:1.15rem;font-weight:600;}
   .pillar p{margin:0;color:#475569;font-size:.95rem;line-height:1.55;}
 
@@ -186,7 +174,7 @@ background-image: url(../images/banner_9.webp);
 <main class="research-wrap">
 
     
-    <p class="hero-tagline" data-animate>
+    <p class="hero-tagline">
       
       We strive for <strong style="color:var(--lv-orange)">Efficient and Effective AI</strong> –<br> advancing the efficiency, reasoning, and creativity of AI models. 
       
@@ -195,7 +183,7 @@ background-image: url(../images/banner_9.webp);
     <div class="plane-grid">
       
       <div class="space-y-6">
-        <article class="pillar" data-animate>
+        <article class="pillar">
         <span style="font-weight:600;color:var(--lv-blue);letter-spacing:0.5px;font-size:1.5rem;">
             Efficient AI
             </span>
@@ -205,7 +193,7 @@ background-image: url(../images/banner_9.webp);
           </p>
         </article>
   
-        <article class="pillar" data-animate>
+        <article class="pillar">
           <span style="font-weight:600;color:var(--lv-blue);letter-spacing:0.5px;font-size:1.5rem;">
             Agentic AI
               </span>
@@ -215,7 +203,7 @@ background-image: url(../images/banner_9.webp);
           </p>
         </article>
   
-        <article class="pillar" data-animate>
+        <article class="pillar">
             <span style="font-weight:600;color:var(--lv-blue);letter-spacing:0.5px;font-size:1.5rem;">
                 Controllable Gen AI
               </span>
@@ -226,7 +214,7 @@ background-image: url(../images/banner_9.webp);
         </article>
       </div>
 
-      <div class="plane-box text-center" data-animate>
+      <div class="plane-box text-center">
         <img src="../images/plane-smu.png" alt="Executive Function Airplane">
         <p class="mt-3 text-sm" style="color:#8b7c64">
           An ``aircraft'' AI model <br>
@@ -309,15 +297,6 @@ background-image: url(../images/banner_9.webp);
     </div>
 </footer>
 
-<script>
-    const io=new IntersectionObserver(es=>es.forEach(e=>{
-      if(e.isIntersecting){e.target.style.animationPlayState='running';io.unobserve(e.target);}
-    }),{threshold:.15});
-    document.querySelectorAll('[data-animate]').forEach(el=>{
-      el.style.animationPlayState='paused';
-      io.observe(el);
-    });
-</script>
 <script src="../js/vendor/jquery/jquery-1.12.3.js"></script>
 <script src="../js/vendor/jquery/popper.min.js"></script>
 <script src="../js/vendor/bootstrap.min.js"></script>

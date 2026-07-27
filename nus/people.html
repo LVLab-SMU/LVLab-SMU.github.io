@@ -50,8 +50,16 @@
     }
 
     .card-img {
-      height:180px;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 4 / 5;
       border-radius: 8px;
+      object-fit: cover;
+    }
+
+    .profile-portrait {
+      height: auto;
+      aspect-ratio: 4 / 5;
       object-fit: cover;
     }
 
@@ -339,6 +347,7 @@
 
             <div style="flex: 0 0 auto; padding-right: 20px; align-self: flex-end;">
                 <img src="./images/yanshuicheng.png" alt="Dr. Shuicheng Yan"
+                    class="profile-portrait" decoding="async"
                     style="width: 180px; border-radius: 10px;">
             </div>
 
@@ -421,16 +430,16 @@
 <script>
   function buildCard(p) {
     const imgStyle = p.imageStyle ? ` style="${p.imageStyle}"` : '';
-    const linkHome   = p.links?.home   ? `<a href="${p.links.home}" target="_blank" rel="noopener noreferrer"><i class="zmdi zmdi-home zmdi-hc-fw"></i></a>` : `<span style="opacity:0"><i class="zmdi zmdi-home zmdi-hc-fw"></i></span>`;
-    const linkScholar = p.links?.scholar ? `<a href="${p.links.scholar}" target="_blank" rel="noopener noreferrer"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>` : `<span style="opacity:0"><i class="zmdi zmdi-google zmdi-hc-fw"></i></span>`;
-    const linkGithub  = p.links?.github  ? `<a href="${p.links.github}" target="_blank" rel="noopener noreferrer"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a>` : `<span style="opacity:0"><i class="zmdi zmdi-github zmdi-hc-fw"></i></span>`;
+    const linkHome   = p.links?.home   ? `<a href="${p.links.home}" target="_blank" rel="noopener noreferrer" aria-label="${p.name} homepage"><i class="zmdi zmdi-home zmdi-hc-fw"></i></a>` : `<span style="opacity:0"><i class="zmdi zmdi-home zmdi-hc-fw"></i></span>`;
+    const linkScholar = p.links?.scholar ? `<a href="${p.links.scholar}" target="_blank" rel="noopener noreferrer" aria-label="${p.name} Google Scholar"><i class="zmdi zmdi-google zmdi-hc-fw"></i></a>` : `<span style="opacity:0"><i class="zmdi zmdi-google zmdi-hc-fw"></i></span>`;
+    const linkGithub  = p.links?.github  ? `<a href="${p.links.github}" target="_blank" rel="noopener noreferrer" aria-label="${p.name} GitHub"><i class="zmdi zmdi-github zmdi-hc-fw"></i></a>` : `<span style="opacity:0"><i class="zmdi zmdi-github zmdi-hc-fw"></i></span>`;
     const note        = p.note        ? `<p class="mb-neg-2">${p.note}</p>` : '';
     const affiliation = p.affiliation ? `<p class="mb-neg-2">${p.affiliation}</p>` : '';
     return `
       <div class="col">
         <div class="card d-flex flex-column h-100">
           <div class="px-3 mt-3">
-            <img src="${p.image}" class="card-img mb-neg-2" alt="${p.name} portrait"${imgStyle}>
+            <img src="${p.image}" class="card-img mb-neg-2" alt="${p.name} portrait" loading="lazy" decoding="async"${imgStyle}>
           </div>
           <div class="card-body">
             <h6 class="card-title mb-0">${p.name}</h6>

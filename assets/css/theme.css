@@ -25692,3 +25692,37 @@ div.code-toolbar > .toolbar .toolbar-item span:hover
 .col-half-offset{
     margin-left:4.166666667%
 }
+
+/* Root lab directory: keep fixed portrait cards inside a 390px viewport. */
+@media (max-width: 767.98px)
+{
+    .text-justify
+    {
+        text-align: left !important;
+    }
+    body.lab-home .row.g-4
+    {
+        margin-left: 0;
+    }
+    body.lab-home .row.g-4 > [class*="col-"]
+    {
+        padding-left: 0;
+    }
+    body.lab-home .latest-project .latest-single
+    {
+        width: 100%;
+        min-width: 0 !important;
+    }
+    body.lab-home .latest-project .latest-single .left
+    {
+        flex: 0 0 auto;
+        padding: 1rem !important;
+    }
+    body.lab-home .latest-project .latest-single .right
+    {
+        min-width: 0;
+        flex: 1 1 auto;
+        padding: 1rem !important;
+        overflow-wrap: anywhere;
+    }
+}

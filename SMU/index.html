@@ -90,6 +90,26 @@
     @media (min-width: 992px) {
       .single-event .a-date { text-align: right; }
     }
+
+    @media (max-width: 767.98px) {
+      .about-lab-columns {
+        align-items: stretch !important;
+      }
+
+      .about-lab-copy,
+      .about-lab-media {
+        max-width: 100% !important;
+        flex: 0 0 100% !important;
+      }
+
+      .about-lab-copy .lab-intro {
+        text-align: left !important;
+      }
+
+      .about-lab-media {
+        margin-top: 0 !important;
+      }
+    }
 </style>
 
 </head>
@@ -173,9 +193,9 @@
             </div>
         </div>
 
-        <div class="row align-items-center"> 
+        <div class="row align-items-center about-lab-columns">
 
-            <div class="d-flex justify-content-center" style="max-width: 70%; flex: 0 0 70%;"> 
+            <div class="d-flex justify-content-center about-lab-copy" style="max-width: 70%; flex: 0 0 70%;">
                 <div class="lab-intro p-4 text-justify"> 
                     <p>
                         The <span style="color:var(--lv-orange); font-weight:600;">Learning and Vision Laboratory (LV-Lab)</span> is a cutting-edge research group focused on advancing the foundations of artificial intelligence through the integrated study of learning, vision, and other modalities. In response to the paradigm shift brought by foundation models, our research agenda has expanded beyond single-modality learning toward multimodal representation, reasoning, and generation. We aim to develop general-purpose intelligent systems capable of structured perception, proactive inference, and continual adaptation across complex environments. Our work lies at the intersection of multimodal learning, large-scale model optimization, and cognitive-level decision-making, with the goal of bridging low-level sensory input and high-level intelligence. We actively welcome collaboration and participation from researchers and students who are passionate about shaping the next generation of AI.
@@ -184,7 +204,7 @@
                 </div>
             </div>
 
-            <div class="p-0" style="max-width: 30%; flex: 0 0 30%; margin-top: -15px;"> 
+            <div class="p-0 about-lab-media" style="max-width: 30%; flex: 0 0 30%; margin-top: -15px;">
                 <div class="lab-image">
                     <img src="../images/bg/bg_lab_crop.jpg" alt="Learning and Vision Laboratory" class="img-fluid w-100 h-100" style="object-fit: cover;">
                 </div>
