@@ -1,6 +1,45 @@
 [
   {
     "year": 2026,
+    "date": "August 2026",
+    "title": "OPD-Evolver: Cultivating Holistic Agent Evolver via On-Policy Distillation",
+    "authors": "Guibin Zhang, Xun Xu, Yanwei Yue, Zikun Su, Wangchunshu Zhou, Xiaobin Hu, Shuicheng Yan",
+    "venue": "Findings of the 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP Findings), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.17628",
+      "code": "https://github.com/bingreeky/opd-evolver"
+    },
+    "displayDate": "August 2026",
+    "sortDate": "2026-08-22"
+  },
+  {
+    "year": 2026,
+    "date": "August 2026",
+    "title": "LatentEvolve: Self-Evolving Test-Time Scaling in Latent Space",
+    "authors": "Fanci Meng, Guibin Zhang, Zherui Li, Kun Wang, Zhenfei Yin, Shuicheng Yan",
+    "venue": "The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2509.24771",
+      "code": "https://github.com/jins7/LatentEvolve"
+    },
+    "displayDate": "August 2026",
+    "sortDate": "2026-08-22"
+  },
+  {
+    "year": 2026,
+    "date": "August 2026",
+    "title": "TouchThinker: Scaling Tactile Commonsense Reasoning to the Open World with Large-scale Data and Action-aware Representation",
+    "authors": "Kailin Lyu, Di Wu, Pengwei Zhang, Yuhang Zheng, Yingxin Lai, Long Xiao, Kangyi Wu, Pengna Li, Chen Gao, Lianyu Hu, Xiaobin Hu, Jie Hao, Ce Hao, Weihao Yuan, Shuicheng Yan",
+    "venue": "The 2026 Conference on Empirical Methods in Natural Language Processing (EMNLP), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.11637",
+      "code": "https://github.com/lvkailin0118/TouchThinker"
+    },
+    "displayDate": "August 2026",
+    "sortDate": "2026-08-22"
+  },
+  {
+    "year": 2026,
     "date": "June 2026",
     "title": "SPOT-E: Test-Time Entropy Shaping with Visual Spotlights for Frozen VLMs",
     "authors": "Bo Yin, Xiaobin Hu, Chengming Xu, Ruolin Shen, Mo Yang, Jiangning Zhang, Peng-Tao Jiang, Cheng Tan, Shuicheng Yan",
