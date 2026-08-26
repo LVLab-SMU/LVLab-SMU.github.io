@@ -1,5 +1,35 @@
 [
   {
+    "date": "2026-08",
+    "title": "Welcome Nibras to join our lab",
+    "summary": "We are delighted to welcome a new member to our lab: Mohammed Nibras Abdulla join us as a master student.",
+    "link": "",
+    "year": 2026,
+    "displayDate": "2026-08",
+    "sortDate": "2026-08-31"
+  },
+
+  {
+    "date": "2026-08",
+    "title": "Congratulations to Xiandong on Receiving SMU Presidential Doctoral Fellowship and Dean's List",
+    "summary": "Zou Xiandong has been awarded the SMU Presidential Doctoral Fellowship (2026) and Dean's List (2026) in recognition of his outstanding research achievements.",
+    "link": "https://computing.smu.edu.sg/sites/scis.smu.edu.sg/files/2026-08/phd-awards-2026-dean-list.pdf",
+    "year": 2026,
+    "displayDate": "2026-08",
+    "sortDate": "2026-08-13"
+  },
+
+  {
+    "date": "2026-06",
+    "title": "1 paper is accepted by ECCV 2026",
+    "summary": "This work improves efficient generative AI inference by introducing SMART, a training-free, system-aware framework that dynamically constructs speculative decoding trees based on marginal benefit–cost analysis, enabling robust end-to-end acceleration across diverse LLMs, MLLMs, batching regimes, and GPU architectures.",
+    "link": "https://arxiv.org/abs/2604.09731",
+    "year": 2026,
+    "displayDate": "2026-06",
+    "sortDate": "2026-06-18"
+  },
+
+  {
     "date": "2026-05",
     "title": "Four papers are accepted by ICML 2026 and one paper is accepted by CVPR 2026",
     "summary": "These five papers advance cutting-edge AI by introducing innovative methodologies for expanding generative capabilities, which include accelerating large language model inference, scaling consistent 3D asset editing, mitigating distributional conflicts in multimodal representation learning, and strengthening fake media security through robust semantic and artifact-based AI-generated image detection.",
