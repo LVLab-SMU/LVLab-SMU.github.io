@@ -2,6 +2,18 @@
   {
     "year": 2026,
     "date": "2026",
+    "title": "SMART: When is it Actually Worth Expanding a Speculative Tree?",
+    "authors": "Lifu Wang, Pan Zhou",
+    "venue": "European Conference on Computer Vision (ECCV), 2026",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.09731"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
     "title": "Variational Speculative Decoding: Rethinking Draft Training from Token Likelihood to Sequence Acceptance",
     "authors": "Xiandong Zou, Jianshu Li, Jing Huang, Pan Zhou",
     "venue": "International Conference on Machine Learning (ICML), 2026",
