@@ -121,42 +121,6 @@
   margin: 0.15rem 0 0.3rem;
 }
 
-.pub-funding {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 0.4rem;
-  margin: 0.55rem 0 0.5rem;
-}
-
-.pub-funding-heading {
-  color: #52606d;
-  font-size: 0.78rem;
-  font-weight: 700;
-  line-height: 1.65rem;
-}
-
-.pub-funding-tags {
-  display: flex;
-  flex: 1 1 auto;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.pub-funding-tag {
-  padding: 0.2rem 0.55rem;
-  border: 1px solid #c7d7e8;
-  border-radius: 999px;
-  background: #edf4fb;
-  color: #174a7c;
-  font-size: 0.75rem;
-  font-weight: 600;
-  line-height: 1.45;
-}
-
 .pub-card p {
   text-indent: 2rem;
 }

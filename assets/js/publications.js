@@ -140,22 +140,11 @@
           </a>`;
       }).join("");
 
-      const fundingLabels = getFunding(publication);
-      const fundingHtml = fundingLabels.length ? `
-        <div class="pub-funding">
-          <span class="pub-funding-heading">Funding</span>
-          <ul class="pub-funding-tags">
-            ${fundingLabels.map((label) => `<li class="pub-funding-tag">${escapeHtml(label)}</li>`).join("")}
-          </ul>
-        </div>
-      ` : "";
-
       list.insertAdjacentHTML("beforeend", `
         <article class="pub-card">
           <h3>${formatTitle(publication.title)} ${badgeHtml}</h3>
           <div class="authors">${formatAuthors(publication.authors)}</div>
           <div class="venue">${escapeHtml(publication.venue)}</div>
-          ${fundingHtml}
           ${linksHtml}
         </article>
       `);
