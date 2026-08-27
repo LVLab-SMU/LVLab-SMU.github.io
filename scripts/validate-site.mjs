@@ -16,6 +16,13 @@ const publicationJsonFiles = [
   "assets/nus_publications.json",
 ];
 
+const nusPublicationFundingLabels = new Set([
+  "NUS Start-up Grant (A-0010106-00-00)",
+  "Razer–NUS Joint Lab",
+  "Romoya–NUS Joint Initiative",
+  "NAII Seed Funding (A-8004365-00-00)",
+]);
+
 const peopleJsonFiles = [
   {
     file: "assets/nus_people.json",
@@ -123,6 +130,26 @@ function validateJson() {
       } else if (item.links) {
         for (const [key, value] of Object.entries(item.links)) {
           validateLinkValue(file, value, `item ${index} ${key} link`);
+        }
+      }
+      if (file === "assets/nus_publications.json" && "funding" in item) {
+        if (!Array.isArray(item.funding)) {
+          errors.push(`${file}: item ${index} has invalid funding array`);
+        } else {
+          const seenFunding = new Set();
+          item.funding.forEach((funding, fundingIndex) => {
+            if (!hasText(funding)) {
+              errors.push(`${file}: item ${index} funding ${fundingIndex} is not a non-empty string`);
+              return;
+            }
+            if (seenFunding.has(funding)) {
+              errors.push(`${file}: item ${index} has duplicate funding ${funding}`);
+            }
+            seenFunding.add(funding);
+            if (!nusPublicationFundingLabels.has(funding)) {
+              errors.push(`${file}: item ${index} has unsupported funding ${funding}`);
+            }
+          });
         }
       }
     });

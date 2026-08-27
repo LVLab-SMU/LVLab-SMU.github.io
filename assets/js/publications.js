@@ -3,7 +3,9 @@
   const dataSrc = script?.dataset.publicationsSrc;
   const listId = script?.dataset.listId || "pubList";
   const yearFilterId = script?.dataset.yearFilterId || "yearFilter";
+  const fundingFilterId = script?.dataset.fundingFilterId || "fundingFilter";
   const searchInputId = script?.dataset.searchInputId || "searchInput";
+  const resultsSummaryId = script?.dataset.resultsSummaryId || "pubResultsSummary";
   const highlightAuthors = (script?.dataset.highlightAuthors || "")
     .split(",")
     .map((name) => name.trim())
@@ -40,6 +42,15 @@
 
   const groupYear = (year) => year < 2024 ? "Before 2024" : year;
 
+  const getFunding = (publication) => {
+    if (!Array.isArray(publication.funding)) return [];
+
+    return [...new Set(publication.funding
+      .filter((label) => typeof label === "string")
+      .map((label) => label.trim())
+      .filter(Boolean))];
+  };
+
   const byDateDesc = (a, b) => {
     if (a.year !== b.year) return b.year - a.year;
     const aSpecific = hasSpecificDate(a);
@@ -53,7 +64,9 @@
 
   const renderLoadError = (message) => {
     const list = document.getElementById(listId);
+    const summary = document.getElementById(resultsSummaryId);
     if (!list) return;
+    if (summary) summary.textContent = "Publication count unavailable.";
     list.innerHTML = `
       <article class="pub-card pub-load-error">
         <h3>Publications could not be loaded</h3>
@@ -62,11 +75,31 @@
     `;
   };
 
-  const renderList = (data) => {
+  const renderList = (data, hasActiveFilters = false) => {
     const list = document.getElementById(listId);
     if (!list) return;
 
     list.innerHTML = "";
+    const summary = document.getElementById(resultsSummaryId);
+    if (summary) {
+      const noun = data.length === 1 ? "publication" : "publications";
+      summary.textContent = data.length === publications.length
+        ? `${data.length} ${noun}`
+        : `Showing ${data.length} of ${publications.length} publications`;
+    }
+
+    if (!data.length) {
+      list.innerHTML = `
+        <div class="pub-empty">
+          <h2>No publications found</h2>
+          <p>${hasActiveFilters
+            ? "No publications match the selected filters."
+            : "No publications are currently available."}</p>
+        </div>
+      `;
+      return;
+    }
+
     let currentYear = null;
 
     data.sort(byDateDesc).forEach((publication) => {
@@ -107,11 +140,22 @@
           </a>`;
       }).join("");
 
+      const fundingLabels = getFunding(publication);
+      const fundingHtml = fundingLabels.length ? `
+        <div class="pub-funding">
+          <span class="pub-funding-heading">Funding</span>
+          <ul class="pub-funding-tags">
+            ${fundingLabels.map((label) => `<li class="pub-funding-tag">${escapeHtml(label)}</li>`).join("")}
+          </ul>
+        </div>
+      ` : "";
+
       list.insertAdjacentHTML("beforeend", `
         <article class="pub-card">
           <h3>${formatTitle(publication.title)} ${badgeHtml}</h3>
           <div class="authors">${formatAuthors(publication.authors)}</div>
           <div class="venue">${escapeHtml(publication.venue)}</div>
+          ${fundingHtml}
           ${linksHtml}
         </article>
       `);
@@ -120,8 +164,9 @@
     fetchGitHubStars();
   };
 
-  const bindControls = (years) => {
+  const bindControls = (years, fundingLabels) => {
     const yearFilter = document.getElementById(yearFilterId);
+    const fundingFilter = document.getElementById(fundingFilterId);
     const searchInput = document.getElementById(searchInputId);
     if (!yearFilter || !searchInput) return;
 
@@ -133,6 +178,16 @@
       yearFilter.appendChild(option);
     });
 
+    if (fundingFilter) {
+      fundingFilter.querySelectorAll("option:not([value='all'])").forEach((option) => option.remove());
+      fundingLabels.forEach((label) => {
+        const option = document.createElement("option");
+        option.value = label;
+        option.textContent = label;
+        fundingFilter.appendChild(option);
+      });
+    }
+
     const filter = () => {
       let data = [...publications];
       if (yearFilter.value !== "all") {
@@ -143,17 +198,28 @@
         ));
       }
 
+      if (fundingFilter && fundingFilter.value !== "all") {
+        data = data.filter((publication) => getFunding(publication).includes(fundingFilter.value));
+      }
+
       const keyword = searchInput.value.trim().toLowerCase();
       if (keyword) {
         data = data.filter((publication) => (
-          `${publication.title}${publication.authors}${publication.venue}`.toLowerCase().includes(keyword)
+          [publication.title, publication.authors, publication.venue, ...getFunding(publication)]
+            .join(" ")
+            .toLowerCase()
+            .includes(keyword)
         ));
       }
 
-      renderList(data);
+      const hasActiveFilters = yearFilter.value !== "all"
+        || (fundingFilter && fundingFilter.value !== "all")
+        || Boolean(keyword);
+      renderList(data, hasActiveFilters);
     };
 
     yearFilter.addEventListener("change", filter);
+    fundingFilter?.addEventListener("change", filter);
     searchInput.addEventListener("input", filter);
     window.addEventListener("keydown", (event) => {
       if ((event.metaKey || event.ctrlKey) && event.key === "k") {
@@ -220,7 +286,10 @@
       return b - a;
     });
 
-    bindControls(years);
+    const fundingLabels = [...new Set(publications.flatMap(getFunding))]
+      .sort((a, b) => a.localeCompare(b, undefined, { sensitivity: "base" }));
+
+    bindControls(years, fundingLabels);
     window.enableJsonLiveReload?.(dataSrc);
   })();
 })();

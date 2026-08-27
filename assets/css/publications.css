@@ -16,9 +16,66 @@
   padding-bottom: 16px;
 }
 
+.pub-filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+  max-width: 760px;
+}
+
+.pub-filter-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.pub-filter-field label {
+  margin: 0;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.pub-filter-year {
+  flex: 0 0 130px;
+}
+
+.pub-filter-funding {
+  flex: 1 1 220px;
+}
+
+.pub-filter-search {
+  flex: 1 1 220px;
+}
+
+.pub-filter-control {
+  width: 100%;
+  min-height: 42px;
+  margin: 0;
+  border: 1px solid rgba(255, 255, 255, 0.72);
+}
+
+.pub-filter-control:focus {
+  border-color: var(--lv-orange);
+  outline: 3px solid rgba(238, 112, 35, 0.35);
+  outline-offset: 2px;
+  box-shadow: none;
+}
+
+.pub-results-summary {
+  min-height: 1.35rem;
+  margin: 0 0 0.5rem;
+  color: #52606d;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
 .pub-list {
   margin-top: 0;
-  padding-top: 16px;
+  padding-top: 0;
   padding-bottom: 16px;
 }
 
@@ -64,6 +121,42 @@
   margin: 0.15rem 0 0.3rem;
 }
 
+.pub-funding {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0.4rem;
+  margin: 0.55rem 0 0.5rem;
+}
+
+.pub-funding-heading {
+  color: #52606d;
+  font-size: 0.78rem;
+  font-weight: 700;
+  line-height: 1.65rem;
+}
+
+.pub-funding-tags {
+  display: flex;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.pub-funding-tag {
+  padding: 0.2rem 0.55rem;
+  border: 1px solid #c7d7e8;
+  border-radius: 999px;
+  background: #edf4fb;
+  color: #174a7c;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
 .pub-card p {
   text-indent: 2rem;
 }
@@ -95,6 +188,12 @@
 .pub-card .link-icon:hover {
   color: var(--lv-orange);
   text-decoration: underline;
+}
+
+.pub-card .link-icon:focus-visible {
+  border-radius: 2px;
+  outline: 2px solid var(--lv-orange);
+  outline-offset: 3px;
 }
 
 .gh-code {
@@ -141,4 +240,48 @@
   color: #555;
   background: #fff7ed;
   border-left-color: var(--lv-orange);
+}
+
+.pub-empty {
+  padding: 2.5rem 1rem;
+  border: 1px dashed #b8c3cf;
+  border-radius: 8px;
+  background: #f8fafc;
+  color: #52606d;
+  text-align: center;
+}
+
+.pub-empty h2 {
+  margin: 0 0 0.35rem;
+  color: #243447;
+  font-size: 1.1rem;
+}
+
+.pub-empty p {
+  margin: 0;
+}
+
+@media (max-width: 767.98px) {
+  .pub-filters {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    max-width: none;
+  }
+
+  .pub-filter-year,
+  .pub-filter-funding,
+  .pub-filter-search {
+    width: 100%;
+  }
+
+  .pub-card {
+    padding: 1rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pub-card:hover {
+    transform: none;
+  }
 }

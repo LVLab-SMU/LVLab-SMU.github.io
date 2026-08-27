@@ -114,14 +114,28 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1>Publications</h1>
-                    <div class="d-flex flex-wrap align-items-center mb-3">
-                        <select id="yearFilter" class="custom-select w-auto mr-3">
-                          <option value="all">All years</option>
-                        </select>
-                      
-                        <input id="searchInput" type="search" placeholder="Search papers…"
-                               class="form-control w-auto" style="max-width:220px">
-                      </div>
+                    <div class="pub-filters" role="search" aria-label="Filter publications">
+                        <div class="pub-filter-field pub-filter-year">
+                            <label for="yearFilter">Year</label>
+                            <select id="yearFilter" class="custom-select pub-filter-control" aria-controls="pubList">
+                                <option value="all">All years</option>
+                            </select>
+                        </div>
+
+                        <div class="pub-filter-field pub-filter-funding">
+                            <label for="fundingFilter">Funding</label>
+                            <select id="fundingFilter" class="custom-select pub-filter-control" aria-controls="pubList">
+                                <option value="all">All funding</option>
+                            </select>
+                        </div>
+
+                        <div class="pub-filter-field pub-filter-search">
+                            <label for="searchInput">Search</label>
+                            <input id="searchInput" type="search" placeholder="Search papers…"
+                                   class="form-control pub-filter-control" aria-controls="pubList"
+                                   aria-describedby="pubResultsSummary">
+                        </div>
+                    </div>
                     <ul class="breadcrumbs">
                         <li>
                             <a href="./index.html">
@@ -138,8 +152,8 @@
     <section class="blog-wrapper section-padding">
           
           <main class="pubs-layout">
-          
-            <section id="pubList" class="pub-list"></section>
+            <p id="pubResultsSummary" class="pub-results-summary" role="status" aria-live="polite" aria-atomic="true"></p>
+            <section id="pubList" class="pub-list" aria-label="Publication results"></section>
           </main>
 
       <script src="../assets/js/dev-live-reload.js"></script>
