@@ -94,6 +94,18 @@ body {
   margin-top: 0.2rem;
 }
 
+.pub-card h3 a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.18em;
+}
+
+.pub-card h3 a:hover,
+.pub-card h3 a:focus-visible {
+  color: var(--lv-blue);
+}
+
 .pub-card p {
   text-indent: 2rem;
 }

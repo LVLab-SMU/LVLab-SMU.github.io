@@ -114,6 +114,21 @@ function validateJson() {
     readJsonArray(file).forEach((item, index) => {
       if (!validateCommonDatedRecord(file, item, index)) return;
       validateOptionalLink(file, item, index);
+      if ("titleLinks" in item) {
+        if (!item.titleLinks || typeof item.titleLinks !== "object" || Array.isArray(item.titleLinks)) {
+          errors.push(`${file}: item ${index} has invalid titleLinks object`);
+        } else {
+          for (const [text, url] of Object.entries(item.titleLinks)) {
+            if (!hasText(text) || !hasText(item.title) || !item.title.includes(text)) {
+              errors.push(`${file}: item ${index} title link text is missing from title`);
+            }
+            validateLinkValue(file, url, `item ${index} ${text} title link`);
+            if (hasText(url) && !/^https?:\/\//i.test(url)) {
+              errors.push(`${file}: item ${index} ${text} title link must be an absolute HTTP(S) URL`);
+            }
+          }
+        }
+      }
     });
   }
 

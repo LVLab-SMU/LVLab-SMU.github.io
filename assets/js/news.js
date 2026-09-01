@@ -20,6 +20,43 @@
     "'": "&#39;",
   }[char]));
 
+  const safeHttpUrl = (value = "") => {
+    try {
+      const url = new URL(String(value));
+      return ["http:", "https:"].includes(url.protocol) ? url.href : "";
+    } catch {
+      return "";
+    }
+  };
+
+  const renderTitle = (event) => {
+    const title = String(event.title || "");
+    if (!event.titleLinks || typeof event.titleLinks !== "object" || Array.isArray(event.titleLinks)) {
+      return escapeHtml(title);
+    }
+
+    const matches = Object.entries(event.titleLinks)
+      .map(([text, rawUrl]) => ({
+        text,
+        url: safeHttpUrl(rawUrl),
+        start: title.indexOf(text),
+      }))
+      .filter(({ text, url, start }) => text && url && start >= 0)
+      .sort((a, b) => a.start - b.start);
+
+    if (!matches.length) return escapeHtml(title);
+
+    let cursor = 0;
+    let html = "";
+    matches.forEach(({ text, url, start }) => {
+      if (start < cursor) return;
+      html += escapeHtml(title.slice(cursor, start));
+      html += `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(text)}</a>`;
+      cursor = start + text.length;
+    });
+    return html + escapeHtml(title.slice(cursor));
+  };
+
   const byDateDesc = (a, b) => b.sortDate.localeCompare(a.sortDate);
 
   const cutoffYear = () => (
@@ -92,7 +129,7 @@
 
       article.innerHTML = `
         <time>${escapeHtml(formatDate(event.displayDate))}</time>
-        <h3>${escapeHtml(event.title)}</h3>
+        <h3>${renderTitle(event)}</h3>
         ${summaryHtml}
         ${linkHtml}
       `;

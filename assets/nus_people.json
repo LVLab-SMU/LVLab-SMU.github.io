@@ -141,6 +141,18 @@
     "links": {}
   },
   {
+    "name": "Tuan M. Truong",
+    "image": "images/people/Tuan M. Truong.jpg",
+    "role": "Ph.D. Student",
+    "roleOrder": 3,
+    "date": "2026.08~Present",
+    "lab": "agi",
+    "links": {
+      "home": "https://ttuna04.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=VdogIPUAAAAJ&hl=en"
+    }
+  },
+  {
     "name": "Jialin Zhang",
     "image": "images/people/Zhangjia Lin.jpeg",
     "role": "Master Student",

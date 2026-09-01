@@ -291,10 +291,49 @@
       }[char]));
     }
 
+    function safeHttpUrl(value = '') {
+      try {
+        const url = new URL(String(value));
+        return ['http:', 'https:'].includes(url.protocol) ? url.href : '';
+      } catch {
+        return '';
+      }
+    }
+
+    function renderLinkedTitle(ev) {
+      const title = String(ev.title || '');
+      if (!ev.titleLinks || typeof ev.titleLinks !== 'object' || Array.isArray(ev.titleLinks)) {
+        return '';
+      }
+
+      const matches = Object.entries(ev.titleLinks)
+        .map(([text, rawUrl]) => ({
+          text,
+          url: safeHttpUrl(rawUrl),
+          start: title.indexOf(text)
+        }))
+        .filter(({ text, url, start }) => text && url && start >= 0)
+        .sort((a, b) => a.start - b.start);
+
+      if (!matches.length) return '';
+
+      let cursor = 0;
+      let html = '';
+      matches.forEach(({ text, url, start }) => {
+        if (start < cursor) return;
+        html += escapeHtml(title.slice(cursor, start));
+        html += `<a href="${escapeHtml(url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(text)}</a>`;
+        cursor = start + text.length;
+      });
+      return html + escapeHtml(title.slice(cursor));
+    }
+
     function renderEventCard(ev) {
       const link = String(ev.link || '').trim();
       const href = link ? escapeHtml(link) : '#';
       const linkAttrs = link ? 'target="_blank" rel="noopener noreferrer"' : '';
+      const linkedTitle = renderLinkedTitle(ev);
+      const title = linkedTitle || `<a href="${href}" ${linkAttrs}>${escapeHtml(ev.title)}</a>`;
       const summary = ev.summary
         ? `<p${ev.multilineSummary ? ' class="multi-line-summary"' : ''}>${escapeHtml(ev.summary)}</p>`
         : '';
@@ -307,7 +346,7 @@
             <div class="col-lg-9">
               <div class="a-desc">
                 <h3>
-                  <a href="${href}" ${linkAttrs}>${escapeHtml(ev.title)}</a>
+                  ${title}
                 </h3>
                 ${summary}
               </div>

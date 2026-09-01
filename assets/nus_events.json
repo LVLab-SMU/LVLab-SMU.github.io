@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-08",
+    "title": "Sharing our latest progress in Recursive AI: JIT-Agent-27B and Recuris.",
+    "summary": "JIT-Agent-27B is the first harness intelligence model for generating, evolving agent harnesses just-in-time. Recuris is a recursively evolving memory system.",
+    "titleLinks": {
+      "JIT-Agent-27B": "https://arxiv.org/abs/2608.25593v1",
+      "Recuris": "https://arxiv.org/abs/2608.24876"
+    },
+    "year": 2026,
+    "displayDate": "2026-08",
+    "sortDate": "2026-08-26"
+  },
+  {
     "date": "2026-05",
     "title": "We released Mega-ASR: Towards In-the-wild² Speech Recognition via Scaling up Real-world Acoustic Simulation",
     "summary": "Mega-ASR scales up real-world acoustic simulation for in-the-wild² speech recognition, targeting more robust ASR under diverse real-world acoustic conditions.",
