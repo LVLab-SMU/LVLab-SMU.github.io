@@ -1,33 +1,57 @@
 .news-code-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-top: 0.65rem;
+  gap: 0.4rem 1.2rem;
+  margin-top: 0.3rem;
 }
 
 .news-code-links .news-code-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
-  padding: 0.25rem 0.65rem;
-  border: 1px solid #d6e0eb;
-  border-radius: 6px;
-  background: #f5f8fc;
-  color: #003d7c;
-  font-size: 0.8rem;
-  font-weight: 600;
+  gap: 6px;
+  color: var(--lv-blue, #003d7c);
+  font-size: 0.9rem;
+  font-weight: 400;
   line-height: 1.5;
   text-decoration: none;
 }
 
-.news-code-links .news-code-link:hover,
+.news-code-links .news-code-link:hover {
+  color: var(--lv-orange, #ee7023);
+  text-decoration: underline;
+}
+
 .news-code-links .news-code-link:focus-visible {
-  border-color: #003d7c;
-  background: #eaf1f9;
+  border-radius: 2px;
+  outline: 2px solid var(--lv-orange, #ee7023);
+  outline-offset: 3px;
+}
+
+.news-code-link > .fa-github {
+  margin-right: 6px;
+  font-size: 0.9rem;
 }
 
 .news-code-link .github-star-count {
-  color: #705000;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.85rem;
+  color: #f59e0b;
   font-variant-numeric: tabular-nums;
   white-space: nowrap;
+}
+
+.news-code-link .github-star-count[hidden] {
+  display: none;
+}
+
+.news-code-link .github-star-count .fa-star {
+  margin-right: 6px;
+  font-size: 0.9rem;
+}
+
+.news-code-link:hover .github-star-count {
+  color: var(--lv-orange, #ee7023);
+  text-decoration: underline;
 }

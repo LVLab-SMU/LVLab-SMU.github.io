@@ -40,8 +40,8 @@
       link.title = 'View code on GitHub; star count is currently unavailable';
       return;
     }
-    const formatted = value.count.toLocaleString('en-US');
-    count.textContent = `★ ${formatted}`;
+    const formatted = String(value.count);
+    count.querySelector('.github-star-value').textContent = formatted;
     count.hidden = false;
     count.setAttribute('aria-label', `${formatted} GitHub stars`);
     const stale = Date.now() - value.updatedAt >= TTL;
@@ -102,8 +102,8 @@
     }
     if (!repos.size) return '';
     const links = [...repos.values()].map(({ repo, label }) => {
-      const text = repos.size > 1 ? `${label} · Code` : 'Code';
-      return `<a class="news-code-link" href="https://github.com/${escape(repo)}" data-github-repo="${escape(repo)}" target="_blank" rel="noopener noreferrer"><span>${escape(text)}</span><span class="github-star-count" hidden></span></a>`;
+      const text = repos.size > 1 ? `${label} code` : 'code';
+      return `<a class="news-code-link" href="https://github.com/${escape(repo)}" data-github-repo="${escape(repo)}" target="_blank" rel="noopener noreferrer"><i class="fa fa-github" aria-hidden="true"></i><span>${escape(text)}</span><span class="github-star-count" hidden><i class="fa fa-star" aria-hidden="true"></i><span class="github-star-value"></span></span></a>`;
     });
     return `<div class="news-code-links">${links.join('')}</div>`;
   }
