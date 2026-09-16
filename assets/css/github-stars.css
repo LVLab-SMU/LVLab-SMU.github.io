@@ -1,0 +1,33 @@
+.news-code-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.65rem;
+}
+
+.news-code-links .news-code-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.25rem 0.65rem;
+  border: 1px solid #d6e0eb;
+  border-radius: 6px;
+  background: #f5f8fc;
+  color: #003d7c;
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.news-code-links .news-code-link:hover,
+.news-code-links .news-code-link:focus-visible {
+  border-color: #003d7c;
+  background: #eaf1f9;
+}
+
+.news-code-link .github-star-count {
+  color: #705000;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}

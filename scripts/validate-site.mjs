@@ -114,6 +114,17 @@ function validateJson() {
     readJsonArray(file).forEach((item, index) => {
       if (!validateCommonDatedRecord(file, item, index)) return;
       validateOptionalLink(file, item, index);
+      if ("codeLinks" in item) {
+        if (!item.codeLinks || typeof item.codeLinks !== "object" || Array.isArray(item.codeLinks)) {
+          errors.push(`${file}: item ${index} has invalid codeLinks object`);
+        } else {
+          for (const [label, url] of Object.entries(item.codeLinks)) {
+            if (!hasText(label) || typeof url !== "string" || !/^https:\/\/github\.com\/[\w-]+\/[\w.-]+\/?$/.test(url)) {
+              errors.push(`${file}: item ${index} codeLinks must map labels to GitHub repository URLs`);
+            }
+          }
+        }
+      }
       if ("titleLinks" in item) {
         if (!item.titleLinks || typeof item.titleLinks !== "object" || Array.isArray(item.titleLinks)) {
           errors.push(`${file}: item ${index} has invalid titleLinks object`);

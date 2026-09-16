@@ -132,9 +132,11 @@
         <h3>${renderTitle(event)}</h3>
         ${summaryHtml}
         ${linkHtml}
+        ${window.NewsCodeLinks.render(event)}
       `;
       list.appendChild(article);
     });
+    window.NewsCodeLinks.refresh(list);
   };
 
   const bindControls = (years) => {

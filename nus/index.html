@@ -176,6 +176,7 @@
 
   </style>
 
+  <link href="../assets/css/github-stars.css" rel="stylesheet">
 </head>
 
 <body class=" ">
@@ -280,6 +281,7 @@
   </section>
 
   <script src="../assets/js/dev-live-reload.js"></script>
+  <script src="../assets/js/github-stars.js"></script>
   <script>
     function escapeHtml(value = '') {
       return String(value).replace(/[&<>"']/g, (char) => ({
@@ -349,6 +351,7 @@
                   ${title}
                 </h3>
                 ${summary}
+                ${window.NewsCodeLinks.render(ev)}
               </div>
             </div>
           </div>
@@ -381,6 +384,7 @@
           const olderList = document.getElementById('older-events');
           older.forEach(ev => olderList.insertAdjacentHTML('beforeend', renderEventCard(ev)));
         }
+        window.NewsCodeLinks.refresh(list);
       } catch (e) {
         console.error('events.json load failed', e);
       }

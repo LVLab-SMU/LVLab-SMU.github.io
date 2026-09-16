@@ -112,6 +112,7 @@
     }
 </style>
 
+  <link href="../assets/css/github-stars.css" rel="stylesheet">
 </head>
 
 <body class=" ">
@@ -232,6 +233,7 @@
 </section>
 
   <script src="../assets/js/dev-live-reload.js"></script>
+  <script src="../assets/js/github-stars.js"></script>
   <script>
     async function loadHomeEvents () {
       try {
@@ -258,12 +260,14 @@
                       <a href="${ev.link || '#'}" ${ev.link ? 'target="_blank" rel="noopener noreferrer"' : ''}>${ev.title}</a>
                     </h3>
                     ${ev.summary ? `<p>${ev.summary}</p>` : ''}
+                    ${window.NewsCodeLinks.render(ev)}
                   </div>
                 </div>
               </div>
             </div>
           `);
         });
+        window.NewsCodeLinks.refresh(list);
       } catch (e) {
         console.error('events.json load failed', e);
       }

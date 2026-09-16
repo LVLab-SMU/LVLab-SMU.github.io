@@ -1,6 +1,18 @@
 [
   {
     "date": "2026-08",
+    "title": "We released VoiceMem: A Streaming Dual-Brain Memory System for Voice Agents",
+    "summary": "VoiceMem provides streaming memory for voice agents, combining factual memory with long- and short-term emotional context.",
+    "link": "https://github.com/xzf-thu/VoiceMem",
+    "codeLinks": {
+      "VoiceMem": "https://github.com/xzf-thu/VoiceMem"
+    },
+    "year": 2026,
+    "displayDate": "2026-08",
+    "sortDate": "2026-08-27"
+  },
+  {
+    "date": "2026-08",
     "title": "Sharing our latest progress in Recursive AI: JIT-Agent-27B and Recuris.",
     "summary": "JIT-Agent-27B is the first harness intelligence model for generating, evolving agent harnesses just-in-time. Recuris is a recursively evolving memory system.",
     "titleLinks": {
@@ -9,7 +21,11 @@
     },
     "year": 2026,
     "displayDate": "2026-08",
-    "sortDate": "2026-08-26"
+    "sortDate": "2026-08-26",
+    "codeLinks": {
+      "JIT-Agent-27B": "https://github.com/bingreeky/JIT",
+      "Recuris": "https://github.com/Gen-Verse/Recuris"
+    }
   },
   {
     "date": "2026-05",
@@ -18,7 +34,10 @@
     "link": "https://arxiv.org/pdf/2605.19833",
     "year": 2026,
     "displayDate": "2026-05",
-    "sortDate": "2026-05-19"
+    "sortDate": "2026-05-19",
+    "codeLinks": {
+      "Mega-ASR": "https://github.com/xzf-thu/Mega-ASR"
+    }
   },
   {
     "date": "2026-04",
@@ -37,7 +56,10 @@
     "link": "https://arxiv.org/abs/2603.19201",
     "year": 2026,
     "displayDate": "2026-03",
-    "sortDate": "2026-03-23"
+    "sortDate": "2026-03-23",
+    "codeLinks": {
+      "OmniVTA": "https://github.com/MrSecant/OmniVTA"
+    }
   },
   {
     "date": "2026-03",
@@ -46,7 +68,10 @@
     "link": "https://arxiv.org/abs/2603.12038",
     "year": 2026,
     "displayDate": "2026-03",
-    "sortDate": "2026-03-12"
+    "sortDate": "2026-03-12",
+    "codeLinks": {
+      "SFI": "https://github.com/LV-NUS/SFI"
+    }
   },
   {
     "date": "2026-04",
@@ -65,7 +90,10 @@
     "link": "https://arxiv.org/abs/2509.24704",
     "year": 2025,
     "displayDate": "2025-10",
-    "sortDate": "2025-10-31"
+    "sortDate": "2025-10-31",
+    "codeLinks": {
+      "MemGen": "https://github.com/bingreeky/MemGen"
+    }
   },
   {
     "date": "2025-08",
@@ -74,7 +102,10 @@
     "link": "https://genie-envisioner.github.io/",
     "year": 2025,
     "displayDate": "2025-08",
-    "sortDate": "2025-08-31"
+    "sortDate": "2025-08-31",
+    "codeLinks": {
+      "Genie-Envisioner": "https://github.com/AgibotTech/Genie-Envisioner-V1"
+    }
   },
   {
     "date": "2025-05",
@@ -83,7 +114,10 @@
     "link": "https://generalist.top/",
     "year": 2025,
     "displayDate": "2025-05",
-    "sortDate": "2025-05-31"
+    "sortDate": "2025-05-31",
+    "codeLinks": {
+      "General-Level": "https://github.com/path2generalist/General-Level"
+    }
   },
   {
     "date": "2025-01",
