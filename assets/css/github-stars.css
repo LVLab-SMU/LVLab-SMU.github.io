@@ -32,6 +32,12 @@
   font-size: 0.9rem;
 }
 
+/* Both homepage and news use the bundled icon font; news also loads FA 6. */
+.news-code-link .fa {
+  font-family: FontAwesome;
+  font-weight: normal;
+}
+
 .news-code-link .github-star-count {
   display: inline-flex;
   align-items: center;
