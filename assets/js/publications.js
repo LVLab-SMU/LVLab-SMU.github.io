@@ -12,7 +12,6 @@
     .filter(Boolean);
 
   let publications = [];
-  const starCache = new Map();
 
   const escapeHtml = (value = "") => String(value).replace(/[&<>"']/g, (char) => ({
     "&": "&amp;",
@@ -123,13 +122,14 @@
         if (!value) return "";
 
         const iconClass = key === "code" ? "fa-brands fa-github" : "fa-solid fa-file-lines";
-        if (key === "code" && value.includes("github.com")) {
-          const repoId = btoa(value);
+        const repo = key === "code" ? window.GitHubStars.repository(value) : null;
+        if (repo) {
+          const stars = window.GitHubStars.get(repo);
           return `
-            <a class="link-icon gh-code" href="${escapeHtml(value)}" target="_blank" rel="noopener noreferrer" data-url="${escapeHtml(value)}" data-id="${repoId}">
+            <a class="link-icon gh-code" href="${escapeHtml(value)}" target="_blank" rel="noopener noreferrer" data-github-repo="${escapeHtml(repo)}">
               <i class="${iconClass}"></i> ${escapeHtml(key)}
-              <span class="gh-star-wrap">
-                <i class="fa-solid fa-star"></i> <span id="star-count-${repoId}">...</span>
+              <span class="gh-star-wrap" ${stars ? '' : 'hidden'}>
+                <i class="fa-solid fa-star"></i> <span class="github-star-value">${stars?.count ?? ''}</span>
               </span>
             </a>`;
         }
@@ -150,7 +150,7 @@
       `);
     });
 
-    fetchGitHubStars();
+    window.GitHubStars.refresh(list);
   };
 
   const bindControls = (years, fundingLabels) => {
@@ -219,36 +219,6 @@
 
     filter();
   };
-
-  async function fetchGitHubStars() {
-    const items = document.querySelectorAll(".gh-code");
-    for (const element of items) {
-      const url = element.dataset.url;
-      const id = element.dataset.id;
-      const starSpan = document.getElementById(`star-count-${id}`);
-      if (!url || !starSpan) continue;
-
-      if (starCache.has(url)) {
-        starSpan.textContent = starCache.get(url);
-        continue;
-      }
-
-      try {
-        const parts = new URL(url).pathname.split("/").filter(Boolean);
-        if (parts.length < 2) continue;
-
-        const [owner, repo] = parts;
-        const response = await fetch(`https://api.github.com/repos/${owner}/${repo}`);
-        if (!response.ok) throw new Error("GitHub API request failed");
-
-        const data = await response.json();
-        starCache.set(url, data.stargazers_count);
-        starSpan.textContent = data.stargazers_count;
-      } catch {
-        starSpan.textContent = "—";
-      }
-    }
-  }
 
   (async () => {
     if (!dataSrc) {

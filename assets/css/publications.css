@@ -249,3 +249,7 @@
     transform: none;
   }
 }
+
+.gh-code .gh-star-wrap[hidden] {
+  display: none;
+}

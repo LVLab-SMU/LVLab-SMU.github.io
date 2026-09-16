@@ -1,0 +1,60 @@
+name: Refresh GitHub stars
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/*_publications.json'
+      - 'assets/*_events.json'
+      - 'scripts/update-github-stars.mjs'
+      - '.github/workflows/refresh-github-stars.yml'
+
+concurrency:
+  group: github-stars-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Refresh the saved star snapshot
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-github-stars.mjs
+      - run: npm run validate
+      - run: node --test scripts/github-stars.test.mjs
+      - name: Save the snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/github-stars.json assets/js/github-stars-data.js
+          if ! git diff --cached --quiet; then
+            git commit -m 'Refresh saved GitHub star counts'
+            git push origin HEAD:main
+          fi
+      # GITHUB_TOKEN commits do not start a Pages build, so publish explicitly.
+      - uses: actions/configure-pages@v5
+      - uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/deploy-pages@v4
+        id: deployment
