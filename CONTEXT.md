@@ -9,6 +9,7 @@ This repository hosts the Learning and Vision Laboratory static website. The roo
 - **SMU site**: The SMU-facing static pages under `SMU/`.
 - **People data**: JSON or HTML records used to render lab members.
 - **Publication data**: JSON or HTML records used to render papers and project outputs.
+- **Project sites**: Independently maintained public repositories mounted as submodules; `umi-wm/` publishes the UMI-WM project page. See `docs/adr/002-independent-project-pages.md`.
 - **Event data**: JSON or HTML records used to render news, talks, visits, and announcements.
 - **Validation script**: The local site verifier at `scripts/validate-site.mjs`.
 

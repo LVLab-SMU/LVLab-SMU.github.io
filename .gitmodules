@@ -1,0 +1,3 @@
+[submodule "umi-wm"]
+	path = umi-wm
+	url = https://github.com/LV-Robotics-Lab/umi-wm-project-page.git
