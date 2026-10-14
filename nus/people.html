@@ -457,7 +457,16 @@
   async function loadPeople() {
     const res = await fetch('../assets/nus_people.json', { cache: 'no-store' });
     const people = await res.json();
-    people.sort((a, b) => a.roleOrder - b.roleOrder);
+    people.sort((a, b) => {
+      const roleDifference = a.roleOrder - b.roleOrder;
+      if (roleDifference) return roleDifference;
+      if (a.role === 'Ph.D. Student' && b.role === 'Ph.D. Student') {
+        const aStart = a.date.match(/^\d{4}\.\d{2}/)?.[0] ?? '9999.12';
+        const bStart = b.date.match(/^\d{4}\.\d{2}/)?.[0] ?? '9999.12';
+        return aStart.localeCompare(bStart);
+      }
+      return 0;
+    });
 
     const agiGrid      = document.getElementById('lv-lab-grid');
     const roboticsGrid = document.getElementById('lv-robotics-grid');
