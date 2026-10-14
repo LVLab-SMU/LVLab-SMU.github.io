@@ -2,6 +2,21 @@
   {
     "year": 2026,
     "date": "October 2026",
+    "title": "The Landscape of Medical Agents: A Survey",
+    "authors": "Xiaobin Hu, Yunhang Qian, Jiaquan Yu, Jingjing Liu, Xiaozhong Ji, Peng Tang, Chengming Xu, Jiawei Liu, Xinlei Yu, Guibin Zhang, Xiaomin Yu, Yue Liao, Jiazhen Pan, Zhe Xu, Bailiang Jian, Kai Wu, Jiangning Zhang, Shanghua Gao, Yueming Jin, Zuxuan Wu, Yanwei Fu, Hongwei Bran Li, Bjoern Menze, Yu-Gang Jiang, Daniel Rueckert, Shuicheng Yan",
+    "venue": "Transactions on Machine Learning Research (TMLR), 2026",
+    "links": {
+      "paper": "https://openreview.net/forum?id=4pwRl2G6je",
+      "preprint": "https://doi.org/10.36227/techrxiv.176581395.56964766/v4",
+      "project": "https://nus-project.github.io/Landmark-of-medical-agent/",
+      "code": "https://github.com/NUS-Project/Landmark-of-medical-agent"
+    },
+    "displayDate": "October 2026",
+    "sortDate": "2026-10-14"
+  },
+  {
+    "year": 2026,
+    "date": "October 2026",
     "title": "TacForeSight: Force-Guided Tactile Latent Prediction for Contact-Rich Manipulation",
     "authors": "Yujie Zang, Yuhang Zheng, Xian Nie, Yupeng Zheng, Shuai Tian, Songen Gu, Weize Li, Chen Gao, Zining Wang, Shuicheng Yan, Wenchao Ding",
     "venue": "IEEE Robotics and Automation Letters (RA-L), 2026",
