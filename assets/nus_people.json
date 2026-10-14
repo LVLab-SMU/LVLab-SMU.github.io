@@ -105,6 +105,34 @@
     }
   },
   {
+    "name": "Zeyi Li",
+    "image": "images/people/Zeyi Li.png",
+    "role": "Ph.D. Student",
+    "roleOrder": 3,
+    "date": "2026.01~Present",
+    "note": "Co. w. Prof. Zhenkai Liang",
+    "lab": "robotics",
+    "imageStyle": "object-position: center top;",
+    "links": {
+      "home": "https://1izeyi.github.io/",
+      "github": "https://github.com/1izeyi"
+    }
+  },
+  {
+    "name": "Weize Li",
+    "image": "images/people/Weize Li.jpg",
+    "role": "Ph.D. Student",
+    "roleOrder": 3,
+    "date": "2026.01~Present",
+    "lab": "robotics",
+    "imageStyle": "object-position: center top;",
+    "links": {
+      "home": "https://ericlee0224.github.io/",
+      "scholar": "https://scholar.google.com/citations?user=CyPiUucAAAAJ&hl=en",
+      "github": "https://github.com/EricLee0224"
+    }
+  },
+  {
     "name": "Jingxiang Guo",
     "image": "images/people/jingxiang guo.jpg",
     "role": "Ph.D. Student",
