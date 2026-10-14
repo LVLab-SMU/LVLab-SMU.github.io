@@ -1,6 +1,20 @@
 [
   {
     "year": 2026,
+    "date": "October 2026",
+    "title": "TacForeSight: Force-Guided Tactile Latent Prediction for Contact-Rich Manipulation",
+    "authors": "Yujie Zang, Yuhang Zheng, Xian Nie, Yupeng Zheng, Shuai Tian, Songen Gu, Weize Li, Chen Gao, Zining Wang, Shuicheng Yan, Wenchao Ding",
+    "venue": "IEEE Robotics and Automation Letters (RA-L), 2026 (Accepted)",
+    "links": {
+      "paper": "https://arxiv.org/abs/2606.11184",
+      "project": "https://tacforesight.github.io/ProjectPage/",
+      "code": "https://github.com/TacForeSight/TacForeSight"
+    },
+    "displayDate": "October 2026",
+    "sortDate": "2026-10-13"
+  },
+  {
+    "year": 2026,
     "date": "August 2026",
     "title": "OPD-Evolver: Cultivating Holistic Agent Evolver via On-Policy Distillation",
     "authors": "Guibin Zhang, Xun Xu, Yanwei Yue, Zikun Su, Wangchunshu Zhou, Xiaobin Hu, Shuicheng Yan",
