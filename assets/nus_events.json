@@ -1,14 +1,5 @@
 [
   {
-    "date": "2026-10",
-    "title": "TacForeSight has been accepted to IEEE RA-L!",
-    "summary": "Our paper, TacForeSight: Force-Guided Tactile Latent Prediction for Contact-Rich Manipulation, was accepted for publication in IEEE Robotics and Automation Letters (RA-L) on October 13, 2026. Congratulations to all authors!",
-    "link": "https://tacforesight.github.io/ProjectPage/",
-    "year": 2026,
-    "displayDate": "2026-10",
-    "sortDate": "2026-10-13"
-  },
-  {
     "date": "2026-08",
     "title": "We released VoiceMem: A Streaming Dual-Brain Memory System for Voice Agents",
     "summary": "VoiceMem provides streaming memory for voice agents, combining factual memory with long- and short-term emotional context.",
