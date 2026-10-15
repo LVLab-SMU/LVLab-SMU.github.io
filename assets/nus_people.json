@@ -181,6 +181,20 @@
     }
   },
   {
+    "name": "Jinbin Bai",
+    "image": "images/people/Jinbin Bai.jpg",
+    "role": "Ph.D. Student",
+    "roleOrder": 3,
+    "date": "2027.01~Present",
+    "lab": "agi",
+    "imageStyle": "object-position: center top;",
+    "links": {
+      "home": "https://noyii.github.io/",
+      "scholar": "https://scholar.google.com/citations?hl=en&user=PAfNNrYAAAAJ",
+      "github": "https://github.com/viiika"
+    }
+  },
+  {
     "name": "Jialin Zhang",
     "image": "images/people/Zhangjia Lin.jpeg",
     "role": "Master Student",
