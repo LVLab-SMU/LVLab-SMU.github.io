@@ -1,5 +1,17 @@
 [
   {
+    "year": 2027,
+    "date": "2027",
+    "title": "WebAgentGuard: A Reasoning-Driven Guard Model for Detecting Prompt Injection Attacks in Web Agents",
+    "authors": "Yulin Chen*, Tri Cao*, Haoran Li, Yue Liu, Yibo Li, Yufei He, Le Minh Khoi, Yangqiu Song, Shuicheng Yan, Bryan Hooi",
+    "venue": "The IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 2027",
+    "links": {
+      "paper": "https://arxiv.org/abs/2604.12284"
+    },
+    "displayDate": "2027",
+    "sortDate": "2027-12-31"
+  },
+  {
     "year": 2026,
     "date": "October 2026",
     "title": "The Landscape of Medical Agents: A Survey",
@@ -476,18 +488,6 @@
     "venue": "ICML 2026 AIWILD Workshop, 2026",
     "links": {
       "paper": "https://openreview.net/forum?id=wjnoc49RpR"
-    },
-    "displayDate": "2026",
-    "sortDate": "2026-12-31"
-  },
-  {
-    "year": 2026,
-    "date": "2026",
-    "title": "WebAgentGuard: A Reasoning-Driven Guard Model for Detecting Prompt Injection Attacks in Web Agents",
-    "authors": "Yulin Chen, Tri Cao, Haoran Li, Yibo Li, Yue Liu, Yufei He, Khoi M. Le, Yangqiu Song, Shuicheng Yan, Bryan Hooi",
-    "venue": "ICML 2026 AIWILD Workshop, 2026",
-    "links": {
-      "paper": "https://openreview.net/forum?id=jM8p3cBjNF"
     },
     "displayDate": "2026",
     "sortDate": "2026-12-31"
