@@ -2,6 +2,42 @@
   {
     "year": 2026,
     "date": "2026",
+    "title": "Drag as Evidence: Motion-Grounded Latent Recomposition for Drag-Based Editing",
+    "authors": "Xinyu Pu, Hongsong Wang, Jie Gui,Pan Zhou",
+    "venue": "Neural Information Processing Systems (NeurIPS), 2026",
+    "links": {
+      "paper": "https://arxiv.org/html/2609.36755v1"
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Understanding the Out-of-Distribution Generalization of Chain-of-Thought Reasoning in LLMs",
+    "authors": "Nuojing Liang, Xiaotong Yuan,Pan Zhou",
+    "venue": "Neural Information Processing Systems (NeurIPS), 2026",
+    "links": {
+      "paper": ""
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
+    "title": "Metric Depth Estimation from Arbitrarily Degraded Low-Resolution Depth Prompts",
+    "authors": "Kun Wang, Yun Zhu,Pan Zhou, Na Zhao",
+    "venue": "Neural Information Processing Systems (NeurIPS), 2026",
+    "links": {
+      "paper": ""
+    },
+    "displayDate": "2026",
+    "sortDate": "2026-12-31"
+  },
+  {
+    "year": 2026,
+    "date": "2026",
     "title": "SMART: When is it Actually Worth Expanding a Speculative Tree?",
     "authors": "Lifu Wang, Pan Zhou",
     "venue": "European Conference on Computer Vision (ECCV), 2026",

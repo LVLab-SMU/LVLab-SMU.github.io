@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-10",
+    "title": "Three papers are accepted by NeurIPS 2026",
+    "summary": "These three papers respectively enable precise and natural drag-based image editing through motion-guided latent recomposition, investigate how chain-of-thought reasoning in LLMs generalizes beyond training distributions, and explore metric depth estimation from degraded, low-resolution depth prompts.",
+    "link": "https://arxiv.org/html/2609.36755v1",
+    "year": 2026,
+    "displayDate": "2026-10",
+    "sortDate": "2026-10-16"
+  },
+  {
     "date": "2026-09",
     "title": "Welcoming Two New Members to Our Team",
     "summary": "We are delighted to welcome two new members to our team: Yubing Bao from Fudan University and Junhao Qin from the Dalian University of Technology join us as visiting students.",
