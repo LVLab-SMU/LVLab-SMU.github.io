@@ -460,7 +460,7 @@
     people.sort((a, b) => {
       const roleDifference = a.roleOrder - b.roleOrder;
       if (roleDifference) return roleDifference;
-      if (a.role === 'Ph.D. Student' && b.role === 'Ph.D. Student') {
+      if (a.role.endsWith('Ph.D. Student') && b.role.endsWith('Ph.D. Student')) {
         const aStart = a.date.match(/^\d{4}\.\d{2}/)?.[0] ?? '9999.12';
         const bStart = b.date.match(/^\d{4}\.\d{2}/)?.[0] ?? '9999.12';
         return aStart.localeCompare(bStart);

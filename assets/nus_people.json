@@ -107,9 +107,9 @@
   {
     "name": "Zeyi Li",
     "image": "images/people/Zeyi Li.png",
-    "role": "Ph.D. Student",
+    "role": "Incoming Ph.D. Student",
     "roleOrder": 3,
-    "date": "2027.01~Present",
+    "date": "2027.01",
     "note": "Co. w. Prof. Zhenkai Liang",
     "lab": "robotics",
     "imageStyle": "object-position: center top;",
@@ -121,9 +121,9 @@
   {
     "name": "Weize Li",
     "image": "images/people/Weize Li.jpg",
-    "role": "Ph.D. Student",
+    "role": "Incoming Ph.D. Student",
     "roleOrder": 3,
-    "date": "2027.01~Present",
+    "date": "2027.01",
     "lab": "robotics",
     "imageStyle": "object-position: center top;",
     "links": {
@@ -183,9 +183,9 @@
   {
     "name": "Jinbin Bai",
     "image": "images/people/Jinbin Bai.jpg",
-    "role": "Ph.D. Student",
+    "role": "Incoming Ph.D. Student",
     "roleOrder": 3,
-    "date": "2027.01~Present",
+    "date": "2027.01",
     "lab": "agi",
     "imageStyle": "object-position: center top;",
     "links": {
