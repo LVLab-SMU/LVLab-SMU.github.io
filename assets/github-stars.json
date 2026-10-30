@@ -1,365 +1,365 @@
 {
-  "updatedAt": "2026-10-30T13:09:38.190Z",
+  "updatedAt": "2026-10-30T22:28:01.505Z",
   "repositories": {
     "aaronhuang-778/mc-moe": {
       "count": 79,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "agibottech/genie-envisioner": {
       "count": 589,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "agibottech/genie-envisioner-v1": {
       "count": 589,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "baai-agents/cradle": {
       "count": 2597,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "bingreeky/agentracer": {
       "count": 111,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "bingreeky/gmemory": {
       "count": 285,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "bingreeky/jit": {
       "count": 569,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "bingreeky/memgen": {
       "count": 428,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "bingreeky/opd-evolver": {
       "count": 50,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "carbonaraa/tsa-maml": {
       "count": 8,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "chocowu/setok-web": {
       "count": 0,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "christian42mmreason/activationreplay": {
       "count": 27,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "cua-framework/agents": {
       "count": 32,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "doc-doc/covgt": {
       "count": 20,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "dongsky/few-shot-vit": {
       "count": 48,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "dongsky/lpt": {
       "count": 56,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "gen-verse/recuris": {
       "count": 251,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "gorilla-lab-scut/padt": {
       "count": 167,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "ha-lins/geml-mdg": {
       "count": 34,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "ha-lins/pgcl": {
       "count": 25,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "holmeswww/ppogan": {
       "count": 25,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "hsj576/griffin": {
       "count": 21,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "invertedforest/drawmotion": {
       "count": 18,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "javisverse/javisgpt": {
       "count": 77,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "jiahaolu97/poison-splat": {
       "count": 78,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "jins7/latentevolve": {
       "count": 26,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "jliu4ai/capo": {
       "count": 4,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "jliu4ai/fewclip": {
       "count": 1,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "jliu4ai/npiseg3d": {
       "count": 6,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "juntaojianggavin/m3cotbench": {
       "count": 32,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "kanaboon1/memgen": {
       "count": 428,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "ltzheng/agent-studio": {
       "count": 233,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "lv-nus/sfi": {
       "count": 19,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "lvkailin0118/touchthinker": {
       "count": 16,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "lvlab-smu/hps": {
       "count": 2,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "lyl1015/jarvisart": {
       "count": 876,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "m-e-agi-lab/muddit": {
       "count": 124,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "memoavatar/memo": {
       "count": 1071,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "ming1993li/instant3dcodes": {
       "count": 97,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "mrsecant/omnivta": {
       "count": 61,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "nblt/f-sam": {
       "count": 37,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "nus-project/landmark-of-medical-agent": {
       "count": 188,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "path2generalist/general-level": {
       "count": 22,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "potato-kitty/easyinv": {
       "count": 14,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "qiuboxiang/robocerebra": {
       "count": 78,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "ryanchenyn/ivebench": {
       "count": 78,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/adan": {
       "count": 825,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/clot": {
       "count": 326,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/consistent3d": {
       "count": 82,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/dualformer": {
       "count": 32,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/editanything": {
       "count": 3425,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/iformer": {
       "count": 248,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/inceptionnext": {
       "count": 353,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/mdt": {
       "count": 597,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/metaformer": {
       "count": 503,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/mugs": {
       "count": 85,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/poolformer": {
       "count": 1366,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/ptp": {
       "count": 149,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/scalelong": {
       "count": 50,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/slrla-optimizer": {
       "count": 3,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/vgt": {
       "count": 49,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sail-sg/win": {
       "count": 8,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "salesforce/comparison_sgd_adam": {
       "count": 4,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "salesforce/pcl": {
       "count": 604,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "salesforce/pr-darts": {
       "count": 11,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "showlab/awesome-mllm-hallucination": {
       "count": 1045,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "showlab/lova3": {
       "count": 90,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "sike-wang/low-bit-shampoo": {
       "count": 13,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "skyworkai/gamba": {
       "count": 166,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "skyworkai/moe-plus-plus": {
       "count": 281,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "skyworkai/moh": {
       "count": 313,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "tacforesight/tacforesight": {
       "count": 29,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "viiika/meissonic": {
       "count": 347,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "wang-chaoyang/refldmseg": {
       "count": 22,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "xiarho/madm": {
       "count": 20,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "xiarho/semat": {
       "count": 55,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "xzf-thu/audio-reasoner": {
       "count": 300,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "xzf-thu/mega-asr": {
       "count": 1147,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "xzf-thu/voicemem": {
-      "count": 2774,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "count": 2780,
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "yangling0818/supercorrect-llm": {
       "count": 90,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "yinbo0927/spot-e": {
       "count": 7,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "yu-deep/vismem": {
       "count": 98,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "yuan-hou/human-mme": {
       "count": 24,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "yue-zhongqi/tif": {
       "count": 13,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "yxltya/pointdgmamba": {
       "count": 7,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "yxymessi/dtc123": {
       "count": 72,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "zengbohan0217/ipdreamer": {
       "count": 57,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "zhang-tao-whu/pcm": {
       "count": 77,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "zhaohengyuan1/genixer": {
       "count": 115,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     },
     "zimingyy/subzero": {
       "count": 21,
-      "updatedAt": "2026-10-30T13:09:38.190Z"
+      "updatedAt": "2026-10-30T22:28:01.505Z"
     }
   }
 }
