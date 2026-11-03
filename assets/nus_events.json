@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-11",
+    "title": "We released FrameMorrow: Future-Guided Frame Selection for Long-Horizon Video Generation.",
+    "summary": "FrameMorrow introduces prospective tokens to anticipate future information needs and select relevant historical frames, enabling plug-and-play improvements in long-range consistency and visual quality across diverse video generation models.",
+    "link": "https://yinbo0927.github.io/FrameMorrow/",
+    "codeLinks": {
+      "FrameMorrow": "https://github.com/YinBo0927/FrameMorrow"
+    },
+    "year": 2026,
+    "displayDate": "2026-11",
+    "sortDate": "2026-11-03"
+  },
+  {
     "date": "2026-08",
     "title": "We released VoiceMem: A Streaming Dual-Brain Memory System for Voice Agents",
     "summary": "VoiceMem provides streaming memory for voice agents, combining factual memory with long- and short-term emotional context.",
