@@ -13,6 +13,19 @@
   },
   {
     "year": 2026,
+    "date": "November 2026",
+    "title": "Any2Caption: Interpreting Any Condition to Dense Caption for Enhancing Controllable Video Generation",
+    "authors": "Shengqiong Wu, Weicai Ye, Jiahao Wang, Quande Liu, Xintao Wang, Shuicheng Yan, Hao Fei, Tat-seng Chua",
+    "venue": "International Journal of Computer Vision (IJCV), 2026",
+    "links": {
+      "paper": "https://doi.org/10.1007/s11263-026-03121-6",
+      "project": "https://sqwu.top/Any2Cap/"
+    },
+    "displayDate": "November 2026",
+    "sortDate": "2026-11-25"
+  },
+  {
+    "year": 2026,
     "date": "October 2026",
     "title": "The Landscape of Medical Agents: A Survey",
     "authors": "Xiaobin Hu, Yunhang Qian, Jiaquan Yu, Jingjing Liu, Xiaozhong Ji, Peng Tang, Chengming Xu, Jiawei Liu, Xinlei Yu, Guibin Zhang, Xiaomin Yu, Yue Liao, Jiazhen Pan, Zhe Xu, Bailiang Jian, Kai Wu, Jiangning Zhang, Shanghua Gao, Yueming Jin, Zuxuan Wu, Yanwei Fu, Hongwei Bran Li, Bjoern Menze, Yu-Gang Jiang, Daniel Rueckert, Shuicheng Yan",
